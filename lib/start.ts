@@ -22,6 +22,7 @@ import { Provider } from 'react-redux'
 import store from './store/store'
 import { registerScreens } from './screens'
 import { Platform, NativeModules } from 'react-native'
+import FeatherIcons from 'react-native-vector-icons/Feather'
 
 import { handleURL } from './actions/requestActions'
 import { registerDeviceForNotifications } from 'uPortMobile/lib/actions/snsRegistrationActions'
@@ -30,8 +31,9 @@ import { track, screen } from 'uPortMobile/lib/actions/metricActions'
 registerScreens(store, Provider)
 
 // This method doesn't do much. I just want to ensure that this library is not optimized away
-export async function start() {
-  // console.log('starting uport')
+export async function startMain() {
+  // startLegacyApp()
+  startAppModernUI()
 }
 
 // Actual initialization is done by startupSaga during initialization of `store`.
@@ -43,7 +45,69 @@ export const screenVisibilityListener = new RNNScreenVisibilityListener({
 })
 
 // Add GUI startup tasks here for already onboarded user
-export async function startMain(this: any) {
+export async function startAppModernUI(this: any) {
+  Platform.OS === 'android' ? store.dispatch(registerDeviceForNotifications()) : null
+
+  const accountsIcon = await FeatherIcons.getImageSource('shield', 26)
+  const verifiedIcon = await FeatherIcons.getImageSource('check-circle', 26)
+  const contactsIcon = await FeatherIcons.getImageSource('users', 26)
+  const settingsIcon = await FeatherIcons.getImageSource('settings', 26)
+  const notificationsIcon = await FeatherIcons.getImageSource('bell', 26)
+
+  Navigation.startTabBasedApp({
+    tabs: [
+      {
+        // label: 'Accounts',
+        screen: 'screen.Accounts', // this is a registered name for a screen
+        title: 'Accounts',
+        icon: accountsIcon,
+      },
+      {
+        // label: 'Verified',
+        screen: 'screen.Accounts',
+        title: 'Verifications',
+        icon: verifiedIcon,
+      },
+      {
+        // label: 'Contacts',
+        screen: 'screen.Accounts',
+        title: 'Contacts',
+        icon: contactsIcon,
+      },
+      {
+        // label: 'Notifications',
+        screen: 'screen.Accounts',
+        title: 'Notifications',
+        icon: notificationsIcon,
+      },
+      {
+        // label: 'Settings',
+        screen: 'screen.Accounts',
+        title: 'Settings',
+        icon: settingsIcon,
+      },
+    ],
+    tabsStyle: {
+        tabBarBackgroundColor: 'rgba(255,255,255,0.4)',
+        tabBarSelectedButtonColor: 'rgba(92,80,202,1)',
+    },
+    drawer: {
+      right: {
+        screen: 'uport.scanner',
+      },
+      style: {
+        rightDrawerWidth: 100,
+        drawerShadow: false,
+      },
+    },
+  })
+
+  this.listener = screenVisibilityListener.register()
+  requestQueue((url: string) => store.dispatch(handleURL(url)))
+}
+
+// Add GUI startup tasks here for already onboarded user
+export async function startLegacyApp(this: any) {
   Platform.OS === 'android' ? store.dispatch(registerDeviceForNotifications()) : null
   Navigation.startSingleScreenApp({
     screen: {
