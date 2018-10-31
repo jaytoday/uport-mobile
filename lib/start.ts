@@ -57,32 +57,27 @@ export async function startAppModernUI(this: any) {
   Navigation.startTabBasedApp({
     tabs: [
       {
-        // label: 'Accounts',
         screen: 'screen.Accounts', // this is a registered name for a screen
         title: 'Accounts',
         icon: accountsIcon,
       },
       {
-        // label: 'Verified',
-        screen: 'screen.Accounts',
+        screen: 'screen.Verifications',
         title: 'Verifications',
         icon: verifiedIcon,
       },
       {
-        // label: 'Contacts',
-        screen: 'screen.Accounts',
+        screen: 'screen.Contacts',
         title: 'Contacts',
         icon: contactsIcon,
       },
       {
-        // label: 'Notifications',
-        screen: 'screen.Accounts',
+        screen: 'screen.Notifications',
         title: 'Notifications',
         icon: notificationsIcon,
       },
       {
-        // label: 'Settings',
-        screen: 'screen.Accounts',
+        screen: 'screen.Settings',
         title: 'Settings',
         icon: settingsIcon,
       },

@@ -8861,10 +8861,9 @@ react-native-intent-launcher@^0.1.1:
   resolved "https://registry.yarnpkg.com/react-native-intent-launcher/-/react-native-intent-launcher-0.1.1.tgz#ca703ca343f29772d9acfe2eb028d3dc873a32a6"
   integrity sha512-hLgbXZZ1taHj/LEGyu8ZI1aIfAMNMFxqQd6E/2l10wjjok0HneWH5UouERU6gYT5QQi+CiEydVFGqXtlHz9gtQ==
 
-react-native-navigation@^1.1.436:
-  version "1.1.457"
-  resolved "https://registry.yarnpkg.com/react-native-navigation/-/react-native-navigation-1.1.457.tgz#909012cc3674d3ded9648b4ddd7070b0a6df228a"
-  integrity sha512-60rFNUpgVR/B9rtZYl4lFN+pE4enEwCJdSq0EDpDEbYnUjfJj3F9u11KDqqEk1gshLizsUvXGDs+uXxRvx/wUg==
+"react-native-navigation@https://github.com/jasonhealy/react-native-navigation":
+  version "1.1.486"
+  resolved "https://github.com/jasonhealy/react-native-navigation#4e35f595fff1d7f156388a7d646f31e4861f1e58"
   dependencies:
     lodash "4.x.x"
 

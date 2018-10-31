@@ -43,7 +43,6 @@
 		600A93DB1D0F813700DB5AEB /* libRCTCameraRoll.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 600A93DA1D0F811200DB5AEB /* libRCTCameraRoll.a */; };
 		601B76DD1D410D3F00F62DDB /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 601B76DB1D410D3F00F62DDB /* Fabric.framework */; };
 		601B76DE1D410D3F00F62DDB /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 601B76DC1D410D3F00F62DDB /* Crashlytics.framework */; };
-		608169E51D0EB3FC004D33EA /* uport-logo-white.png in Resources */ = {isa = PBXBuildFile; fileRef = 608169E31D0EB3FC004D33EA /* uport-logo-white.png */; };
 		6411C89C207C2310005033A9 /* libRNCamera.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6411C89B207C22ED005033A9 /* libRNCamera.a */; };
 		641C9A161E17390C008A4D38 /* libRCTPushNotification.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 641C9A131E1738F3008A4D38 /* libRCTPushNotification.a */; };
 		64E31FBD1DF234CF0062465A /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D17E3DCF1DEDEF6B00C460F9 /* libRCTAnimation.a */; };
@@ -80,6 +79,7 @@
 		96EF033E2189C52600D0B280 /* Montserrat-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 96EF032C2189C52600D0B280 /* Montserrat-Medium.otf */; };
 		96EF033F2189C52600D0B280 /* Montserrat-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 96EF032D2189C52600D0B280 /* Montserrat-Italic.otf */; };
 		96EF03402189C52600D0B280 /* Montserrat-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 96EF032E2189C52600D0B280 /* Montserrat-Thin.otf */; };
+		96EF03442189D1F300D0B280 /* uport-logo-white.png in Resources */ = {isa = PBXBuildFile; fileRef = 96EF03432189D1F300D0B280 /* uport-logo-white.png */; };
 		A5E6E91C4DDD470496F9A6A5 /* libRNRandomBytes.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 544D74BA2AF94BF89CBE0725 /* libRNRandomBytes.a */; };
 		BB2AA137FC69402481534198 /* libRNImagePicker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16999B55454D4C328D7FACD3 /* libRNImagePicker.a */; };
 		BFED6FE87DBC4919A58988CD /* libPasscodeAuth.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBB278FF1A5046B9972A3597 /* libPasscodeAuth.a */; };
@@ -628,7 +628,6 @@
 		600A93D51D0F811200DB5AEB /* RCTCameraRoll.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTCameraRoll.xcodeproj; path = "../node_modules/react-native/Libraries/CameraRoll/RCTCameraRoll.xcodeproj"; sourceTree = "<group>"; };
 		601B76DB1D410D3F00F62DDB /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
 		601B76DC1D410D3F00F62DDB /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
-		608169E31D0EB3FC004D33EA /* uport-logo-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "uport-logo-white.png"; sourceTree = "<group>"; };
 		62FA6261B132A60C0AFA99A4 /* Pods-uPortMobileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uPortMobileTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-uPortMobileTests/Pods-uPortMobileTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6411C896207C22ED005033A9 /* RNCamera.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNCamera.xcodeproj; path = "../node_modules/react-native-camera/ios/RNCamera.xcodeproj"; sourceTree = "<group>"; };
 		641915B2200ECEB70042DA49 /* ReactNativePermissions.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ReactNativePermissions.xcodeproj; path = "../node_modules/react-native-permissions/ios/ReactNativePermissions.xcodeproj"; sourceTree = "<group>"; };
@@ -669,6 +668,7 @@
 		96EF032C2189C52600D0B280 /* Montserrat-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Medium.otf"; path = "../assets/fonts/Montserrat-Medium.otf"; sourceTree = "<group>"; };
 		96EF032D2189C52600D0B280 /* Montserrat-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Italic.otf"; path = "../assets/fonts/Montserrat-Italic.otf"; sourceTree = "<group>"; };
 		96EF032E2189C52600D0B280 /* Montserrat-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Thin.otf"; path = "../assets/fonts/Montserrat-Thin.otf"; sourceTree = "<group>"; };
+		96EF03432189D1F300D0B280 /* uport-logo-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "uport-logo-white.png"; path = "../assets/images/uport-logo-white.png"; sourceTree = "<group>"; };
 		9BCC68FED7074B2AA27193D1 /* RNKeychain.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNKeychain.xcodeproj; path = "../node_modules/react-native-keychain/RNKeychain.xcodeproj"; sourceTree = "<group>"; };
 		9D3BBAA8C3514D689B8A4ECA /* RNRandomBytes.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNRandomBytes.xcodeproj; path = "../node_modules/react-native-randombytes/RNRandomBytes.xcodeproj"; sourceTree = "<group>"; };
 		AC8CE00CDBB3F3D8A93D2848 /* Pods-uPortMobileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uPortMobileTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-uPortMobileTests/Pods-uPortMobileTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -1051,10 +1051,10 @@
 		4D8FE2605A504D3895725F78 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				96EF03422189D1CA00D0B280 /* Images */,
 				96EF03062189C47500D0B280 /* Fonts */,
 				601B76DB1D410D3F00F62DDB /* Fabric.framework */,
 				601B76DC1D410D3F00F62DDB /* Crashlytics.framework */,
-				608169E31D0EB3FC004D33EA /* uport-logo-white.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -1307,6 +1307,14 @@
 				96EF030E2189C50B00D0B280 /* Zocial.ttf */,
 			);
 			name = Fonts;
+			sourceTree = "<group>";
+		};
+		96EF03422189D1CA00D0B280 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				96EF03432189D1F300D0B280 /* uport-logo-white.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 		D142E5341F25D77900A43483 /* Products */ = {
@@ -1985,8 +1993,8 @@
 				96EF03322189C52600D0B280 /* Montserrat-BoldItalic.otf in Resources */,
 				96EF033F2189C52600D0B280 /* Montserrat-Italic.otf in Resources */,
 				96EF033E2189C52600D0B280 /* Montserrat-Medium.otf in Resources */,
-				608169E51D0EB3FC004D33EA /* uport-logo-white.png in Resources */,
 				70F06EA01FC5C160000BD332 /* GoogleService-Info.plist in Resources */,
+				96EF03442189D1F300D0B280 /* uport-logo-white.png in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 			);
