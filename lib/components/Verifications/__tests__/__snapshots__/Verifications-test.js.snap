@@ -143,7 +143,7 @@ exports[`rendering both pending and issued verifications 1`] = `
                     Array [
                       Object {
                         "color": "rgba(91,91,91,1)",
-                        "fontFamily": "NunitoSans-Bold",
+                        "fontFamily": undefined,
                         "fontSize": 16,
                         "lineHeight": 22,
                       },
@@ -160,7 +160,7 @@ exports[`rendering both pending and issued verifications 1`] = `
                     Array [
                       Object {
                         "color": "rgba(155,155,155,1)",
-                        "fontFamily": "NunitoSans-Light",
+                        "fontFamily": undefined,
                         "fontSize": 12,
                         "letterSpacing": 0.5,
                         "lineHeight": 16,
@@ -207,7 +207,7 @@ exports[`rendering both pending and issued verifications 1`] = `
                   Array [
                     Object {
                       "color": "rgba(10, 10, 10, 0.5)",
-                      "fontFamily": "NunitoSans-Bold",
+                      "fontFamily": undefined,
                       "fontSize": 10,
                       "letterSpacing": 0.5,
                     },
@@ -299,7 +299,7 @@ exports[`rendering both pending and issued verifications 1`] = `
                     Array [
                       Object {
                         "color": "rgba(91,91,91,1)",
-                        "fontFamily": "NunitoSans-Bold",
+                        "fontFamily": undefined,
                         "fontSize": 16,
                         "lineHeight": 22,
                       },
@@ -316,7 +316,7 @@ exports[`rendering both pending and issued verifications 1`] = `
                     Array [
                       Object {
                         "color": "rgba(155,155,155,1)",
-                        "fontFamily": "NunitoSans-Light",
+                        "fontFamily": undefined,
                         "fontSize": 12,
                         "letterSpacing": 0.5,
                         "lineHeight": 16,
@@ -363,7 +363,7 @@ exports[`rendering both pending and issued verifications 1`] = `
                   Array [
                     Object {
                       "color": "rgba(10, 10, 10, 0.5)",
-                      "fontFamily": "NunitoSans-Bold",
+                      "fontFamily": undefined,
                       "fontSize": 10,
                       "letterSpacing": 0.5,
                     },
@@ -397,7 +397,7 @@ exports[`rendering connected empty 1`] = `
     <Image
       source={
         Object {
-          "testUri": "../../../images/inboxIcon.png",
+          "testUri": "../../../assets/images/inboxIcon.png",
         }
       }
       style={
@@ -415,7 +415,6 @@ exports[`rendering connected empty 1`] = `
         Array [
           Object {
             "color": "rgba(74,74,74,1)",
-            "fontFamily": "NunitoSans-Regular",
             "fontSize": 20,
             "lineHeight": 27,
             "textAlign": "center",
@@ -436,7 +435,6 @@ exports[`rendering connected empty 1`] = `
       style={
         Object {
           "color": "rgba(74,74,74,1)",
-          "fontFamily": "NunitoSans-Light",
           "fontSize": 16,
           "lineHeight": 22,
           "textAlign": "center",
@@ -663,7 +661,7 @@ exports[`rendering connected with verifications 1`] = `
                     Array [
                       Object {
                         "color": "rgba(91,91,91,1)",
-                        "fontFamily": "NunitoSans-Bold",
+                        "fontFamily": undefined,
                         "fontSize": 16,
                         "lineHeight": 22,
                       },
@@ -680,7 +678,7 @@ exports[`rendering connected with verifications 1`] = `
                     Array [
                       Object {
                         "color": "rgba(155,155,155,1)",
-                        "fontFamily": "NunitoSans-Light",
+                        "fontFamily": undefined,
                         "fontSize": 12,
                         "letterSpacing": 0.5,
                         "lineHeight": 16,
@@ -724,7 +722,7 @@ exports[`rendering connected with verifications 1`] = `
                   Array [
                     Object {
                       "color": "rgba(10, 10, 10, 0.5)",
-                      "fontFamily": "NunitoSans-Bold",
+                      "fontFamily": undefined,
                       "fontSize": 10,
                       "letterSpacing": 0.5,
                     },
@@ -816,7 +814,7 @@ exports[`rendering connected with verifications 1`] = `
                     Array [
                       Object {
                         "color": "rgba(91,91,91,1)",
-                        "fontFamily": "NunitoSans-Bold",
+                        "fontFamily": undefined,
                         "fontSize": 16,
                         "lineHeight": 22,
                       },
@@ -833,7 +831,7 @@ exports[`rendering connected with verifications 1`] = `
                     Array [
                       Object {
                         "color": "rgba(155,155,155,1)",
-                        "fontFamily": "NunitoSans-Light",
+                        "fontFamily": undefined,
                         "fontSize": 12,
                         "letterSpacing": 0.5,
                         "lineHeight": 16,
@@ -877,7 +875,7 @@ exports[`rendering connected with verifications 1`] = `
                   Array [
                     Object {
                       "color": "rgba(10, 10, 10, 0.5)",
-                      "fontFamily": "NunitoSans-Bold",
+                      "fontFamily": undefined,
                       "fontSize": 10,
                       "letterSpacing": 0.5,
                     },
@@ -969,7 +967,7 @@ exports[`rendering connected with verifications 1`] = `
                     Array [
                       Object {
                         "color": "rgba(91,91,91,1)",
-                        "fontFamily": "NunitoSans-Bold",
+                        "fontFamily": undefined,
                         "fontSize": 16,
                         "lineHeight": 22,
                       },
@@ -986,7 +984,7 @@ exports[`rendering connected with verifications 1`] = `
                     Array [
                       Object {
                         "color": "rgba(155,155,155,1)",
-                        "fontFamily": "NunitoSans-Light",
+                        "fontFamily": undefined,
                         "fontSize": 12,
                         "letterSpacing": 0.5,
                         "lineHeight": 16,
@@ -1030,7 +1028,7 @@ exports[`rendering connected with verifications 1`] = `
                   Array [
                     Object {
                       "color": "rgba(10, 10, 10, 0.5)",
-                      "fontFamily": "NunitoSans-Bold",
+                      "fontFamily": undefined,
                       "fontSize": 10,
                       "letterSpacing": 0.5,
                     },
@@ -1122,7 +1120,7 @@ exports[`rendering connected with verifications 1`] = `
                     Array [
                       Object {
                         "color": "rgba(91,91,91,1)",
-                        "fontFamily": "NunitoSans-Bold",
+                        "fontFamily": undefined,
                         "fontSize": 16,
                         "lineHeight": 22,
                       },
@@ -1139,7 +1137,7 @@ exports[`rendering connected with verifications 1`] = `
                     Array [
                       Object {
                         "color": "rgba(155,155,155,1)",
-                        "fontFamily": "NunitoSans-Light",
+                        "fontFamily": undefined,
                         "fontSize": 12,
                         "letterSpacing": 0.5,
                         "lineHeight": 16,
@@ -1183,7 +1181,7 @@ exports[`rendering connected with verifications 1`] = `
                   Array [
                     Object {
                       "color": "rgba(10, 10, 10, 0.5)",
-                      "fontFamily": "NunitoSans-Bold",
+                      "fontFamily": undefined,
                       "fontSize": 10,
                       "letterSpacing": 0.5,
                     },
@@ -1275,7 +1273,7 @@ exports[`rendering connected with verifications 1`] = `
                     Array [
                       Object {
                         "color": "rgba(91,91,91,1)",
-                        "fontFamily": "NunitoSans-Bold",
+                        "fontFamily": undefined,
                         "fontSize": 16,
                         "lineHeight": 22,
                       },
@@ -1292,7 +1290,7 @@ exports[`rendering connected with verifications 1`] = `
                     Array [
                       Object {
                         "color": "rgba(155,155,155,1)",
-                        "fontFamily": "NunitoSans-Light",
+                        "fontFamily": undefined,
                         "fontSize": 12,
                         "letterSpacing": 0.5,
                         "lineHeight": 16,
@@ -1336,7 +1334,7 @@ exports[`rendering connected with verifications 1`] = `
                   Array [
                     Object {
                       "color": "rgba(10, 10, 10, 0.5)",
-                      "fontFamily": "NunitoSans-Bold",
+                      "fontFamily": undefined,
                       "fontSize": 10,
                       "letterSpacing": 0.5,
                     },
@@ -1428,7 +1426,7 @@ exports[`rendering connected with verifications 1`] = `
                     Array [
                       Object {
                         "color": "rgba(91,91,91,1)",
-                        "fontFamily": "NunitoSans-Bold",
+                        "fontFamily": undefined,
                         "fontSize": 16,
                         "lineHeight": 22,
                       },
@@ -1445,7 +1443,7 @@ exports[`rendering connected with verifications 1`] = `
                     Array [
                       Object {
                         "color": "rgba(155,155,155,1)",
-                        "fontFamily": "NunitoSans-Light",
+                        "fontFamily": undefined,
                         "fontSize": 12,
                         "letterSpacing": 0.5,
                         "lineHeight": 16,
@@ -1489,7 +1487,7 @@ exports[`rendering connected with verifications 1`] = `
                   Array [
                     Object {
                       "color": "rgba(10, 10, 10, 0.5)",
-                      "fontFamily": "NunitoSans-Bold",
+                      "fontFamily": undefined,
                       "fontSize": 10,
                       "letterSpacing": 0.5,
                     },
@@ -1581,7 +1579,7 @@ exports[`rendering connected with verifications 1`] = `
                     Array [
                       Object {
                         "color": "rgba(91,91,91,1)",
-                        "fontFamily": "NunitoSans-Bold",
+                        "fontFamily": undefined,
                         "fontSize": 16,
                         "lineHeight": 22,
                       },
@@ -1598,7 +1596,7 @@ exports[`rendering connected with verifications 1`] = `
                     Array [
                       Object {
                         "color": "rgba(155,155,155,1)",
-                        "fontFamily": "NunitoSans-Light",
+                        "fontFamily": undefined,
                         "fontSize": 12,
                         "letterSpacing": 0.5,
                         "lineHeight": 16,
@@ -1645,7 +1643,7 @@ exports[`rendering connected with verifications 1`] = `
                   Array [
                     Object {
                       "color": "rgba(10, 10, 10, 0.5)",
-                      "fontFamily": "NunitoSans-Bold",
+                      "fontFamily": undefined,
                       "fontSize": 10,
                       "letterSpacing": 0.5,
                     },
@@ -1679,7 +1677,7 @@ exports[`rendering empty 1`] = `
     <Image
       source={
         Object {
-          "testUri": "../../../images/inboxIcon.png",
+          "testUri": "../../../assets/images/inboxIcon.png",
         }
       }
       style={
@@ -1697,7 +1695,6 @@ exports[`rendering empty 1`] = `
         Array [
           Object {
             "color": "rgba(74,74,74,1)",
-            "fontFamily": "NunitoSans-Regular",
             "fontSize": 20,
             "lineHeight": 27,
             "textAlign": "center",
@@ -1718,7 +1715,6 @@ exports[`rendering empty 1`] = `
       style={
         Object {
           "color": "rgba(74,74,74,1)",
-          "fontFamily": "NunitoSans-Light",
           "fontSize": 16,
           "lineHeight": 22,
           "textAlign": "center",
@@ -1901,7 +1897,7 @@ exports[`rendering only issued verifications 1`] = `
                     Array [
                       Object {
                         "color": "rgba(91,91,91,1)",
-                        "fontFamily": "NunitoSans-Bold",
+                        "fontFamily": undefined,
                         "fontSize": 16,
                         "lineHeight": 22,
                       },
@@ -1918,7 +1914,7 @@ exports[`rendering only issued verifications 1`] = `
                     Array [
                       Object {
                         "color": "rgba(155,155,155,1)",
-                        "fontFamily": "NunitoSans-Light",
+                        "fontFamily": undefined,
                         "fontSize": 12,
                         "letterSpacing": 0.5,
                         "lineHeight": 16,
@@ -1965,7 +1961,7 @@ exports[`rendering only issued verifications 1`] = `
                   Array [
                     Object {
                       "color": "rgba(10, 10, 10, 0.5)",
-                      "fontFamily": "NunitoSans-Bold",
+                      "fontFamily": undefined,
                       "fontSize": 10,
                       "letterSpacing": 0.5,
                     },
@@ -2057,7 +2053,7 @@ exports[`rendering only issued verifications 1`] = `
                     Array [
                       Object {
                         "color": "rgba(91,91,91,1)",
-                        "fontFamily": "NunitoSans-Bold",
+                        "fontFamily": undefined,
                         "fontSize": 16,
                         "lineHeight": 22,
                       },
@@ -2074,7 +2070,7 @@ exports[`rendering only issued verifications 1`] = `
                     Array [
                       Object {
                         "color": "rgba(155,155,155,1)",
-                        "fontFamily": "NunitoSans-Light",
+                        "fontFamily": undefined,
                         "fontSize": 12,
                         "letterSpacing": 0.5,
                         "lineHeight": 16,
@@ -2121,7 +2117,7 @@ exports[`rendering only issued verifications 1`] = `
                   Array [
                     Object {
                       "color": "rgba(10, 10, 10, 0.5)",
-                      "fontFamily": "NunitoSans-Bold",
+                      "fontFamily": undefined,
                       "fontSize": 10,
                       "letterSpacing": 0.5,
                     },
@@ -2272,7 +2268,7 @@ exports[`rendering only pending verifications 1`] = `
                     Array [
                       Object {
                         "color": "rgba(91,91,91,1)",
-                        "fontFamily": "NunitoSans-Bold",
+                        "fontFamily": undefined,
                         "fontSize": 16,
                         "lineHeight": 22,
                       },
@@ -2289,7 +2285,7 @@ exports[`rendering only pending verifications 1`] = `
                     Array [
                       Object {
                         "color": "rgba(155,155,155,1)",
-                        "fontFamily": "NunitoSans-Light",
+                        "fontFamily": undefined,
                         "fontSize": 12,
                         "letterSpacing": 0.5,
                         "lineHeight": 16,
@@ -2336,7 +2332,7 @@ exports[`rendering only pending verifications 1`] = `
                   Array [
                     Object {
                       "color": "rgba(10, 10, 10, 0.5)",
-                      "fontFamily": "NunitoSans-Bold",
+                      "fontFamily": undefined,
                       "fontSize": 10,
                       "letterSpacing": 0.5,
                     },

@@ -9,7 +9,7 @@ exports[`ExpirationItem renders ExpirationItem 1`] = `
     style={
       Object {
         "color": "rgba(74,74,74,1)",
-        "fontFamily": "NunitoSans-Light",
+        "fontFamily": undefined,
         "fontSize": 12,
         "lineHeight": 16,
       }

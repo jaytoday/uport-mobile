@@ -24,7 +24,7 @@ exports[`hd wallet renders Advanced screen 1`] = `
       Array [
         Object {
           "borderBottomColor": "rgba(216,216,216,1)",
-          "borderBottomWidth": 1,
+          "borderBottomWidth": 0.5,
         },
         Object {
           "flex": 1,
@@ -38,7 +38,6 @@ exports[`hd wallet renders Advanced screen 1`] = `
         accessibilityLabel={undefined}
         accessibilityTraits={undefined}
         accessible={true}
-        collapsable={undefined}
         hasTVPreferredFocus={undefined}
         hitSlop={undefined}
         isTVSelectable={true}
@@ -50,11 +49,7 @@ exports[`hd wallet renders Advanced screen 1`] = `
         onResponderTerminate={[Function]}
         onResponderTerminationRequest={[Function]}
         onStartShouldSetResponder={[Function]}
-        style={
-          Object {
-            "opacity": 1,
-          }
-        }
+        style={null}
         testID={undefined}
         tvParallaxProperties={undefined}
       >
@@ -64,13 +59,13 @@ exports[`hd wallet renders Advanced screen 1`] = `
               Object {
                 "alignItems": "center",
                 "backgroundColor": "#FFFFFF",
+                "borderBottomWidth": 0.5,
                 "borderColor": "rgba(216,216,216,1)",
-                "borderTopWidth": 1,
                 "flexDirection": "row",
                 "justifyContent": "space-between",
-                "padding": 19,
+                "padding": 15,
               },
-              Object {},
+              undefined,
             ]
           }
         >
@@ -80,9 +75,8 @@ exports[`hd wallet renders Advanced screen 1`] = `
             ellipsizeMode="tail"
             style={
               Object {
-                "color": "rgba(170,170,170,1)",
-                "fontFamily": "NunitoSans-Regular",
-                "fontSize": 16,
+                "color": "rgba(74,74,74,1)",
+                "fontSize": 14,
                 "lineHeight": 22,
               }
             }
@@ -104,7 +98,6 @@ exports[`hd wallet renders Advanced screen 1`] = `
                 Array [
                   Object {
                     "color": "rgba(74,74,74,1)",
-                    "fontFamily": "NunitoSans-Light",
                     "fontSize": 14,
                     "lineHeight": 22,
                   },
@@ -130,7 +123,6 @@ exports[`hd wallet renders Advanced screen 1`] = `
         accessibilityLabel={undefined}
         accessibilityTraits={undefined}
         accessible={true}
-        collapsable={undefined}
         hasTVPreferredFocus={undefined}
         hitSlop={undefined}
         isTVSelectable={true}
@@ -142,11 +134,7 @@ exports[`hd wallet renders Advanced screen 1`] = `
         onResponderTerminate={[Function]}
         onResponderTerminationRequest={[Function]}
         onStartShouldSetResponder={[Function]}
-        style={
-          Object {
-            "opacity": 1,
-          }
-        }
+        style={null}
         testID={undefined}
         tvParallaxProperties={undefined}
       >
@@ -156,13 +144,13 @@ exports[`hd wallet renders Advanced screen 1`] = `
               Object {
                 "alignItems": "center",
                 "backgroundColor": "#FFFFFF",
+                "borderBottomWidth": 0.5,
                 "borderColor": "rgba(216,216,216,1)",
-                "borderTopWidth": 1,
                 "flexDirection": "row",
                 "justifyContent": "space-between",
-                "padding": 19,
+                "padding": 15,
               },
-              Object {},
+              undefined,
             ]
           }
         >
@@ -172,101 +160,8 @@ exports[`hd wallet renders Advanced screen 1`] = `
             ellipsizeMode="tail"
             style={
               Object {
-                "color": "rgba(170,170,170,1)",
-                "fontFamily": "NunitoSans-Regular",
-                "fontSize": 16,
-                "lineHeight": 22,
-              }
-            }
-          >
-            KeyChain Addresses
-          </Text>
-          <View
-            style={
-              Object {
-                "flexDirection": "row",
-              }
-            }
-          >
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
-              style={
-                Array [
-                  Object {
-                    "color": "rgba(74,74,74,1)",
-                    "fontFamily": "NunitoSans-Light",
-                    "fontSize": 14,
-                    "lineHeight": 22,
-                  },
-                  Object {},
-                ]
-              }
-            />
-            <Icon
-              color="rgba(216,216,216,1)"
-              name="ios-arrow-forward-outline"
-              size={20}
-              style={
-                Object {
-                  "marginLeft": 16,
-                }
-              }
-            />
-          </View>
-        </View>
-      </View>
-      <View
-        accessibilityComponentType={undefined}
-        accessibilityLabel={undefined}
-        accessibilityTraits={undefined}
-        accessible={true}
-        collapsable={undefined}
-        hasTVPreferredFocus={undefined}
-        hitSlop={undefined}
-        isTVSelectable={true}
-        nativeID={undefined}
-        onLayout={undefined}
-        onResponderGrant={[Function]}
-        onResponderMove={[Function]}
-        onResponderRelease={[Function]}
-        onResponderTerminate={[Function]}
-        onResponderTerminationRequest={[Function]}
-        onStartShouldSetResponder={[Function]}
-        style={
-          Object {
-            "opacity": 1,
-          }
-        }
-        testID={undefined}
-        tvParallaxProperties={undefined}
-      >
-        <View
-          style={
-            Array [
-              Object {
-                "alignItems": "center",
-                "backgroundColor": "#FFFFFF",
-                "borderColor": "rgba(216,216,216,1)",
-                "borderTopWidth": 1,
-                "flexDirection": "row",
-                "justifyContent": "space-between",
-                "padding": 19,
-              },
-              Object {},
-            ]
-          }
-        >
-          <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
-            style={
-              Object {
-                "color": "rgba(170,170,170,1)",
-                "fontFamily": "NunitoSans-Regular",
-                "fontSize": 16,
+                "color": "rgba(74,74,74,1)",
+                "fontSize": 14,
                 "lineHeight": 22,
               }
             }
@@ -288,7 +183,6 @@ exports[`hd wallet renders Advanced screen 1`] = `
                 Array [
                   Object {
                     "color": "rgba(74,74,74,1)",
-                    "fontFamily": "NunitoSans-Light",
                     "fontSize": 14,
                     "lineHeight": 22,
                   },
@@ -314,7 +208,6 @@ exports[`hd wallet renders Advanced screen 1`] = `
         accessibilityLabel={undefined}
         accessibilityTraits={undefined}
         accessible={true}
-        collapsable={undefined}
         hasTVPreferredFocus={undefined}
         hitSlop={undefined}
         isTVSelectable={true}
@@ -326,11 +219,7 @@ exports[`hd wallet renders Advanced screen 1`] = `
         onResponderTerminate={[Function]}
         onResponderTerminationRequest={[Function]}
         onStartShouldSetResponder={[Function]}
-        style={
-          Object {
-            "opacity": 1,
-          }
-        }
+        style={null}
         testID={undefined}
         tvParallaxProperties={undefined}
       >
@@ -340,13 +229,13 @@ exports[`hd wallet renders Advanced screen 1`] = `
               Object {
                 "alignItems": "center",
                 "backgroundColor": "#FFFFFF",
+                "borderBottomWidth": 0.5,
                 "borderColor": "rgba(216,216,216,1)",
-                "borderTopWidth": 1,
                 "flexDirection": "row",
                 "justifyContent": "space-between",
-                "padding": 19,
+                "padding": 15,
               },
-              Object {},
+              undefined,
             ]
           }
         >
@@ -356,9 +245,8 @@ exports[`hd wallet renders Advanced screen 1`] = `
             ellipsizeMode="tail"
             style={
               Object {
-                "color": "rgba(170,170,170,1)",
-                "fontFamily": "NunitoSans-Regular",
-                "fontSize": 16,
+                "color": "rgba(74,74,74,1)",
+                "fontSize": 14,
                 "lineHeight": 22,
               }
             }
@@ -380,7 +268,6 @@ exports[`hd wallet renders Advanced screen 1`] = `
                 Array [
                   Object {
                     "color": "rgba(74,74,74,1)",
-                    "fontFamily": "NunitoSans-Light",
                     "fontSize": 14,
                     "lineHeight": 22,
                   },
@@ -406,7 +293,6 @@ exports[`hd wallet renders Advanced screen 1`] = `
         accessibilityLabel={undefined}
         accessibilityTraits={undefined}
         accessible={true}
-        collapsable={undefined}
         hasTVPreferredFocus={undefined}
         hitSlop={undefined}
         isTVSelectable={true}
@@ -418,11 +304,7 @@ exports[`hd wallet renders Advanced screen 1`] = `
         onResponderTerminate={[Function]}
         onResponderTerminationRequest={[Function]}
         onStartShouldSetResponder={[Function]}
-        style={
-          Object {
-            "opacity": 1,
-          }
-        }
+        style={null}
         testID={undefined}
         tvParallaxProperties={undefined}
       >
@@ -432,16 +314,13 @@ exports[`hd wallet renders Advanced screen 1`] = `
               Object {
                 "alignItems": "center",
                 "backgroundColor": "#FFFFFF",
+                "borderBottomWidth": 0.5,
                 "borderColor": "rgba(216,216,216,1)",
-                "borderTopWidth": 1,
                 "flexDirection": "row",
                 "justifyContent": "space-between",
-                "padding": 19,
+                "padding": 15,
               },
-              Object {
-                "borderBottomColor": "rgba(216,216,216,1)",
-                "borderBottomWidth": 1,
-              },
+              undefined,
             ]
           }
         >
@@ -451,9 +330,8 @@ exports[`hd wallet renders Advanced screen 1`] = `
             ellipsizeMode="tail"
             style={
               Object {
-                "color": "rgba(170,170,170,1)",
-                "fontFamily": "NunitoSans-Regular",
-                "fontSize": 16,
+                "color": "rgba(74,74,74,1)",
+                "fontSize": 14,
                 "lineHeight": 22,
               }
             }
@@ -475,7 +353,6 @@ exports[`hd wallet renders Advanced screen 1`] = `
                 Array [
                   Object {
                     "color": "rgba(74,74,74,1)",
-                    "fontFamily": "NunitoSans-Light",
                     "fontSize": 14,
                     "lineHeight": 22,
                   },
@@ -525,7 +402,7 @@ exports[`legacy wallet renders Advanced screen without identity hub 1`] = `
       Array [
         Object {
           "borderBottomColor": "rgba(216,216,216,1)",
-          "borderBottomWidth": 1,
+          "borderBottomWidth": 0.5,
         },
         Object {
           "flex": 1,
@@ -539,7 +416,6 @@ exports[`legacy wallet renders Advanced screen without identity hub 1`] = `
         accessibilityLabel={undefined}
         accessibilityTraits={undefined}
         accessible={true}
-        collapsable={undefined}
         hasTVPreferredFocus={undefined}
         hitSlop={undefined}
         isTVSelectable={true}
@@ -551,11 +427,7 @@ exports[`legacy wallet renders Advanced screen without identity hub 1`] = `
         onResponderTerminate={[Function]}
         onResponderTerminationRequest={[Function]}
         onStartShouldSetResponder={[Function]}
-        style={
-          Object {
-            "opacity": 1,
-          }
-        }
+        style={null}
         testID={undefined}
         tvParallaxProperties={undefined}
       >
@@ -565,13 +437,13 @@ exports[`legacy wallet renders Advanced screen without identity hub 1`] = `
               Object {
                 "alignItems": "center",
                 "backgroundColor": "#FFFFFF",
+                "borderBottomWidth": 0.5,
                 "borderColor": "rgba(216,216,216,1)",
-                "borderTopWidth": 1,
                 "flexDirection": "row",
                 "justifyContent": "space-between",
-                "padding": 19,
+                "padding": 15,
               },
-              Object {},
+              undefined,
             ]
           }
         >
@@ -581,9 +453,8 @@ exports[`legacy wallet renders Advanced screen without identity hub 1`] = `
             ellipsizeMode="tail"
             style={
               Object {
-                "color": "rgba(170,170,170,1)",
-                "fontFamily": "NunitoSans-Regular",
-                "fontSize": 16,
+                "color": "rgba(74,74,74,1)",
+                "fontSize": 14,
                 "lineHeight": 22,
               }
             }
@@ -605,7 +476,6 @@ exports[`legacy wallet renders Advanced screen without identity hub 1`] = `
                 Array [
                   Object {
                     "color": "rgba(74,74,74,1)",
-                    "fontFamily": "NunitoSans-Light",
                     "fontSize": 14,
                     "lineHeight": 22,
                   },
@@ -631,7 +501,6 @@ exports[`legacy wallet renders Advanced screen without identity hub 1`] = `
         accessibilityLabel={undefined}
         accessibilityTraits={undefined}
         accessible={true}
-        collapsable={undefined}
         hasTVPreferredFocus={undefined}
         hitSlop={undefined}
         isTVSelectable={true}
@@ -643,11 +512,7 @@ exports[`legacy wallet renders Advanced screen without identity hub 1`] = `
         onResponderTerminate={[Function]}
         onResponderTerminationRequest={[Function]}
         onStartShouldSetResponder={[Function]}
-        style={
-          Object {
-            "opacity": 1,
-          }
-        }
+        style={null}
         testID={undefined}
         tvParallaxProperties={undefined}
       >
@@ -657,13 +522,13 @@ exports[`legacy wallet renders Advanced screen without identity hub 1`] = `
               Object {
                 "alignItems": "center",
                 "backgroundColor": "#FFFFFF",
+                "borderBottomWidth": 0.5,
                 "borderColor": "rgba(216,216,216,1)",
-                "borderTopWidth": 1,
                 "flexDirection": "row",
                 "justifyContent": "space-between",
-                "padding": 19,
+                "padding": 15,
               },
-              Object {},
+              undefined,
             ]
           }
         >
@@ -673,101 +538,8 @@ exports[`legacy wallet renders Advanced screen without identity hub 1`] = `
             ellipsizeMode="tail"
             style={
               Object {
-                "color": "rgba(170,170,170,1)",
-                "fontFamily": "NunitoSans-Regular",
-                "fontSize": 16,
-                "lineHeight": 22,
-              }
-            }
-          >
-            KeyChain Addresses
-          </Text>
-          <View
-            style={
-              Object {
-                "flexDirection": "row",
-              }
-            }
-          >
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
-              style={
-                Array [
-                  Object {
-                    "color": "rgba(74,74,74,1)",
-                    "fontFamily": "NunitoSans-Light",
-                    "fontSize": 14,
-                    "lineHeight": 22,
-                  },
-                  Object {},
-                ]
-              }
-            />
-            <Icon
-              color="rgba(216,216,216,1)"
-              name="ios-arrow-forward-outline"
-              size={20}
-              style={
-                Object {
-                  "marginLeft": 16,
-                }
-              }
-            />
-          </View>
-        </View>
-      </View>
-      <View
-        accessibilityComponentType={undefined}
-        accessibilityLabel={undefined}
-        accessibilityTraits={undefined}
-        accessible={true}
-        collapsable={undefined}
-        hasTVPreferredFocus={undefined}
-        hitSlop={undefined}
-        isTVSelectable={true}
-        nativeID={undefined}
-        onLayout={undefined}
-        onResponderGrant={[Function]}
-        onResponderMove={[Function]}
-        onResponderRelease={[Function]}
-        onResponderTerminate={[Function]}
-        onResponderTerminationRequest={[Function]}
-        onStartShouldSetResponder={[Function]}
-        style={
-          Object {
-            "opacity": 1,
-          }
-        }
-        testID={undefined}
-        tvParallaxProperties={undefined}
-      >
-        <View
-          style={
-            Array [
-              Object {
-                "alignItems": "center",
-                "backgroundColor": "#FFFFFF",
-                "borderColor": "rgba(216,216,216,1)",
-                "borderTopWidth": 1,
-                "flexDirection": "row",
-                "justifyContent": "space-between",
-                "padding": 19,
-              },
-              Object {},
-            ]
-          }
-        >
-          <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
-            style={
-              Object {
-                "color": "rgba(170,170,170,1)",
-                "fontFamily": "NunitoSans-Regular",
-                "fontSize": 16,
+                "color": "rgba(74,74,74,1)",
+                "fontSize": 14,
                 "lineHeight": 22,
               }
             }
@@ -789,7 +561,6 @@ exports[`legacy wallet renders Advanced screen without identity hub 1`] = `
                 Array [
                   Object {
                     "color": "rgba(74,74,74,1)",
-                    "fontFamily": "NunitoSans-Light",
                     "fontSize": 14,
                     "lineHeight": 22,
                   },
@@ -815,7 +586,6 @@ exports[`legacy wallet renders Advanced screen without identity hub 1`] = `
         accessibilityLabel={undefined}
         accessibilityTraits={undefined}
         accessible={true}
-        collapsable={undefined}
         hasTVPreferredFocus={undefined}
         hitSlop={undefined}
         isTVSelectable={true}
@@ -827,11 +597,7 @@ exports[`legacy wallet renders Advanced screen without identity hub 1`] = `
         onResponderTerminate={[Function]}
         onResponderTerminationRequest={[Function]}
         onStartShouldSetResponder={[Function]}
-        style={
-          Object {
-            "opacity": 1,
-          }
-        }
+        style={null}
         testID={undefined}
         tvParallaxProperties={undefined}
       >
@@ -841,13 +607,13 @@ exports[`legacy wallet renders Advanced screen without identity hub 1`] = `
               Object {
                 "alignItems": "center",
                 "backgroundColor": "#FFFFFF",
+                "borderBottomWidth": 0.5,
                 "borderColor": "rgba(216,216,216,1)",
-                "borderTopWidth": 1,
                 "flexDirection": "row",
                 "justifyContent": "space-between",
-                "padding": 19,
+                "padding": 15,
               },
-              Object {},
+              undefined,
             ]
           }
         >
@@ -857,9 +623,8 @@ exports[`legacy wallet renders Advanced screen without identity hub 1`] = `
             ellipsizeMode="tail"
             style={
               Object {
-                "color": "rgba(170,170,170,1)",
-                "fontFamily": "NunitoSans-Regular",
-                "fontSize": 16,
+                "color": "rgba(74,74,74,1)",
+                "fontSize": 14,
                 "lineHeight": 22,
               }
             }
@@ -881,7 +646,6 @@ exports[`legacy wallet renders Advanced screen without identity hub 1`] = `
                 Array [
                   Object {
                     "color": "rgba(74,74,74,1)",
-                    "fontFamily": "NunitoSans-Light",
                     "fontSize": 14,
                     "lineHeight": 22,
                   },
@@ -907,7 +671,6 @@ exports[`legacy wallet renders Advanced screen without identity hub 1`] = `
         accessibilityLabel={undefined}
         accessibilityTraits={undefined}
         accessible={true}
-        collapsable={undefined}
         hasTVPreferredFocus={undefined}
         hitSlop={undefined}
         isTVSelectable={true}
@@ -919,11 +682,7 @@ exports[`legacy wallet renders Advanced screen without identity hub 1`] = `
         onResponderTerminate={[Function]}
         onResponderTerminationRequest={[Function]}
         onStartShouldSetResponder={[Function]}
-        style={
-          Object {
-            "opacity": 1,
-          }
-        }
+        style={null}
         testID={undefined}
         tvParallaxProperties={undefined}
       >
@@ -933,16 +692,13 @@ exports[`legacy wallet renders Advanced screen without identity hub 1`] = `
               Object {
                 "alignItems": "center",
                 "backgroundColor": "#FFFFFF",
+                "borderBottomWidth": 0.5,
                 "borderColor": "rgba(216,216,216,1)",
-                "borderTopWidth": 1,
                 "flexDirection": "row",
                 "justifyContent": "space-between",
-                "padding": 19,
+                "padding": 15,
               },
-              Object {
-                "borderBottomColor": "rgba(216,216,216,1)",
-                "borderBottomWidth": 1,
-              },
+              undefined,
             ]
           }
         >
@@ -952,9 +708,8 @@ exports[`legacy wallet renders Advanced screen without identity hub 1`] = `
             ellipsizeMode="tail"
             style={
               Object {
-                "color": "rgba(170,170,170,1)",
-                "fontFamily": "NunitoSans-Regular",
-                "fontSize": 16,
+                "color": "rgba(74,74,74,1)",
+                "fontSize": 14,
                 "lineHeight": 22,
               }
             }
@@ -976,7 +731,6 @@ exports[`legacy wallet renders Advanced screen without identity hub 1`] = `
                 Array [
                   Object {
                     "color": "rgba(74,74,74,1)",
-                    "fontFamily": "NunitoSans-Light",
                     "fontSize": 14,
                     "lineHeight": 22,
                   },

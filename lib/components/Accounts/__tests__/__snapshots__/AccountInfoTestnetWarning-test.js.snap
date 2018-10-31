@@ -70,7 +70,6 @@ exports[`AccountInfoTestnetWarning Component renders Account Info Testnet Warnin
         style={
           Object {
             "color": "rgba(74,74,74,1)",
-            "fontFamily": "NunitoSans-Regular",
             "fontSize": 24,
             "lineHeight": 30,
             "marginBottom": 16,
@@ -89,7 +88,6 @@ exports[`AccountInfoTestnetWarning Component renders Account Info Testnet Warnin
         Array [
           Object {
             "color": "rgba(74,74,74,1)",
-            "fontFamily": "NunitoSans-Light",
             "fontSize": 16,
             "lineHeight": 22,
             "textAlign": "center",
@@ -150,7 +148,6 @@ exports[`AccountInfoTestnetWarning Component renders Account Info Testnet Warnin
             Array [
               Object {
                 "color": "rgba(74,74,74,1)",
-                "fontFamily": "NunitoSans-Light",
                 "fontSize": 16,
                 "lineHeight": 22,
                 "textAlign": "center",
@@ -201,7 +198,6 @@ exports[`AccountInfoTestnetWarning Component renders Account Info Testnet Warnin
             Array [
               Object {
                 "color": "rgba(74,74,74,1)",
-                "fontFamily": "NunitoSans-Light",
                 "fontSize": 16,
                 "lineHeight": 22,
                 "textAlign": "center",

@@ -42,7 +42,7 @@ exports[`OnboardingStart renders Onboarding Start screen 1`] = `
       <Image
         source={
           Object {
-            "testUri": "../../../images/uport-blurple.png",
+            "testUri": "../../../assets/images/uport-blurple.png",
           }
         }
         style={
@@ -65,7 +65,7 @@ exports[`OnboardingStart renders Onboarding Start screen 1`] = `
             undefined,
             Object {
               "color": "#3c3a49",
-              "fontFamily": "NunitoSans-Regular",
+              "fontFamily": undefined,
               "fontSize": 24,
               "lineHeight": 30,
               "marginBottom": 40,
@@ -179,14 +179,14 @@ exports[`OnboardingStart renders Onboarding Start screen 1`] = `
               style={
                 Array [
                   Object {
-                    "fontFamily": "NunitoSans-Bold",
+                    "fontFamily": "Montserrat",
                     "fontSize": 18,
                     "textAlign": "center",
                   },
                   Array [
                     Object {
                       "color": "rgba(54,184,123,1)",
-                      "fontFamily": "NunitoSans-Bold",
+                      "fontFamily": undefined,
                       "fontSize": 18,
                       "lineHeight": 25,
                       "padding": 3,
@@ -255,13 +255,13 @@ exports[`OnboardingStart renders Onboarding Start screen 1`] = `
               style={
                 Array [
                   Object {
-                    "fontFamily": "NunitoSans-Bold",
+                    "fontFamily": "Montserrat",
                     "fontSize": 18,
                     "textAlign": "center",
                   },
                   Object {
                     "color": "rgba(92,80,202,1)",
-                    "fontFamily": "NunitoSans-Regular",
+                    "fontFamily": undefined,
                     "fontSize": 18,
                     "lineHeight": 25,
                   },

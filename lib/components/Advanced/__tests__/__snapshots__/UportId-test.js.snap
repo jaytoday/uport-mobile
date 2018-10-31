@@ -309,7 +309,7 @@ exports[`Advanced - UportId renders a connected component as expected 1`] = `
 ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <UportId
+  Symbol(enzyme.__unrendered__): <uPortID
     address="0x9df0e9759b17f34e9123adbe6d3f25d54b72ad6a"
     did="did:uport:0x9df0e9759b17f34e9123adbe6d3f25d54b72ad6a"
     explorerUrl="https://rinkeby.etherscan.io"
@@ -330,24 +330,25 @@ ShallowWrapper {
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "function",
     "props": Object {
-      "children": <Menu>
+      "children": Array [
         <MenuItem
           onPress={[Function]}
           title="DID"
           value="did:uport:0x9df0e9759b17f34e91..."
-        />
+        />,
         <MenuItem
           href="https://rinkeby.etherscan.io/address/null"
           title="Address"
           value={undefined}
-        />
+        />,
         <MenuItem
           onPress={[Function]}
           title="MNID"
           value="0x9df0e9759b17f34e9123adbe6d3f..."
-        />
+        />,
+        null,
         <Component
           style={
             Object {
@@ -362,12 +363,93 @@ ShallowWrapper {
           >
             Reset Identity
           </DangerButton>
-        </Component>
-      </Menu>,
-      "navigator": FakeNavigator {},
+        </Component>,
+      ],
     },
     "ref": null,
-    "rendered": Object {
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "onPress": [Function],
+          "title": "DID",
+          "value": "did:uport:0x9df0e9759b17f34e91...",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "href": "https://rinkeby.etherscan.io/address/null",
+          "title": "Address",
+          "value": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "onPress": [Function],
+          "title": "MNID",
+          "value": "0x9df0e9759b17f34e9123adbe6d3f...",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      null,
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            null,
+            <DangerButton
+              onPress={[Function]}
+            >
+              Reset Identity
+            </DangerButton>,
+          ],
+          "style": Object {
+            "flex": 0,
+            "height": 1334,
+            "justifyContent": "flex-end",
+          },
+        },
+        "ref": null,
+        "rendered": Array [
+          null,
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": "Reset Identity",
+              "onPress": [Function],
+            },
+            "ref": null,
+            "rendered": "Reset Identity",
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
       "instance": null,
       "key": undefined,
       "nodeType": "function",
@@ -486,172 +568,6 @@ ShallowWrapper {
           "type": [Function],
         },
       ],
-      "type": [Function],
-    },
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "children": <Menu>
-          <MenuItem
-            onPress={[Function]}
-            title="DID"
-            value="did:uport:0x9df0e9759b17f34e91..."
-          />
-          <MenuItem
-            href="https://rinkeby.etherscan.io/address/null"
-            title="Address"
-            value={undefined}
-          />
-          <MenuItem
-            onPress={[Function]}
-            title="MNID"
-            value="0x9df0e9759b17f34e9123adbe6d3f..."
-          />
-          <Component
-            style={
-              Object {
-                "flex": 0,
-                "height": 1334,
-                "justifyContent": "flex-end",
-              }
-            }
-          >
-            <DangerButton
-              onPress={[Function]}
-            >
-              Reset Identity
-            </DangerButton>
-          </Component>
-        </Menu>,
-        "navigator": FakeNavigator {},
-      },
-      "ref": null,
-      "rendered": Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {
-          "children": Array [
-            <MenuItem
-              onPress={[Function]}
-              title="DID"
-              value="did:uport:0x9df0e9759b17f34e91..."
-            />,
-            <MenuItem
-              href="https://rinkeby.etherscan.io/address/null"
-              title="Address"
-              value={undefined}
-            />,
-            <MenuItem
-              onPress={[Function]}
-              title="MNID"
-              value="0x9df0e9759b17f34e9123adbe6d3f..."
-            />,
-            null,
-            <Component
-              style={
-                Object {
-                  "flex": 0,
-                  "height": 1334,
-                  "justifyContent": "flex-end",
-                }
-              }
-            >
-              <DangerButton
-                onPress={[Function]}
-              >
-                Reset Identity
-              </DangerButton>
-            </Component>,
-          ],
-        },
-        "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {
-              "onPress": [Function],
-              "title": "DID",
-              "value": "did:uport:0x9df0e9759b17f34e91...",
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {
-              "href": "https://rinkeby.etherscan.io/address/null",
-              "title": "Address",
-              "value": undefined,
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {
-              "onPress": [Function],
-              "title": "MNID",
-              "value": "0x9df0e9759b17f34e9123adbe6d3f...",
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-          null,
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "children": Array [
-                null,
-                <DangerButton
-                  onPress={[Function]}
-                >
-                  Reset Identity
-                </DangerButton>,
-              ],
-              "style": Object {
-                "flex": 0,
-                "height": 1334,
-                "justifyContent": "flex-end",
-              },
-            },
-            "ref": null,
-            "rendered": Array [
-              null,
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "function",
-                "props": Object {
-                  "children": "Reset Identity",
-                  "onPress": [Function],
-                },
-                "ref": null,
-                "rendered": "Reset Identity",
-                "type": [Function],
-              },
-            ],
-            "type": [Function],
-          },
-        ],
-        "type": [Function],
-      },
       "type": [Function],
     },
   ],

@@ -70,7 +70,7 @@ exports[`Notifications renders the amount of unread notifications 1`] = `
       style={
         Object {
           "color": "#FFFFFF",
-          "fontFamily": "NunitoSans-Light",
+          "fontFamily": undefined,
           "fontSize": 13,
         }
       }
@@ -149,7 +149,7 @@ exports[`Notifications renders the singular amount of unread notifications 1`] =
       style={
         Object {
           "color": "#FFFFFF",
-          "fontFamily": "NunitoSans-Light",
+          "fontFamily": undefined,
           "fontSize": 13,
         }
       }

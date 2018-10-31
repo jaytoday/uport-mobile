@@ -66,7 +66,7 @@ ShallowWrapper {
             style={
               Object {
                 "color": "rgba(74,74,74,1)",
-                "fontFamily": "NunitoSans-Light",
+                "fontFamily": undefined,
                 "fontSize": 14,
                 "lineHeight": 19,
               }
@@ -135,7 +135,7 @@ ShallowWrapper {
               style={
                 Object {
                   "color": "rgba(74,74,74,1)",
-                  "fontFamily": "NunitoSans-Light",
+                  "fontFamily": undefined,
                   "fontSize": 14,
                   "lineHeight": 19,
                 }
@@ -191,7 +191,7 @@ ShallowWrapper {
               "ellipsizeMode": "tail",
               "style": Object {
                 "color": "rgba(74,74,74,1)",
-                "fontFamily": "NunitoSans-Light",
+                "fontFamily": undefined,
                 "fontSize": 14,
                 "lineHeight": 19,
               },
@@ -317,7 +317,7 @@ ShallowWrapper {
               style={
                 Object {
                   "color": "rgba(74,74,74,1)",
-                  "fontFamily": "NunitoSans-Light",
+                  "fontFamily": undefined,
                   "fontSize": 14,
                   "lineHeight": 19,
                 }
@@ -386,7 +386,7 @@ ShallowWrapper {
                 style={
                   Object {
                     "color": "rgba(74,74,74,1)",
-                    "fontFamily": "NunitoSans-Light",
+                    "fontFamily": undefined,
                     "fontSize": 14,
                     "lineHeight": 19,
                   }
@@ -442,7 +442,7 @@ ShallowWrapper {
                 "ellipsizeMode": "tail",
                 "style": Object {
                   "color": "rgba(74,74,74,1)",
-                  "fontFamily": "NunitoSans-Light",
+                  "fontFamily": undefined,
                   "fontSize": 14,
                   "lineHeight": 19,
                 },

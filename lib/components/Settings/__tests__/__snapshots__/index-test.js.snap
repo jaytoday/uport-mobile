@@ -24,7 +24,7 @@ exports[`SettingsRoot renders Settings screen with 1`] = `
       Array [
         Object {
           "borderBottomColor": "rgba(216,216,216,1)",
-          "borderBottomWidth": 1,
+          "borderBottomWidth": 0.5,
         },
         Object {
           "flex": 1,
@@ -38,7 +38,6 @@ exports[`SettingsRoot renders Settings screen with 1`] = `
         accessibilityLabel={undefined}
         accessibilityTraits={undefined}
         accessible={true}
-        collapsable={undefined}
         hasTVPreferredFocus={undefined}
         hitSlop={undefined}
         isTVSelectable={true}
@@ -50,11 +49,7 @@ exports[`SettingsRoot renders Settings screen with 1`] = `
         onResponderTerminate={[Function]}
         onResponderTerminationRequest={[Function]}
         onStartShouldSetResponder={[Function]}
-        style={
-          Object {
-            "opacity": 1,
-          }
-        }
+        style={null}
         testID={undefined}
         tvParallaxProperties={undefined}
       >
@@ -64,13 +59,13 @@ exports[`SettingsRoot renders Settings screen with 1`] = `
               Object {
                 "alignItems": "center",
                 "backgroundColor": "#FFFFFF",
+                "borderBottomWidth": 0.5,
                 "borderColor": "rgba(216,216,216,1)",
-                "borderTopWidth": 1,
                 "flexDirection": "row",
                 "justifyContent": "space-between",
-                "padding": 19,
+                "padding": 15,
               },
-              Object {},
+              undefined,
             ]
           }
         >
@@ -80,9 +75,8 @@ exports[`SettingsRoot renders Settings screen with 1`] = `
             ellipsizeMode="tail"
             style={
               Object {
-                "color": "rgba(170,170,170,1)",
-                "fontFamily": "NunitoSans-Regular",
-                "fontSize": 16,
+                "color": "rgba(74,74,74,1)",
+                "fontSize": 14,
                 "lineHeight": 22,
               }
             }
@@ -104,7 +98,6 @@ exports[`SettingsRoot renders Settings screen with 1`] = `
                 Array [
                   Object {
                     "color": "rgba(74,74,74,1)",
-                    "fontFamily": "NunitoSans-Light",
                     "fontSize": 14,
                     "lineHeight": 22,
                   },
@@ -122,7 +115,6 @@ exports[`SettingsRoot renders Settings screen with 1`] = `
         accessibilityLabel={undefined}
         accessibilityTraits={undefined}
         accessible={true}
-        collapsable={undefined}
         hasTVPreferredFocus={undefined}
         hitSlop={undefined}
         isTVSelectable={true}
@@ -134,11 +126,7 @@ exports[`SettingsRoot renders Settings screen with 1`] = `
         onResponderTerminate={[Function]}
         onResponderTerminationRequest={[Function]}
         onStartShouldSetResponder={[Function]}
-        style={
-          Object {
-            "opacity": 1,
-          }
-        }
+        style={null}
         testID={undefined}
         tvParallaxProperties={undefined}
       >
@@ -148,13 +136,13 @@ exports[`SettingsRoot renders Settings screen with 1`] = `
               Object {
                 "alignItems": "center",
                 "backgroundColor": "#FFFFFF",
+                "borderBottomWidth": 0.5,
                 "borderColor": "rgba(216,216,216,1)",
-                "borderTopWidth": 1,
                 "flexDirection": "row",
                 "justifyContent": "space-between",
-                "padding": 19,
+                "padding": 15,
               },
-              Object {},
+              undefined,
             ]
           }
         >
@@ -164,9 +152,8 @@ exports[`SettingsRoot renders Settings screen with 1`] = `
             ellipsizeMode="tail"
             style={
               Object {
-                "color": "rgba(170,170,170,1)",
-                "fontFamily": "NunitoSans-Regular",
-                "fontSize": 16,
+                "color": "rgba(74,74,74,1)",
+                "fontSize": 14,
                 "lineHeight": 22,
               }
             }
@@ -188,7 +175,6 @@ exports[`SettingsRoot renders Settings screen with 1`] = `
                 Array [
                   Object {
                     "color": "rgba(74,74,74,1)",
-                    "fontFamily": "NunitoSans-Light",
                     "fontSize": 14,
                     "lineHeight": 22,
                   },
@@ -216,7 +202,6 @@ exports[`SettingsRoot renders Settings screen with 1`] = `
         accessibilityLabel={undefined}
         accessibilityTraits={undefined}
         accessible={true}
-        collapsable={undefined}
         hasTVPreferredFocus={undefined}
         hitSlop={undefined}
         isTVSelectable={true}
@@ -228,11 +213,7 @@ exports[`SettingsRoot renders Settings screen with 1`] = `
         onResponderTerminate={[Function]}
         onResponderTerminationRequest={[Function]}
         onStartShouldSetResponder={[Function]}
-        style={
-          Object {
-            "opacity": 1,
-          }
-        }
+        style={null}
         testID={undefined}
         tvParallaxProperties={undefined}
       >
@@ -242,13 +223,13 @@ exports[`SettingsRoot renders Settings screen with 1`] = `
               Object {
                 "alignItems": "center",
                 "backgroundColor": "#FFFFFF",
+                "borderBottomWidth": 0.5,
                 "borderColor": "rgba(216,216,216,1)",
-                "borderTopWidth": 1,
                 "flexDirection": "row",
                 "justifyContent": "space-between",
-                "padding": 19,
+                "padding": 15,
               },
-              Object {},
+              undefined,
             ]
           }
         >
@@ -258,9 +239,8 @@ exports[`SettingsRoot renders Settings screen with 1`] = `
             ellipsizeMode="tail"
             style={
               Object {
-                "color": "rgba(170,170,170,1)",
-                "fontFamily": "NunitoSans-Regular",
-                "fontSize": 16,
+                "color": "rgba(74,74,74,1)",
+                "fontSize": 14,
                 "lineHeight": 22,
               }
             }
@@ -282,7 +262,6 @@ exports[`SettingsRoot renders Settings screen with 1`] = `
                 Array [
                   Object {
                     "color": "rgba(74,74,74,1)",
-                    "fontFamily": "NunitoSans-Light",
                     "fontSize": 14,
                     "lineHeight": 22,
                   },
@@ -310,7 +289,6 @@ exports[`SettingsRoot renders Settings screen with 1`] = `
         accessibilityLabel={undefined}
         accessibilityTraits={undefined}
         accessible={true}
-        collapsable={undefined}
         hasTVPreferredFocus={undefined}
         hitSlop={undefined}
         isTVSelectable={true}
@@ -322,11 +300,7 @@ exports[`SettingsRoot renders Settings screen with 1`] = `
         onResponderTerminate={[Function]}
         onResponderTerminationRequest={[Function]}
         onStartShouldSetResponder={[Function]}
-        style={
-          Object {
-            "opacity": 1,
-          }
-        }
+        style={null}
         testID={undefined}
         tvParallaxProperties={undefined}
       >
@@ -336,16 +310,13 @@ exports[`SettingsRoot renders Settings screen with 1`] = `
               Object {
                 "alignItems": "center",
                 "backgroundColor": "#FFFFFF",
+                "borderBottomWidth": 0.5,
                 "borderColor": "rgba(216,216,216,1)",
-                "borderTopWidth": 1,
                 "flexDirection": "row",
                 "justifyContent": "space-between",
-                "padding": 19,
+                "padding": 15,
               },
-              Object {
-                "borderBottomColor": "rgba(216,216,216,1)",
-                "borderBottomWidth": 1,
-              },
+              undefined,
             ]
           }
         >
@@ -355,9 +326,8 @@ exports[`SettingsRoot renders Settings screen with 1`] = `
             ellipsizeMode="tail"
             style={
               Object {
-                "color": "rgba(170,170,170,1)",
-                "fontFamily": "NunitoSans-Regular",
-                "fontSize": 16,
+                "color": "rgba(74,74,74,1)",
+                "fontSize": 14,
                 "lineHeight": 22,
               }
             }
@@ -379,7 +349,6 @@ exports[`SettingsRoot renders Settings screen with 1`] = `
                 Array [
                   Object {
                     "color": "rgba(74,74,74,1)",
-                    "fontFamily": "NunitoSans-Light",
                     "fontSize": 14,
                     "lineHeight": 22,
                   },
@@ -411,19 +380,7 @@ ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <SettingsRoot
     channel={undefined}
-    navigator={
-      FakeNavigator {
-        "event": [Function],
-        "styles": Object {
-          "navBarBackgroundColor": "rgba(246,247,248,1)",
-          "navBarButtonColor": "rgba(92,80,202,1)",
-          "navBarFontFamily": "NunitoSans-Regular",
-          "navBarFontSize": 18,
-          "navBarNoBorder": true,
-          "navBarTextColor": "rgba(74,74,74,1)",
-        },
-      }
-    }
+    navigator={FakeNavigator {}}
     setFlag={[Function]}
     version="256"
   />,
@@ -447,37 +404,13 @@ ShallowWrapper {
         />,
         <MenuItem
           destination="settings.privacy"
-          navigator={
-            FakeNavigator {
-              "event": [Function],
-              "styles": Object {
-                "navBarBackgroundColor": "rgba(246,247,248,1)",
-                "navBarButtonColor": "rgba(92,80,202,1)",
-                "navBarFontFamily": "NunitoSans-Regular",
-                "navBarFontSize": 18,
-                "navBarNoBorder": true,
-                "navBarTextColor": "rgba(74,74,74,1)",
-              },
-            }
-          }
+          navigator={FakeNavigator {}}
           title="Privacy Policy"
           value="v1.1 (5/24/2018)"
         />,
         <MenuItem
           destination="settings.terms"
-          navigator={
-            FakeNavigator {
-              "event": [Function],
-              "styles": Object {
-                "navBarBackgroundColor": "rgba(246,247,248,1)",
-                "navBarButtonColor": "rgba(92,80,202,1)",
-                "navBarFontFamily": "NunitoSans-Regular",
-                "navBarFontSize": 18,
-                "navBarNoBorder": true,
-                "navBarTextColor": "rgba(74,74,74,1)",
-              },
-            }
-          }
+          navigator={FakeNavigator {}}
           title="Terms and Conditions"
           value="v1.2 (5/24/2018)"
         />,
@@ -509,17 +442,7 @@ ShallowWrapper {
         "nodeType": "function",
         "props": Object {
           "destination": "settings.privacy",
-          "navigator": FakeNavigator {
-            "event": [Function],
-            "styles": Object {
-              "navBarBackgroundColor": "rgba(246,247,248,1)",
-              "navBarButtonColor": "rgba(92,80,202,1)",
-              "navBarFontFamily": "NunitoSans-Regular",
-              "navBarFontSize": 18,
-              "navBarNoBorder": true,
-              "navBarTextColor": "rgba(74,74,74,1)",
-            },
-          },
+          "navigator": FakeNavigator {},
           "title": "Privacy Policy",
           "value": "v1.1 (5/24/2018)",
         },
@@ -533,17 +456,7 @@ ShallowWrapper {
         "nodeType": "function",
         "props": Object {
           "destination": "settings.terms",
-          "navigator": FakeNavigator {
-            "event": [Function],
-            "styles": Object {
-              "navBarBackgroundColor": "rgba(246,247,248,1)",
-              "navBarButtonColor": "rgba(92,80,202,1)",
-              "navBarFontFamily": "NunitoSans-Regular",
-              "navBarFontSize": 18,
-              "navBarNoBorder": true,
-              "navBarTextColor": "rgba(74,74,74,1)",
-            },
-          },
+          "navigator": FakeNavigator {},
           "title": "Terms and Conditions",
           "value": "v1.2 (5/24/2018)",
         },
@@ -581,37 +494,13 @@ ShallowWrapper {
           />,
           <MenuItem
             destination="settings.privacy"
-            navigator={
-              FakeNavigator {
-                "event": [Function],
-                "styles": Object {
-                  "navBarBackgroundColor": "rgba(246,247,248,1)",
-                  "navBarButtonColor": "rgba(92,80,202,1)",
-                  "navBarFontFamily": "NunitoSans-Regular",
-                  "navBarFontSize": 18,
-                  "navBarNoBorder": true,
-                  "navBarTextColor": "rgba(74,74,74,1)",
-                },
-              }
-            }
+            navigator={FakeNavigator {}}
             title="Privacy Policy"
             value="v1.1 (5/24/2018)"
           />,
           <MenuItem
             destination="settings.terms"
-            navigator={
-              FakeNavigator {
-                "event": [Function],
-                "styles": Object {
-                  "navBarBackgroundColor": "rgba(246,247,248,1)",
-                  "navBarButtonColor": "rgba(92,80,202,1)",
-                  "navBarFontFamily": "NunitoSans-Regular",
-                  "navBarFontSize": 18,
-                  "navBarNoBorder": true,
-                  "navBarTextColor": "rgba(74,74,74,1)",
-                },
-              }
-            }
+            navigator={FakeNavigator {}}
             title="Terms and Conditions"
             value="v1.2 (5/24/2018)"
           />,
@@ -643,17 +532,7 @@ ShallowWrapper {
           "nodeType": "function",
           "props": Object {
             "destination": "settings.privacy",
-            "navigator": FakeNavigator {
-              "event": [Function],
-              "styles": Object {
-                "navBarBackgroundColor": "rgba(246,247,248,1)",
-                "navBarButtonColor": "rgba(92,80,202,1)",
-                "navBarFontFamily": "NunitoSans-Regular",
-                "navBarFontSize": 18,
-                "navBarNoBorder": true,
-                "navBarTextColor": "rgba(74,74,74,1)",
-              },
-            },
+            "navigator": FakeNavigator {},
             "title": "Privacy Policy",
             "value": "v1.1 (5/24/2018)",
           },
@@ -667,17 +546,7 @@ ShallowWrapper {
           "nodeType": "function",
           "props": Object {
             "destination": "settings.terms",
-            "navigator": FakeNavigator {
-              "event": [Function],
-              "styles": Object {
-                "navBarBackgroundColor": "rgba(246,247,248,1)",
-                "navBarButtonColor": "rgba(92,80,202,1)",
-                "navBarFontFamily": "NunitoSans-Regular",
-                "navBarFontSize": 18,
-                "navBarNoBorder": true,
-                "navBarTextColor": "rgba(74,74,74,1)",
-              },
-            },
+            "navigator": FakeNavigator {},
             "title": "Terms and Conditions",
             "value": "v1.2 (5/24/2018)",
           },

@@ -21,7 +21,7 @@ ShallowWrapper {
         "event": [Function],
         "styles": Object {
           "navBarButtonColor": "rgba(92,80,202,1)",
-          "navBarFontFamily": "NunitoSans-Regular",
+          "navBarFontFamily": undefined,
           "navBarFontSize": 16,
           "navBarNoBorder": true,
           "navBarTextColor": "rgba(74,74,74,1)",
@@ -57,7 +57,7 @@ ShallowWrapper {
         "event": [Function],
         "styles": Object {
           "navBarButtonColor": "rgba(92,80,202,1)",
-          "navBarFontFamily": "NunitoSans-Regular",
+          "navBarFontFamily": undefined,
           "navBarFontSize": 16,
           "navBarNoBorder": true,
           "navBarTextColor": "rgba(74,74,74,1)",
@@ -88,7 +88,7 @@ ShallowWrapper {
           "event": [Function],
           "styles": Object {
             "navBarButtonColor": "rgba(92,80,202,1)",
-            "navBarFontFamily": "NunitoSans-Regular",
+            "navBarFontFamily": undefined,
             "navBarFontSize": 16,
             "navBarNoBorder": true,
             "navBarTextColor": "rgba(74,74,74,1)",
@@ -152,7 +152,7 @@ exports[`MyInformation Component renders info correctly 1`] = `
             },
             Object {
               "backgroundColor": "white",
-              "borderRadius": 3,
+              "borderRadius": 30,
               "height": 96,
               "width": 96,
             },
@@ -169,7 +169,7 @@ exports[`MyInformation Component renders info correctly 1`] = `
           style={
             Array [
               Object {
-                "borderRadius": 3,
+                "borderRadius": 30,
                 "height": 96,
                 "width": 96,
               },
@@ -178,7 +178,7 @@ exports[`MyInformation Component renders info correctly 1`] = `
               },
               Array [
                 Object {
-                  "borderRadius": 3,
+                  "borderRadius": 30,
                   "height": 96,
                   "width": 96,
                 },
@@ -197,7 +197,6 @@ exports[`MyInformation Component renders info correctly 1`] = `
         Array [
           Object {
             "color": "rgba(74,74,74,1)",
-            "fontFamily": "NunitoSans-Bold",
             "fontSize": 24,
             "lineHeight": 33,
             "textAlign": "center",
@@ -317,7 +316,6 @@ exports[`MyInformation Component renders info correctly 1`] = `
         style={
           Object {
             "color": "rgba(170,170,170,1)",
-            "fontFamily": "NunitoSans-Regular",
             "fontSize": 14,
             "lineHeight": 17,
             "margin": 2,
@@ -333,7 +331,6 @@ exports[`MyInformation Component renders info correctly 1`] = `
         style={
           Object {
             "color": "rgba(74,74,74,1)",
-            "fontFamily": "NunitoSans-Regular",
             "fontSize": 16,
             "height": 22,
             "lineHeight": 20,
@@ -359,7 +356,6 @@ exports[`MyInformation Component renders info correctly 1`] = `
         style={
           Object {
             "color": "rgba(170,170,170,1)",
-            "fontFamily": "NunitoSans-Regular",
             "fontSize": 14,
             "lineHeight": 17,
             "margin": 2,
@@ -375,7 +371,6 @@ exports[`MyInformation Component renders info correctly 1`] = `
         style={
           Object {
             "color": "rgba(74,74,74,1)",
-            "fontFamily": "NunitoSans-Regular",
             "fontSize": 16,
             "height": 22,
             "lineHeight": 20,
@@ -401,7 +396,6 @@ exports[`MyInformation Component renders info correctly 1`] = `
         style={
           Object {
             "color": "rgba(170,170,170,1)",
-            "fontFamily": "NunitoSans-Regular",
             "fontSize": 14,
             "lineHeight": 17,
             "margin": 2,
@@ -417,7 +411,6 @@ exports[`MyInformation Component renders info correctly 1`] = `
         style={
           Object {
             "color": "rgba(74,74,74,1)",
-            "fontFamily": "NunitoSans-Regular",
             "fontSize": 16,
             "height": 22,
             "lineHeight": 20,

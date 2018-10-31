@@ -43,7 +43,6 @@ exports[`TransactionCard renders correctly with abi with args and a no value 1`]
           Array [
             Object {
               "color": "rgba(74,74,74,1)",
-              "fontFamily": "NunitoSans-Regular",
               "fontSize": 20,
               "lineHeight": 27,
               "textAlign": "center",
@@ -103,7 +102,6 @@ exports[`TransactionCard renders correctly with abi with args and a no value 1`]
         style={
           Object {
             "color": "rgba(74,74,74,1)",
-            "fontFamily": "NunitoSans-Bold",
             "fontSize": 24,
             "lineHeight": 33,
             "textAlign": "center",
@@ -153,7 +151,7 @@ exports[`TransactionCard renders correctly with abi with args and a no value 1`]
             style={
               Object {
                 "color": "rgba(138,155,161,1.0)",
-                "fontFamily": "NunitoSans-Regular",
+                "fontFamily": undefined,
                 "fontSize": 13,
                 "letterSpacing": 0.5,
                 "lineHeight": 15,
@@ -220,7 +218,7 @@ exports[`TransactionCard renders correctly with abi with args and a no value 1`]
         style={
           Array [
             Object {
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
             },
             Object {
               "fontSize": 14,
@@ -237,7 +235,7 @@ exports[`TransactionCard renders correctly with abi with args and a no value 1`]
         style={
           Array [
             Object {
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
             },
             Object {
               "fontSize": 18,
@@ -320,7 +318,7 @@ exports[`TransactionCard renders correctly with abi with args and a no value 1`]
           style={
             Array [
               Object {
-                "fontFamily": "NunitoSans-Bold",
+                "fontFamily": "Montserrat",
                 "fontSize": 18,
                 "textAlign": "center",
               },
@@ -388,7 +386,6 @@ exports[`TransactionCard renders correctly with abi without args and value 1`] =
           Array [
             Object {
               "color": "rgba(74,74,74,1)",
-              "fontFamily": "NunitoSans-Regular",
               "fontSize": 20,
               "lineHeight": 27,
               "textAlign": "center",
@@ -448,7 +445,6 @@ exports[`TransactionCard renders correctly with abi without args and value 1`] =
         style={
           Object {
             "color": "rgba(74,74,74,1)",
-            "fontFamily": "NunitoSans-Bold",
             "fontSize": 24,
             "lineHeight": 33,
             "textAlign": "center",
@@ -488,7 +484,7 @@ exports[`TransactionCard renders correctly with abi without args and value 1`] =
         style={
           Array [
             Object {
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
             },
             Object {
               "fontSize": 14,
@@ -505,7 +501,7 @@ exports[`TransactionCard renders correctly with abi without args and value 1`] =
         style={
           Array [
             Object {
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
             },
             Object {
               "fontSize": 18,
@@ -582,7 +578,7 @@ exports[`TransactionCard renders correctly with abi without args and value 1`] =
               style={
                 Object {
                   "color": undefined,
-                  "fontFamily": "NunitoSans-Bold",
+                  "fontFamily": undefined,
                   "fontSize": 18,
                   "letterSpacing": 1,
                   "lineHeight": 24,
@@ -599,7 +595,7 @@ exports[`TransactionCard renders correctly with abi without args and value 1`] =
               style={
                 Object {
                   "color": undefined,
-                  "fontFamily": "NunitoSans-Bold",
+                  "fontFamily": undefined,
                   "fontSize": 12,
                   "letterSpacing": 1,
                   "lineHeight": 15,
@@ -684,7 +680,7 @@ exports[`TransactionCard renders correctly with abi without args and value 1`] =
           style={
             Array [
               Object {
-                "fontFamily": "NunitoSans-Bold",
+                "fontFamily": "Montserrat",
                 "fontSize": 18,
                 "textAlign": "center",
               },
@@ -757,7 +753,6 @@ exports[`TransactionCard renders correctly with both client and destination 1`] 
           Array [
             Object {
               "color": "rgba(74,74,74,1)",
-              "fontFamily": "NunitoSans-Regular",
               "fontSize": 20,
               "lineHeight": 27,
               "textAlign": "center",
@@ -817,7 +812,6 @@ exports[`TransactionCard renders correctly with both client and destination 1`] 
         style={
           Object {
             "color": "rgba(74,74,74,1)",
-            "fontFamily": "NunitoSans-Bold",
             "fontSize": 24,
             "lineHeight": 33,
             "textAlign": "center",
@@ -867,7 +861,7 @@ exports[`TransactionCard renders correctly with both client and destination 1`] 
             style={
               Object {
                 "color": "rgba(138,155,161,1.0)",
-                "fontFamily": "NunitoSans-Regular",
+                "fontFamily": undefined,
                 "fontSize": 13,
                 "letterSpacing": 0.5,
                 "lineHeight": 15,
@@ -934,7 +928,7 @@ exports[`TransactionCard renders correctly with both client and destination 1`] 
         style={
           Array [
             Object {
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
             },
             Object {
               "fontSize": 14,
@@ -951,7 +945,7 @@ exports[`TransactionCard renders correctly with both client and destination 1`] 
         style={
           Array [
             Object {
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
             },
             Object {
               "fontSize": 18,
@@ -1034,7 +1028,7 @@ exports[`TransactionCard renders correctly with both client and destination 1`] 
           style={
             Array [
               Object {
-                "fontFamily": "NunitoSans-Bold",
+                "fontFamily": "Montserrat",
                 "fontSize": 18,
                 "textAlign": "center",
               },
@@ -1102,7 +1096,6 @@ exports[`TransactionCard renders correctly with destination being invalid destin
           Array [
             Object {
               "color": "rgba(74,74,74,1)",
-              "fontFamily": "NunitoSans-Regular",
               "fontSize": 20,
               "lineHeight": 27,
               "textAlign": "center",
@@ -1162,7 +1155,6 @@ exports[`TransactionCard renders correctly with destination being invalid destin
         style={
           Object {
             "color": "rgba(74,74,74,1)",
-            "fontFamily": "NunitoSans-Bold",
             "fontSize": 24,
             "lineHeight": 33,
             "textAlign": "center",
@@ -1189,7 +1181,7 @@ exports[`TransactionCard renders correctly with destination being invalid destin
         style={
           Array [
             Object {
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
             },
             Object {
               "fontSize": 14,
@@ -1206,7 +1198,7 @@ exports[`TransactionCard renders correctly with destination being invalid destin
         style={
           Array [
             Object {
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
             },
             Object {
               "fontSize": 18,
@@ -1285,7 +1277,7 @@ exports[`TransactionCard renders correctly with destination being invalid destin
             style={
               Object {
                 "color": undefined,
-                "fontFamily": "NunitoSans-Bold",
+                "fontFamily": undefined,
                 "fontSize": 18,
                 "letterSpacing": 1,
                 "lineHeight": 24,
@@ -1302,7 +1294,7 @@ exports[`TransactionCard renders correctly with destination being invalid destin
             style={
               Object {
                 "color": undefined,
-                "fontFamily": "NunitoSans-Bold",
+                "fontFamily": undefined,
                 "fontSize": 12,
                 "letterSpacing": 1,
                 "lineHeight": 15,
@@ -1384,7 +1376,6 @@ exports[`TransactionCard renders correctly with destination being validated 1`] 
           Array [
             Object {
               "color": "rgba(74,74,74,1)",
-              "fontFamily": "NunitoSans-Regular",
               "fontSize": 20,
               "lineHeight": 27,
               "textAlign": "center",
@@ -1444,7 +1435,6 @@ exports[`TransactionCard renders correctly with destination being validated 1`] 
         style={
           Object {
             "color": "rgba(74,74,74,1)",
-            "fontFamily": "NunitoSans-Bold",
             "fontSize": 24,
             "lineHeight": 33,
             "textAlign": "center",
@@ -1494,7 +1484,7 @@ exports[`TransactionCard renders correctly with destination being validated 1`] 
             style={
               Object {
                 "color": "rgba(138,155,161,1.0)",
-                "fontFamily": "NunitoSans-Regular",
+                "fontFamily": undefined,
                 "fontSize": 13,
                 "letterSpacing": 0.5,
                 "lineHeight": 15,
@@ -1561,7 +1551,7 @@ exports[`TransactionCard renders correctly with destination being validated 1`] 
         style={
           Array [
             Object {
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
             },
             Object {
               "fontSize": 14,
@@ -1578,7 +1568,7 @@ exports[`TransactionCard renders correctly with destination being validated 1`] 
         style={
           Array [
             Object {
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
             },
             Object {
               "fontSize": 18,
@@ -1661,7 +1651,7 @@ exports[`TransactionCard renders correctly with destination being validated 1`] 
           style={
             Array [
               Object {
-                "fontFamily": "NunitoSans-Bold",
+                "fontFamily": "Montserrat",
                 "fontSize": 18,
                 "textAlign": "center",
               },
@@ -1729,7 +1719,6 @@ exports[`TransactionCard renders correctly with only request 1`] = `
           Array [
             Object {
               "color": "rgba(74,74,74,1)",
-              "fontFamily": "NunitoSans-Regular",
               "fontSize": 20,
               "lineHeight": 27,
               "textAlign": "center",
@@ -1789,7 +1778,6 @@ exports[`TransactionCard renders correctly with only request 1`] = `
         style={
           Object {
             "color": "rgba(74,74,74,1)",
-            "fontFamily": "NunitoSans-Bold",
             "fontSize": 24,
             "lineHeight": 33,
             "textAlign": "center",
@@ -1839,7 +1827,7 @@ exports[`TransactionCard renders correctly with only request 1`] = `
             style={
               Object {
                 "color": "rgba(138,155,161,1.0)",
-                "fontFamily": "NunitoSans-Regular",
+                "fontFamily": undefined,
                 "fontSize": 13,
                 "letterSpacing": 0.5,
                 "lineHeight": 15,
@@ -1906,7 +1894,7 @@ exports[`TransactionCard renders correctly with only request 1`] = `
         style={
           Array [
             Object {
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
             },
             Object {
               "fontSize": 14,
@@ -1923,7 +1911,7 @@ exports[`TransactionCard renders correctly with only request 1`] = `
         style={
           Array [
             Object {
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
             },
             Object {
               "fontSize": 18,
@@ -2006,7 +1994,7 @@ exports[`TransactionCard renders correctly with only request 1`] = `
           style={
             Array [
               Object {
-                "fontFamily": "NunitoSans-Bold",
+                "fontFamily": "Montserrat",
                 "fontSize": 18,
                 "textAlign": "center",
               },
@@ -2074,7 +2062,6 @@ exports[`TransactionCard renders correctly with publicUportTransaction 1`] = `
           Array [
             Object {
               "color": "rgba(74,74,74,1)",
-              "fontFamily": "NunitoSans-Regular",
               "fontSize": 20,
               "lineHeight": 27,
               "textAlign": "center",
@@ -2134,7 +2121,6 @@ exports[`TransactionCard renders correctly with publicUportTransaction 1`] = `
         style={
           Object {
             "color": "rgba(74,74,74,1)",
-            "fontFamily": "NunitoSans-Bold",
             "fontSize": 24,
             "lineHeight": 33,
             "textAlign": "center",
@@ -2184,7 +2170,7 @@ exports[`TransactionCard renders correctly with publicUportTransaction 1`] = `
             style={
               Object {
                 "color": "rgba(138,155,161,1.0)",
-                "fontFamily": "NunitoSans-Regular",
+                "fontFamily": undefined,
                 "fontSize": 13,
                 "letterSpacing": 0.5,
                 "lineHeight": 15,
@@ -2251,7 +2237,7 @@ exports[`TransactionCard renders correctly with publicUportTransaction 1`] = `
         style={
           Array [
             Object {
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
             },
             Object {
               "fontSize": 14,
@@ -2268,7 +2254,7 @@ exports[`TransactionCard renders correctly with publicUportTransaction 1`] = `
         style={
           Array [
             Object {
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
             },
             Object {
               "fontSize": 18,
@@ -2351,7 +2337,7 @@ exports[`TransactionCard renders correctly with publicUportTransaction 1`] = `
           style={
             Array [
               Object {
-                "fontFamily": "NunitoSans-Bold",
+                "fontFamily": "Montserrat",
                 "fontSize": 18,
                 "textAlign": "center",
               },
@@ -2419,7 +2405,6 @@ exports[`TransactionCard renders correctly with request and a 0 value 1`] = `
           Array [
             Object {
               "color": "rgba(74,74,74,1)",
-              "fontFamily": "NunitoSans-Regular",
               "fontSize": 20,
               "lineHeight": 27,
               "textAlign": "center",
@@ -2479,7 +2464,6 @@ exports[`TransactionCard renders correctly with request and a 0 value 1`] = `
         style={
           Object {
             "color": "rgba(74,74,74,1)",
-            "fontFamily": "NunitoSans-Bold",
             "fontSize": 24,
             "lineHeight": 33,
             "textAlign": "center",
@@ -2529,7 +2513,7 @@ exports[`TransactionCard renders correctly with request and a 0 value 1`] = `
             style={
               Object {
                 "color": "rgba(138,155,161,1.0)",
-                "fontFamily": "NunitoSans-Regular",
+                "fontFamily": undefined,
                 "fontSize": 13,
                 "letterSpacing": 0.5,
                 "lineHeight": 15,
@@ -2596,7 +2580,7 @@ exports[`TransactionCard renders correctly with request and a 0 value 1`] = `
         style={
           Array [
             Object {
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
             },
             Object {
               "fontSize": 14,
@@ -2613,7 +2597,7 @@ exports[`TransactionCard renders correctly with request and a 0 value 1`] = `
         style={
           Array [
             Object {
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
             },
             Object {
               "fontSize": 18,
@@ -2696,7 +2680,7 @@ exports[`TransactionCard renders correctly with request and a 0 value 1`] = `
           style={
             Array [
               Object {
-                "fontFamily": "NunitoSans-Bold",
+                "fontFamily": "Montserrat",
                 "fontSize": 18,
                 "textAlign": "center",
               },
@@ -2764,7 +2748,6 @@ exports[`TransactionCard renders correctly with request and a value 1`] = `
           Array [
             Object {
               "color": "rgba(74,74,74,1)",
-              "fontFamily": "NunitoSans-Regular",
               "fontSize": 20,
               "lineHeight": 27,
               "textAlign": "center",
@@ -2824,7 +2807,6 @@ exports[`TransactionCard renders correctly with request and a value 1`] = `
         style={
           Object {
             "color": "rgba(74,74,74,1)",
-            "fontFamily": "NunitoSans-Bold",
             "fontSize": 24,
             "lineHeight": 33,
             "textAlign": "center",
@@ -2874,7 +2856,7 @@ exports[`TransactionCard renders correctly with request and a value 1`] = `
             style={
               Object {
                 "color": "rgba(138,155,161,1.0)",
-                "fontFamily": "NunitoSans-Regular",
+                "fontFamily": undefined,
                 "fontSize": 13,
                 "letterSpacing": 0.5,
                 "lineHeight": 15,
@@ -2941,7 +2923,7 @@ exports[`TransactionCard renders correctly with request and a value 1`] = `
         style={
           Array [
             Object {
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
             },
             Object {
               "fontSize": 14,
@@ -2958,7 +2940,7 @@ exports[`TransactionCard renders correctly with request and a value 1`] = `
         style={
           Array [
             Object {
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
             },
             Object {
               "fontSize": 18,
@@ -3041,7 +3023,7 @@ exports[`TransactionCard renders correctly with request and a value 1`] = `
           style={
             Array [
               Object {
-                "fontFamily": "NunitoSans-Bold",
+                "fontFamily": "Montserrat",
                 "fontSize": 18,
                 "textAlign": "center",
               },
@@ -3109,7 +3091,6 @@ exports[`TransactionCard renders correctly with request and a value with insuffi
           Array [
             Object {
               "color": "rgba(74,74,74,1)",
-              "fontFamily": "NunitoSans-Regular",
               "fontSize": 20,
               "lineHeight": 27,
               "textAlign": "center",
@@ -3169,7 +3150,6 @@ exports[`TransactionCard renders correctly with request and a value with insuffi
         style={
           Object {
             "color": "rgba(74,74,74,1)",
-            "fontFamily": "NunitoSans-Bold",
             "fontSize": 24,
             "lineHeight": 33,
             "textAlign": "center",
@@ -3219,7 +3199,7 @@ exports[`TransactionCard renders correctly with request and a value with insuffi
             style={
               Object {
                 "color": "rgba(138,155,161,1.0)",
-                "fontFamily": "NunitoSans-Regular",
+                "fontFamily": undefined,
                 "fontSize": 13,
                 "letterSpacing": 0.5,
                 "lineHeight": 15,
@@ -3286,7 +3266,7 @@ exports[`TransactionCard renders correctly with request and a value with insuffi
         style={
           Array [
             Object {
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
             },
             Object {
               "fontSize": 14,
@@ -3303,7 +3283,7 @@ exports[`TransactionCard renders correctly with request and a value with insuffi
         style={
           Array [
             Object {
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
             },
             Object {
               "fontSize": 18,
@@ -3386,7 +3366,7 @@ exports[`TransactionCard renders correctly with request and a value with insuffi
           style={
             Array [
               Object {
-                "fontFamily": "NunitoSans-Bold",
+                "fontFamily": "Montserrat",
                 "fontSize": 18,
                 "textAlign": "center",
               },

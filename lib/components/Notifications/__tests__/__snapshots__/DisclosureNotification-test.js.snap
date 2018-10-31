@@ -67,7 +67,7 @@ exports[`Disclosure Notification renders an disclosure notification correctly 1`
         style={
           Object {
             "color": "rgba(74,74,74,1)",
-            "fontFamily": "NunitoSans-Regular",
+            "fontFamily": undefined,
             "fontSize": 22,
             "lineHeight": 30,
             "padding": 19,
@@ -135,7 +135,7 @@ exports[`Disclosure Notification renders an disclosure notification correctly 1`
           style={
             Array [
               Object {
-                "fontFamily": "NunitoSans-Bold",
+                "fontFamily": "Montserrat",
                 "fontSize": 18,
                 "textAlign": "center",
               },
@@ -194,7 +194,7 @@ exports[`Disclosure Notification renders an disclosure notification correctly 1`
           style={
             Array [
               Object {
-                "fontFamily": "NunitoSans-Bold",
+                "fontFamily": "Montserrat",
                 "fontSize": 18,
                 "textAlign": "center",
               },
@@ -280,7 +280,7 @@ exports[`Disclosure Notification renders an disclosure notification that has bee
         style={
           Object {
             "color": "rgba(74,74,74,1)",
-            "fontFamily": "NunitoSans-Regular",
+            "fontFamily": undefined,
             "fontSize": 22,
             "lineHeight": 30,
             "padding": 19,
@@ -363,7 +363,7 @@ exports[`Disclosure Notification renders an disclosure notification that has bee
         style={
           Object {
             "color": "rgba(74,74,74,1)",
-            "fontFamily": "NunitoSans-Regular",
+            "fontFamily": undefined,
             "fontSize": 22,
             "lineHeight": 30,
             "padding": 19,

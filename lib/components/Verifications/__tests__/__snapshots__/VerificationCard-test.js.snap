@@ -27,7 +27,7 @@ exports[`VerificationCard renders VerificationCard 1`] = `
       style={
         Object {
           "color": "rgba(74,74,74,1)",
-          "fontFamily": "NunitoSans-Light",
+          "fontFamily": undefined,
           "fontSize": 14,
           "lineHeight": 19,
         }
@@ -273,7 +273,7 @@ exports[`VerificationCard renders VerificationCard with no issuer 1`] = `
       style={
         Object {
           "color": "rgba(74,74,74,1)",
-          "fontFamily": "NunitoSans-Light",
+          "fontFamily": undefined,
           "fontSize": 14,
           "lineHeight": 19,
         }
@@ -517,7 +517,7 @@ exports[`VerificationCard renders VerificationCard without logo 1`] = `
       style={
         Object {
           "color": "rgba(74,74,74,1)",
-          "fontFamily": "NunitoSans-Light",
+          "fontFamily": undefined,
           "fontSize": 14,
           "lineHeight": 19,
         }
@@ -796,7 +796,7 @@ ShallowWrapper {
             style={
               Object {
                 "color": "rgba(74,74,74,1)",
-                "fontFamily": "NunitoSans-Light",
+                "fontFamily": undefined,
                 "fontSize": 14,
                 "lineHeight": 19,
               }
@@ -860,7 +860,7 @@ ShallowWrapper {
               style={
                 Object {
                   "color": "rgba(74,74,74,1)",
-                  "fontFamily": "NunitoSans-Light",
+                  "fontFamily": undefined,
                   "fontSize": 14,
                   "lineHeight": 19,
                 }
@@ -916,7 +916,7 @@ ShallowWrapper {
               "ellipsizeMode": "tail",
               "style": Object {
                 "color": "rgba(74,74,74,1)",
-                "fontFamily": "NunitoSans-Light",
+                "fontFamily": undefined,
                 "fontSize": 14,
                 "lineHeight": 19,
               },
@@ -1029,7 +1029,7 @@ ShallowWrapper {
               style={
                 Object {
                   "color": "rgba(74,74,74,1)",
-                  "fontFamily": "NunitoSans-Light",
+                  "fontFamily": undefined,
                   "fontSize": 14,
                   "lineHeight": 19,
                 }
@@ -1093,7 +1093,7 @@ ShallowWrapper {
                 style={
                   Object {
                     "color": "rgba(74,74,74,1)",
-                    "fontFamily": "NunitoSans-Light",
+                    "fontFamily": undefined,
                     "fontSize": 14,
                     "lineHeight": 19,
                   }
@@ -1149,7 +1149,7 @@ ShallowWrapper {
                 "ellipsizeMode": "tail",
                 "style": Object {
                   "color": "rgba(74,74,74,1)",
-                  "fontFamily": "NunitoSans-Light",
+                  "fontFamily": undefined,
                   "fontSize": 14,
                   "lineHeight": 19,
                 },
@@ -1284,7 +1284,7 @@ exports[`VerificationCard renders complex VerificationCard 1`] = `
       style={
         Object {
           "color": "rgba(74,74,74,1)",
-          "fontFamily": "NunitoSans-Light",
+          "fontFamily": undefined,
           "fontSize": 14,
           "lineHeight": 19,
         }

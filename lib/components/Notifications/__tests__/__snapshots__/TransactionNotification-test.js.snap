@@ -67,7 +67,7 @@ exports[`Transaction Notification renders an send ether notification correctly 1
         style={
           Object {
             "color": "rgba(74,74,74,1)",
-            "fontFamily": "NunitoSans-Regular",
+            "fontFamily": undefined,
             "fontSize": 22,
             "lineHeight": 30,
             "padding": 19,
@@ -99,9 +99,9 @@ exports[`Transaction Notification renders an send ether notification correctly 1
               },
               Object {
                 "backgroundColor": "white",
-                "borderRadius": 3,
-                "height": 70,
-                "width": 70,
+                "borderRadius": 30,
+                "height": 60,
+                "width": 60,
               },
             ]
           }
@@ -112,18 +112,18 @@ exports[`Transaction Notification renders an send ether notification correctly 1
             style={
               Array [
                 Object {
-                  "borderRadius": 3,
-                  "height": 70,
-                  "width": 70,
+                  "borderRadius": 30,
+                  "height": 60,
+                  "width": 60,
                 },
                 Object {
                   "position": "absolute",
                 },
                 Array [
                   Object {
-                    "borderRadius": 3,
-                    "height": 70,
-                    "width": 70,
+                    "borderRadius": 30,
+                    "height": 60,
+                    "width": 60,
                   },
                   undefined,
                 ],
@@ -135,7 +135,7 @@ exports[`Transaction Notification renders an send ether notification correctly 1
       <Image
         source={
           Object {
-            "testUri": "../../../images/ForwardArrow.png",
+            "testUri": "../../../assets/images/ForwardArrow.png",
           }
         }
         style={
@@ -159,9 +159,9 @@ exports[`Transaction Notification renders an send ether notification correctly 1
                 },
                 Object {
                   "backgroundColor": "white",
-                  "borderRadius": 3,
-                  "height": 70,
-                  "width": 70,
+                  "borderRadius": 30,
+                  "height": 60,
+                  "width": 60,
                 },
               ]
             }
@@ -172,18 +172,18 @@ exports[`Transaction Notification renders an send ether notification correctly 1
               style={
                 Array [
                   Object {
-                    "borderRadius": 3,
-                    "height": 70,
-                    "width": 70,
+                    "borderRadius": 30,
+                    "height": 60,
+                    "width": 60,
                   },
                   Object {
                     "position": "absolute",
                   },
                   Array [
                     Object {
-                      "borderRadius": 3,
-                      "height": 70,
-                      "width": 70,
+                      "borderRadius": 30,
+                      "height": 60,
+                      "width": 60,
                     },
                     undefined,
                   ],
@@ -202,7 +202,6 @@ exports[`Transaction Notification renders an send ether notification correctly 1
         Array [
           Object {
             "color": "rgba(74,74,74,1)",
-            "fontFamily": "NunitoSans-Regular",
             "fontSize": 20,
             "lineHeight": 27,
             "textAlign": "center",
@@ -222,7 +221,6 @@ exports[`Transaction Notification renders an send ether notification correctly 1
       style={
         Object {
           "color": "rgba(74,74,74,1)",
-          "fontFamily": "NunitoSans-Light",
           "fontSize": 16,
           "lineHeight": 22,
           "textAlign": "center",
@@ -287,7 +285,7 @@ exports[`Transaction Notification renders an send ether notification correctly 1
           style={
             Array [
               Object {
-                "fontFamily": "NunitoSans-Bold",
+                "fontFamily": "Montserrat",
                 "fontSize": 18,
                 "textAlign": "center",
               },
@@ -346,7 +344,7 @@ exports[`Transaction Notification renders an send ether notification correctly 1
           style={
             Array [
               Object {
-                "fontFamily": "NunitoSans-Bold",
+                "fontFamily": "Montserrat",
                 "fontSize": 18,
                 "textAlign": "center",
               },
@@ -432,7 +430,7 @@ exports[`Transaction Notification renders an transaction notification correctly 
         style={
           Object {
             "color": "rgba(74,74,74,1)",
-            "fontFamily": "NunitoSans-Regular",
+            "fontFamily": undefined,
             "fontSize": 22,
             "lineHeight": 30,
             "padding": 19,
@@ -464,9 +462,9 @@ exports[`Transaction Notification renders an transaction notification correctly 
               },
               Object {
                 "backgroundColor": "white",
-                "borderRadius": 3,
-                "height": 70,
-                "width": 70,
+                "borderRadius": 30,
+                "height": 60,
+                "width": 60,
               },
             ]
           }
@@ -477,18 +475,18 @@ exports[`Transaction Notification renders an transaction notification correctly 
             style={
               Array [
                 Object {
-                  "borderRadius": 3,
-                  "height": 70,
-                  "width": 70,
+                  "borderRadius": 30,
+                  "height": 60,
+                  "width": 60,
                 },
                 Object {
                   "position": "absolute",
                 },
                 Array [
                   Object {
-                    "borderRadius": 3,
-                    "height": 70,
-                    "width": 70,
+                    "borderRadius": 30,
+                    "height": 60,
+                    "width": 60,
                   },
                   undefined,
                 ],
@@ -500,7 +498,7 @@ exports[`Transaction Notification renders an transaction notification correctly 
       <Image
         source={
           Object {
-            "testUri": "../../../images/ForwardArrow.png",
+            "testUri": "../../../assets/images/ForwardArrow.png",
           }
         }
         style={
@@ -524,9 +522,9 @@ exports[`Transaction Notification renders an transaction notification correctly 
                 },
                 Object {
                   "backgroundColor": "white",
-                  "borderRadius": 3,
-                  "height": 70,
-                  "width": 70,
+                  "borderRadius": 30,
+                  "height": 60,
+                  "width": 60,
                 },
               ]
             }
@@ -537,18 +535,18 @@ exports[`Transaction Notification renders an transaction notification correctly 
               style={
                 Array [
                   Object {
-                    "borderRadius": 3,
-                    "height": 70,
-                    "width": 70,
+                    "borderRadius": 30,
+                    "height": 60,
+                    "width": 60,
                   },
                   Object {
                     "position": "absolute",
                   },
                   Array [
                     Object {
-                      "borderRadius": 3,
-                      "height": 70,
-                      "width": 70,
+                      "borderRadius": 30,
+                      "height": 60,
+                      "width": 60,
                     },
                     undefined,
                   ],
@@ -567,7 +565,6 @@ exports[`Transaction Notification renders an transaction notification correctly 
         Array [
           Object {
             "color": "rgba(74,74,74,1)",
-            "fontFamily": "NunitoSans-Regular",
             "fontSize": 20,
             "lineHeight": 27,
             "textAlign": "center",
@@ -587,7 +584,6 @@ exports[`Transaction Notification renders an transaction notification correctly 
       style={
         Object {
           "color": "rgba(74,74,74,1)",
-          "fontFamily": "NunitoSans-Light",
           "fontSize": 16,
           "lineHeight": 22,
           "textAlign": "center",
@@ -652,7 +648,7 @@ exports[`Transaction Notification renders an transaction notification correctly 
           style={
             Array [
               Object {
-                "fontFamily": "NunitoSans-Bold",
+                "fontFamily": "Montserrat",
                 "fontSize": 18,
                 "textAlign": "center",
               },
@@ -711,7 +707,7 @@ exports[`Transaction Notification renders an transaction notification correctly 
           style={
             Array [
               Object {
-                "fontFamily": "NunitoSans-Bold",
+                "fontFamily": "Montserrat",
                 "fontSize": 18,
                 "textAlign": "center",
               },
@@ -797,7 +793,7 @@ exports[`Transaction Notification renders an transaction notification that has b
         style={
           Object {
             "color": "rgba(74,74,74,1)",
-            "fontFamily": "NunitoSans-Regular",
+            "fontFamily": undefined,
             "fontSize": 22,
             "lineHeight": 30,
             "padding": 19,
@@ -829,9 +825,9 @@ exports[`Transaction Notification renders an transaction notification that has b
               },
               Object {
                 "backgroundColor": "white",
-                "borderRadius": 3,
-                "height": 70,
-                "width": 70,
+                "borderRadius": 30,
+                "height": 60,
+                "width": 60,
               },
             ]
           }
@@ -842,18 +838,18 @@ exports[`Transaction Notification renders an transaction notification that has b
             style={
               Array [
                 Object {
-                  "borderRadius": 3,
-                  "height": 70,
-                  "width": 70,
+                  "borderRadius": 30,
+                  "height": 60,
+                  "width": 60,
                 },
                 Object {
                   "position": "absolute",
                 },
                 Array [
                   Object {
-                    "borderRadius": 3,
-                    "height": 70,
-                    "width": 70,
+                    "borderRadius": 30,
+                    "height": 60,
+                    "width": 60,
                   },
                   undefined,
                 ],
@@ -865,7 +861,7 @@ exports[`Transaction Notification renders an transaction notification that has b
       <Image
         source={
           Object {
-            "testUri": "../../../images/ForwardArrow.png",
+            "testUri": "../../../assets/images/ForwardArrow.png",
           }
         }
         style={
@@ -889,9 +885,9 @@ exports[`Transaction Notification renders an transaction notification that has b
                 },
                 Object {
                   "backgroundColor": "white",
-                  "borderRadius": 3,
-                  "height": 70,
-                  "width": 70,
+                  "borderRadius": 30,
+                  "height": 60,
+                  "width": 60,
                 },
               ]
             }
@@ -902,18 +898,18 @@ exports[`Transaction Notification renders an transaction notification that has b
               style={
                 Array [
                   Object {
-                    "borderRadius": 3,
-                    "height": 70,
-                    "width": 70,
+                    "borderRadius": 30,
+                    "height": 60,
+                    "width": 60,
                   },
                   Object {
                     "position": "absolute",
                   },
                   Array [
                     Object {
-                      "borderRadius": 3,
-                      "height": 70,
-                      "width": 70,
+                      "borderRadius": 30,
+                      "height": 60,
+                      "width": 60,
                     },
                     undefined,
                   ],
@@ -932,7 +928,6 @@ exports[`Transaction Notification renders an transaction notification that has b
         Array [
           Object {
             "color": "rgba(74,74,74,1)",
-            "fontFamily": "NunitoSans-Regular",
             "fontSize": 20,
             "lineHeight": 27,
             "textAlign": "center",
@@ -952,7 +947,6 @@ exports[`Transaction Notification renders an transaction notification that has b
       style={
         Object {
           "color": "rgba(74,74,74,1)",
-          "fontFamily": "NunitoSans-Light",
           "fontSize": 16,
           "lineHeight": 22,
           "textAlign": "center",
@@ -1032,7 +1026,7 @@ exports[`Transaction Notification renders an transaction notification that has b
         style={
           Object {
             "color": "rgba(74,74,74,1)",
-            "fontFamily": "NunitoSans-Regular",
+            "fontFamily": undefined,
             "fontSize": 22,
             "lineHeight": 30,
             "padding": 19,
@@ -1064,9 +1058,9 @@ exports[`Transaction Notification renders an transaction notification that has b
               },
               Object {
                 "backgroundColor": "white",
-                "borderRadius": 3,
-                "height": 70,
-                "width": 70,
+                "borderRadius": 30,
+                "height": 60,
+                "width": 60,
               },
             ]
           }
@@ -1077,18 +1071,18 @@ exports[`Transaction Notification renders an transaction notification that has b
             style={
               Array [
                 Object {
-                  "borderRadius": 3,
-                  "height": 70,
-                  "width": 70,
+                  "borderRadius": 30,
+                  "height": 60,
+                  "width": 60,
                 },
                 Object {
                   "position": "absolute",
                 },
                 Array [
                   Object {
-                    "borderRadius": 3,
-                    "height": 70,
-                    "width": 70,
+                    "borderRadius": 30,
+                    "height": 60,
+                    "width": 60,
                   },
                   undefined,
                 ],
@@ -1100,7 +1094,7 @@ exports[`Transaction Notification renders an transaction notification that has b
       <Image
         source={
           Object {
-            "testUri": "../../../images/ForwardArrow.png",
+            "testUri": "../../../assets/images/ForwardArrow.png",
           }
         }
         style={
@@ -1124,9 +1118,9 @@ exports[`Transaction Notification renders an transaction notification that has b
                 },
                 Object {
                   "backgroundColor": "white",
-                  "borderRadius": 3,
-                  "height": 70,
-                  "width": 70,
+                  "borderRadius": 30,
+                  "height": 60,
+                  "width": 60,
                 },
               ]
             }
@@ -1137,18 +1131,18 @@ exports[`Transaction Notification renders an transaction notification that has b
               style={
                 Array [
                   Object {
-                    "borderRadius": 3,
-                    "height": 70,
-                    "width": 70,
+                    "borderRadius": 30,
+                    "height": 60,
+                    "width": 60,
                   },
                   Object {
                     "position": "absolute",
                   },
                   Array [
                     Object {
-                      "borderRadius": 3,
-                      "height": 70,
-                      "width": 70,
+                      "borderRadius": 30,
+                      "height": 60,
+                      "width": 60,
                     },
                     undefined,
                   ],
@@ -1167,7 +1161,6 @@ exports[`Transaction Notification renders an transaction notification that has b
         Array [
           Object {
             "color": "rgba(74,74,74,1)",
-            "fontFamily": "NunitoSans-Regular",
             "fontSize": 20,
             "lineHeight": 27,
             "textAlign": "center",
@@ -1187,7 +1180,6 @@ exports[`Transaction Notification renders an transaction notification that has b
       style={
         Object {
           "color": "rgba(74,74,74,1)",
-          "fontFamily": "NunitoSans-Light",
           "fontSize": 16,
           "lineHeight": 22,
           "textAlign": "center",
@@ -1267,7 +1259,7 @@ exports[`Transaction Notification renders an txhash notification correctly 1`] =
         style={
           Object {
             "color": "rgba(74,74,74,1)",
-            "fontFamily": "NunitoSans-Regular",
+            "fontFamily": undefined,
             "fontSize": 22,
             "lineHeight": 30,
             "padding": 19,
@@ -1299,9 +1291,9 @@ exports[`Transaction Notification renders an txhash notification correctly 1`] =
               },
               Object {
                 "backgroundColor": "white",
-                "borderRadius": 3,
-                "height": 70,
-                "width": 70,
+                "borderRadius": 30,
+                "height": 60,
+                "width": 60,
               },
             ]
           }
@@ -1312,18 +1304,18 @@ exports[`Transaction Notification renders an txhash notification correctly 1`] =
             style={
               Array [
                 Object {
-                  "borderRadius": 3,
-                  "height": 70,
-                  "width": 70,
+                  "borderRadius": 30,
+                  "height": 60,
+                  "width": 60,
                 },
                 Object {
                   "position": "absolute",
                 },
                 Array [
                   Object {
-                    "borderRadius": 3,
-                    "height": 70,
-                    "width": 70,
+                    "borderRadius": 30,
+                    "height": 60,
+                    "width": 60,
                   },
                   undefined,
                 ],
@@ -1335,7 +1327,7 @@ exports[`Transaction Notification renders an txhash notification correctly 1`] =
       <Image
         source={
           Object {
-            "testUri": "../../../images/ForwardArrow.png",
+            "testUri": "../../../assets/images/ForwardArrow.png",
           }
         }
         style={
@@ -1359,9 +1351,9 @@ exports[`Transaction Notification renders an txhash notification correctly 1`] =
                 },
                 Object {
                   "backgroundColor": "white",
-                  "borderRadius": 3,
-                  "height": 70,
-                  "width": 70,
+                  "borderRadius": 30,
+                  "height": 60,
+                  "width": 60,
                 },
               ]
             }
@@ -1372,18 +1364,18 @@ exports[`Transaction Notification renders an txhash notification correctly 1`] =
               style={
                 Array [
                   Object {
-                    "borderRadius": 3,
-                    "height": 70,
-                    "width": 70,
+                    "borderRadius": 30,
+                    "height": 60,
+                    "width": 60,
                   },
                   Object {
                     "position": "absolute",
                   },
                   Array [
                     Object {
-                      "borderRadius": 3,
-                      "height": 70,
-                      "width": 70,
+                      "borderRadius": 30,
+                      "height": 60,
+                      "width": 60,
                     },
                     undefined,
                   ],
@@ -1402,7 +1394,6 @@ exports[`Transaction Notification renders an txhash notification correctly 1`] =
         Array [
           Object {
             "color": "rgba(74,74,74,1)",
-            "fontFamily": "NunitoSans-Regular",
             "fontSize": 20,
             "lineHeight": 27,
             "textAlign": "center",
@@ -1422,7 +1413,6 @@ exports[`Transaction Notification renders an txhash notification correctly 1`] =
       style={
         Object {
           "color": "rgba(74,74,74,1)",
-          "fontFamily": "NunitoSans-Light",
           "fontSize": 16,
           "lineHeight": 22,
           "textAlign": "center",
@@ -1487,7 +1477,7 @@ exports[`Transaction Notification renders an txhash notification correctly 1`] =
           style={
             Array [
               Object {
-                "fontFamily": "NunitoSans-Bold",
+                "fontFamily": "Montserrat",
                 "fontSize": 18,
                 "textAlign": "center",
               },
@@ -1546,7 +1536,7 @@ exports[`Transaction Notification renders an txhash notification correctly 1`] =
           style={
             Array [
               Object {
-                "fontFamily": "NunitoSans-Bold",
+                "fontFamily": "Montserrat",
                 "fontSize": 18,
                 "textAlign": "center",
               },
@@ -1632,7 +1622,7 @@ exports[`Transaction Notification renders an update uport transaction notificati
         style={
           Object {
             "color": "rgba(74,74,74,1)",
-            "fontFamily": "NunitoSans-Regular",
+            "fontFamily": undefined,
             "fontSize": 22,
             "lineHeight": 30,
             "padding": 19,
@@ -1664,9 +1654,9 @@ exports[`Transaction Notification renders an update uport transaction notificati
               },
               Object {
                 "backgroundColor": "white",
-                "borderRadius": 3,
-                "height": 70,
-                "width": 70,
+                "borderRadius": 30,
+                "height": 60,
+                "width": 60,
               },
             ]
           }
@@ -1677,18 +1667,18 @@ exports[`Transaction Notification renders an update uport transaction notificati
             style={
               Array [
                 Object {
-                  "borderRadius": 3,
-                  "height": 70,
-                  "width": 70,
+                  "borderRadius": 30,
+                  "height": 60,
+                  "width": 60,
                 },
                 Object {
                   "position": "absolute",
                 },
                 Array [
                   Object {
-                    "borderRadius": 3,
-                    "height": 70,
-                    "width": 70,
+                    "borderRadius": 30,
+                    "height": 60,
+                    "width": 60,
                   },
                   undefined,
                 ],
@@ -1700,7 +1690,7 @@ exports[`Transaction Notification renders an update uport transaction notificati
       <Image
         source={
           Object {
-            "testUri": "../../../images/ForwardArrow.png",
+            "testUri": "../../../assets/images/ForwardArrow.png",
           }
         }
         style={
@@ -1724,9 +1714,9 @@ exports[`Transaction Notification renders an update uport transaction notificati
                 },
                 Object {
                   "backgroundColor": "white",
-                  "borderRadius": 3,
-                  "height": 70,
-                  "width": 70,
+                  "borderRadius": 30,
+                  "height": 60,
+                  "width": 60,
                 },
               ]
             }
@@ -1737,18 +1727,18 @@ exports[`Transaction Notification renders an update uport transaction notificati
               style={
                 Array [
                   Object {
-                    "borderRadius": 3,
-                    "height": 70,
-                    "width": 70,
+                    "borderRadius": 30,
+                    "height": 60,
+                    "width": 60,
                   },
                   Object {
                     "position": "absolute",
                   },
                   Array [
                     Object {
-                      "borderRadius": 3,
-                      "height": 70,
-                      "width": 70,
+                      "borderRadius": 30,
+                      "height": 60,
+                      "width": 60,
                     },
                     undefined,
                   ],
@@ -1767,7 +1757,6 @@ exports[`Transaction Notification renders an update uport transaction notificati
         Array [
           Object {
             "color": "rgba(74,74,74,1)",
-            "fontFamily": "NunitoSans-Regular",
             "fontSize": 20,
             "lineHeight": 27,
             "textAlign": "center",
@@ -1787,7 +1776,6 @@ exports[`Transaction Notification renders an update uport transaction notificati
       style={
         Object {
           "color": "rgba(74,74,74,1)",
-          "fontFamily": "NunitoSans-Light",
           "fontSize": 16,
           "lineHeight": 22,
           "textAlign": "center",
@@ -1852,7 +1840,7 @@ exports[`Transaction Notification renders an update uport transaction notificati
           style={
             Array [
               Object {
-                "fontFamily": "NunitoSans-Bold",
+                "fontFamily": "Montserrat",
                 "fontSize": 18,
                 "textAlign": "center",
               },
@@ -1911,7 +1899,7 @@ exports[`Transaction Notification renders an update uport transaction notificati
           style={
             Array [
               Object {
-                "fontFamily": "NunitoSans-Bold",
+                "fontFamily": "Montserrat",
                 "fontSize": 18,
                 "textAlign": "center",
               },

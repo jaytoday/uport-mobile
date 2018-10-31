@@ -24,7 +24,7 @@ exports[`renders empty menu 1`] = `
       Array [
         Object {
           "borderBottomColor": "rgba(216,216,216,1)",
-          "borderBottomWidth": 1,
+          "borderBottomWidth": 0.5,
         },
         Object {
           "flex": 1,
@@ -61,7 +61,7 @@ exports[`renders with MenuItems 1`] = `
       Array [
         Object {
           "borderBottomColor": "rgba(216,216,216,1)",
-          "borderBottomWidth": 1,
+          "borderBottomWidth": 0.5,
         },
         Object {
           "flex": 1,
@@ -76,11 +76,11 @@ exports[`renders with MenuItems 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#FFFFFF",
+              "borderBottomWidth": 0.5,
               "borderColor": "rgba(216,216,216,1)",
-              "borderTopWidth": 1,
               "flexDirection": "row",
               "justifyContent": "space-between",
-              "padding": 19,
+              "padding": 15,
             },
             Object {},
           ]
@@ -93,9 +93,8 @@ exports[`renders with MenuItems 1`] = `
           style={
             Array [
               Object {
-                "color": "rgba(170,170,170,1)",
-                "fontFamily": "NunitoSans-Regular",
-                "fontSize": 16,
+                "color": "rgba(74,74,74,1)",
+                "fontSize": 14,
                 "lineHeight": 22,
               },
             ]
@@ -110,11 +109,11 @@ exports[`renders with MenuItems 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#FFFFFF",
+              "borderBottomWidth": 0.5,
               "borderColor": "rgba(216,216,216,1)",
-              "borderTopWidth": 1,
               "flexDirection": "row",
               "justifyContent": "space-between",
-              "padding": 19,
+              "padding": 15,
             },
             Object {},
           ]
@@ -127,9 +126,8 @@ exports[`renders with MenuItems 1`] = `
           style={
             Array [
               Object {
-                "color": "rgba(170,170,170,1)",
-                "fontFamily": "NunitoSans-Regular",
-                "fontSize": 16,
+                "color": "rgba(74,74,74,1)",
+                "fontSize": 14,
                 "lineHeight": 22,
               },
             ]
@@ -145,7 +143,6 @@ exports[`renders with MenuItems 1`] = `
             Array [
               Object {
                 "color": "rgba(74,74,74,1)",
-                "fontFamily": "NunitoSans-Light",
                 "fontSize": 14,
                 "lineHeight": 22,
               },

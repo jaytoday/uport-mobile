@@ -252,7 +252,7 @@ exports[`AccountInfo Component renders info correctly 1`] = `
                 },
                 Object {
                   "backgroundColor": "white",
-                  "borderRadius": 3,
+                  "borderRadius": 30,
                   "height": 120,
                   "width": 120,
                 },
@@ -263,13 +263,13 @@ exports[`AccountInfo Component renders info correctly 1`] = `
               resizeMode="cover"
               source={
                 Object {
-                  "testUri": "../../../images/eth-symbol2.png",
+                  "testUri": "../../../assets/images/eth-symbol2.png",
                 }
               }
               style={
                 Array [
                   Object {
-                    "borderRadius": 3,
+                    "borderRadius": 30,
                     "height": 120,
                     "width": 120,
                   },
@@ -278,7 +278,7 @@ exports[`AccountInfo Component renders info correctly 1`] = `
                   },
                   Array [
                     Object {
-                      "borderRadius": 3,
+                      "borderRadius": 30,
                       "height": 120,
                       "width": 120,
                     },

@@ -46,7 +46,6 @@ exports[`renders Onboarding Security Block screen 1`] = `
         style={
           Object {
             "color": "rgba(74,74,74,1)",
-            "fontFamily": "NunitoSans-Regular",
             "fontSize": 24,
             "lineHeight": 30,
             "marginBottom": 16,
@@ -95,7 +94,6 @@ exports[`renders Onboarding Security Block screen 1`] = `
           Array [
             Object {
               "color": "rgba(74,74,74,1)",
-              "fontFamily": "NunitoSans-Light",
               "fontSize": 16,
               "lineHeight": 22,
               "textAlign": "center",
@@ -116,7 +114,6 @@ exports[`renders Onboarding Security Block screen 1`] = `
           Array [
             Object {
               "color": "rgba(74,74,74,1)",
-              "fontFamily": "NunitoSans-Light",
               "fontSize": 16,
               "lineHeight": 22,
               "textAlign": "center",
@@ -214,14 +211,14 @@ exports[`renders Onboarding Security Block screen 1`] = `
               style={
                 Array [
                   Object {
-                    "fontFamily": "NunitoSans-Bold",
+                    "fontFamily": "Montserrat",
                     "fontSize": 18,
                     "textAlign": "center",
                   },
                   Array [
                     Object {
                       "color": "rgba(54,184,123,1)",
-                      "fontFamily": "NunitoSans-Bold",
+                      "fontFamily": undefined,
                       "fontSize": 18,
                       "lineHeight": 25,
                       "padding": 3,

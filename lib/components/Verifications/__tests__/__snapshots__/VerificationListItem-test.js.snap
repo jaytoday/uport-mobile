@@ -76,7 +76,7 @@ exports[`render VerificationListItem pending] 1`] = `
             Array [
               Object {
                 "color": "rgba(91,91,91,1)",
-                "fontFamily": "NunitoSans-Bold",
+                "fontFamily": undefined,
                 "fontSize": 16,
                 "lineHeight": 22,
               },
@@ -93,7 +93,7 @@ exports[`render VerificationListItem pending] 1`] = `
             Array [
               Object {
                 "color": "rgba(155,155,155,1)",
-                "fontFamily": "NunitoSans-Light",
+                "fontFamily": undefined,
                 "fontSize": 12,
                 "letterSpacing": 0.5,
                 "lineHeight": 16,
@@ -137,7 +137,7 @@ exports[`render VerificationListItem pending] 1`] = `
           Array [
             Object {
               "color": "rgba(10, 10, 10, 0.5)",
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
               "fontSize": 10,
               "letterSpacing": 0.5,
             },
@@ -227,7 +227,7 @@ exports[`render VerificationListItem with expiration 1`] = `
             Array [
               Object {
                 "color": "rgba(91,91,91,1)",
-                "fontFamily": "NunitoSans-Bold",
+                "fontFamily": undefined,
                 "fontSize": 16,
                 "lineHeight": 22,
               },
@@ -244,7 +244,7 @@ exports[`render VerificationListItem with expiration 1`] = `
             Array [
               Object {
                 "color": "rgba(155,155,155,1)",
-                "fontFamily": "NunitoSans-Light",
+                "fontFamily": undefined,
                 "fontSize": 12,
                 "letterSpacing": 0.5,
                 "lineHeight": 16,
@@ -291,7 +291,7 @@ exports[`render VerificationListItem with expiration 1`] = `
           Array [
             Object {
               "color": "rgba(10, 10, 10, 0.5)",
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
               "fontSize": 10,
               "letterSpacing": 0.5,
             },
@@ -381,7 +381,7 @@ exports[`render VerificationListItem without expiration 1`] = `
             Array [
               Object {
                 "color": "rgba(91,91,91,1)",
-                "fontFamily": "NunitoSans-Bold",
+                "fontFamily": undefined,
                 "fontSize": 16,
                 "lineHeight": 22,
               },
@@ -398,7 +398,7 @@ exports[`render VerificationListItem without expiration 1`] = `
             Array [
               Object {
                 "color": "rgba(155,155,155,1)",
-                "fontFamily": "NunitoSans-Light",
+                "fontFamily": undefined,
                 "fontSize": 12,
                 "letterSpacing": 0.5,
                 "lineHeight": 16,
@@ -442,7 +442,7 @@ exports[`render VerificationListItem without expiration 1`] = `
           Array [
             Object {
               "color": "rgba(10, 10, 10, 0.5)",
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
               "fontSize": 10,
               "letterSpacing": 0.5,
             },

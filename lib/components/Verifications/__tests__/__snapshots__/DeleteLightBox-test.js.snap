@@ -31,7 +31,6 @@ exports[`DeleteLightbox renders DeleteLightbox 1`] = `
       style={
         Object {
           "color": "rgba(74,74,74,1)",
-          "fontFamily": "NunitoSans-Regular",
           "fontSize": 20,
           "lineHeight": 27,
           "textAlign": "center",
@@ -47,7 +46,6 @@ exports[`DeleteLightbox renders DeleteLightbox 1`] = `
       style={
         Object {
           "color": "rgba(74,74,74,1)",
-          "fontFamily": "NunitoSans-Light",
           "fontSize": 16,
           "lineHeight": 22,
           "textAlign": "center",
@@ -106,7 +104,7 @@ exports[`DeleteLightbox renders DeleteLightbox 1`] = `
             style={
               Object {
                 "color": "rgba(74,74,74,1)",
-                "fontFamily": "NunitoSans-Regular",
+                "fontFamily": undefined,
               }
             }
           >
@@ -155,7 +153,7 @@ exports[`DeleteLightbox renders DeleteLightbox 1`] = `
             style={
               Object {
                 "color": "red",
-                "fontFamily": "NunitoSans-Regular",
+                "fontFamily": undefined,
               }
             }
           >

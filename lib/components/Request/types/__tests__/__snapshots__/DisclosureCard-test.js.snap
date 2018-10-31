@@ -65,7 +65,6 @@ ShallowWrapper {
             style={
               Object {
                 "color": "rgba(74,74,74,1)",
-                "fontFamily": "NunitoSans-Regular",
                 "fontSize": 20,
                 "lineHeight": 27,
                 "textAlign": "center",
@@ -81,7 +80,6 @@ ShallowWrapper {
             style={
               Object {
                 "color": "rgba(74,74,74,1)",
-                "fontFamily": "NunitoSans-Light",
                 "fontSize": 16,
                 "lineHeight": 22,
                 "textAlign": "center",
@@ -144,7 +142,6 @@ ShallowWrapper {
               style={
                 Object {
                   "color": "rgba(74,74,74,1)",
-                  "fontFamily": "NunitoSans-Regular",
                   "fontSize": 20,
                   "lineHeight": 27,
                   "textAlign": "center",
@@ -160,7 +157,6 @@ ShallowWrapper {
               style={
                 Object {
                   "color": "rgba(74,74,74,1)",
-                  "fontFamily": "NunitoSans-Light",
                   "fontSize": 16,
                   "lineHeight": 22,
                   "textAlign": "center",
@@ -188,7 +184,6 @@ ShallowWrapper {
               "ellipsizeMode": "tail",
               "style": Object {
                 "color": "rgba(74,74,74,1)",
-                "fontFamily": "NunitoSans-Regular",
                 "fontSize": 20,
                 "lineHeight": 27,
                 "textAlign": "center",
@@ -209,7 +204,6 @@ ShallowWrapper {
               "ellipsizeMode": "tail",
               "style": Object {
                 "color": "rgba(74,74,74,1)",
-                "fontFamily": "NunitoSans-Light",
                 "fontSize": 16,
                 "lineHeight": 22,
                 "textAlign": "center",
@@ -304,7 +298,6 @@ ShallowWrapper {
               style={
                 Object {
                   "color": "rgba(74,74,74,1)",
-                  "fontFamily": "NunitoSans-Regular",
                   "fontSize": 20,
                   "lineHeight": 27,
                   "textAlign": "center",
@@ -320,7 +313,6 @@ ShallowWrapper {
               style={
                 Object {
                   "color": "rgba(74,74,74,1)",
-                  "fontFamily": "NunitoSans-Light",
                   "fontSize": 16,
                   "lineHeight": 22,
                   "textAlign": "center",
@@ -383,7 +375,6 @@ ShallowWrapper {
                 style={
                   Object {
                     "color": "rgba(74,74,74,1)",
-                    "fontFamily": "NunitoSans-Regular",
                     "fontSize": 20,
                     "lineHeight": 27,
                     "textAlign": "center",
@@ -399,7 +390,6 @@ ShallowWrapper {
                 style={
                   Object {
                     "color": "rgba(74,74,74,1)",
-                    "fontFamily": "NunitoSans-Light",
                     "fontSize": 16,
                     "lineHeight": 22,
                     "textAlign": "center",
@@ -427,7 +417,6 @@ ShallowWrapper {
                 "ellipsizeMode": "tail",
                 "style": Object {
                   "color": "rgba(74,74,74,1)",
-                  "fontFamily": "NunitoSans-Regular",
                   "fontSize": 20,
                   "lineHeight": 27,
                   "textAlign": "center",
@@ -448,7 +437,6 @@ ShallowWrapper {
                 "ellipsizeMode": "tail",
                 "style": Object {
                   "color": "rgba(74,74,74,1)",
-                  "fontFamily": "NunitoSans-Light",
                   "fontSize": 16,
                   "lineHeight": 22,
                   "textAlign": "center",
@@ -566,9 +554,9 @@ exports[`DisclosureCard renders correctly with a full disclosure request 1`] = `
             },
             Object {
               "backgroundColor": "white",
-              "borderRadius": 3,
-              "height": 70,
-              "width": 70,
+              "borderRadius": 30,
+              "height": 60,
+              "width": 60,
             },
           ]
         }
@@ -583,18 +571,18 @@ exports[`DisclosureCard renders correctly with a full disclosure request 1`] = `
           style={
             Array [
               Object {
-                "borderRadius": 3,
-                "height": 70,
-                "width": 70,
+                "borderRadius": 30,
+                "height": 60,
+                "width": 60,
               },
               Object {
                 "position": "absolute",
               },
               Array [
                 Object {
-                  "borderRadius": 3,
-                  "height": 70,
-                  "width": 70,
+                  "borderRadius": 30,
+                  "height": 60,
+                  "width": 60,
                 },
                 undefined,
               ],
@@ -606,7 +594,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request 1`] = `
     <Image
       source={
         Object {
-          "testUri": "../../../images/ForwardArrow.png",
+          "testUri": "../../../assets/images/ForwardArrow.png",
         }
       }
       style={
@@ -629,15 +617,15 @@ exports[`DisclosureCard renders correctly with a full disclosure request 1`] = `
                 "justifyContent": "center",
               },
               Object {
-                "borderRadius": 3,
-                "height": 70,
-                "width": 70,
+                "borderRadius": 30,
+                "height": 60,
+                "width": 60,
               },
               Object {
                 "backgroundColor": "rgba(91,84,199,1)",
               },
               Object {
-                "padding": 17.5,
+                "padding": 15,
               },
             ]
           }
@@ -649,14 +637,14 @@ exports[`DisclosureCard renders correctly with a full disclosure request 1`] = `
             style={
               Array [
                 Object {
-                  "fontFamily": "NunitoSans-Regular",
-                  "fontSize": 17.5,
+                  "fontFamily": undefined,
+                  "fontSize": 15,
                   "textAlign": "center",
                 },
                 undefined,
                 Object {
                   "color": "white",
-                  "fontSize": 17.5,
+                  "fontSize": 15,
                 },
               ]
             }
@@ -682,7 +670,6 @@ exports[`DisclosureCard renders correctly with a full disclosure request 1`] = `
       style={
         Object {
           "color": "rgba(74,74,74,1)",
-          "fontFamily": "NunitoSans-Regular",
           "fontSize": 20,
           "lineHeight": 27,
           "textAlign": "center",
@@ -698,7 +685,6 @@ exports[`DisclosureCard renders correctly with a full disclosure request 1`] = `
       style={
         Object {
           "color": "rgba(74,74,74,1)",
-          "fontFamily": "NunitoSans-Light",
           "fontSize": 16,
           "lineHeight": 22,
           "textAlign": "center",
@@ -747,7 +733,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request 1`] = `
             Object {
               "color": "rgba(155,155,155,1)",
               "flex": 0,
-              "fontFamily": "NunitoSans-Light",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginLeft": 10,
@@ -768,7 +754,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request 1`] = `
             Object {
               "color": "rgba(130,130,130,1)",
               "flex": 1,
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginRight": 10,
@@ -799,7 +785,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request 1`] = `
             Object {
               "color": "rgba(155,155,155,1)",
               "flex": 0,
-              "fontFamily": "NunitoSans-Light",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginLeft": 10,
@@ -820,7 +806,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request 1`] = `
             Object {
               "color": "rgba(130,130,130,1)",
               "flex": 1,
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginRight": 10,
@@ -851,7 +837,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request 1`] = `
             Object {
               "color": "rgba(155,155,155,1)",
               "flex": 0,
-              "fontFamily": "NunitoSans-Light",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginLeft": 10,
@@ -872,7 +858,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request 1`] = `
             Object {
               "color": "rgba(130,130,130,1)",
               "flex": 1,
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginRight": 10,
@@ -905,7 +891,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request 1`] = `
             Object {
               "color": "rgba(155,155,155,1)",
               "flex": 0,
-              "fontFamily": "NunitoSans-Light",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginLeft": 10,
@@ -926,7 +912,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request 1`] = `
             Object {
               "color": "rgba(130,130,130,1)",
               "flex": 1,
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginRight": 10,
@@ -969,7 +955,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request 1`] = `
         style={
           Object {
             "color": "rgba(138,155,161,1.0)",
-            "fontFamily": "NunitoSans-Regular",
+            "fontFamily": undefined,
             "fontSize": 13,
             "letterSpacing": 0.5,
             "lineHeight": 15,
@@ -990,7 +976,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request 1`] = `
             Array [
               Object {
                 "color": "rgba(138,155,161,1.0)",
-                "fontFamily": "NunitoSans-Regular",
+                "fontFamily": undefined,
                 "fontSize": 13,
                 "letterSpacing": 0.5,
                 "lineHeight": 15,
@@ -1062,7 +1048,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request 1`] = `
         style={
           Array [
             Object {
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": "Montserrat",
               "fontSize": 18,
               "textAlign": "center",
             },
@@ -1121,7 +1107,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request 1`] = `
         style={
           Array [
             Object {
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": "Montserrat",
               "fontSize": 18,
               "textAlign": "center",
             },
@@ -1168,9 +1154,9 @@ exports[`DisclosureCard renders correctly with a full disclosure request and cli
             },
             Object {
               "backgroundColor": "white",
-              "borderRadius": 3,
-              "height": 70,
-              "width": 70,
+              "borderRadius": 30,
+              "height": 60,
+              "width": 60,
             },
           ]
         }
@@ -1185,18 +1171,18 @@ exports[`DisclosureCard renders correctly with a full disclosure request and cli
           style={
             Array [
               Object {
-                "borderRadius": 3,
-                "height": 70,
-                "width": 70,
+                "borderRadius": 30,
+                "height": 60,
+                "width": 60,
               },
               Object {
                 "position": "absolute",
               },
               Array [
                 Object {
-                  "borderRadius": 3,
-                  "height": 70,
-                  "width": 70,
+                  "borderRadius": 30,
+                  "height": 60,
+                  "width": 60,
                 },
                 undefined,
               ],
@@ -1208,7 +1194,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request and cli
     <Image
       source={
         Object {
-          "testUri": "../../../images/ForwardArrow.png",
+          "testUri": "../../../assets/images/ForwardArrow.png",
         }
       }
       style={
@@ -1231,15 +1217,15 @@ exports[`DisclosureCard renders correctly with a full disclosure request and cli
                 "justifyContent": "center",
               },
               Object {
-                "borderRadius": 3,
-                "height": 70,
-                "width": 70,
+                "borderRadius": 30,
+                "height": 60,
+                "width": 60,
               },
               Object {
                 "backgroundColor": "rgba(91,84,199,1)",
               },
               Object {
-                "padding": 17.5,
+                "padding": 15,
               },
             ]
           }
@@ -1251,14 +1237,14 @@ exports[`DisclosureCard renders correctly with a full disclosure request and cli
             style={
               Array [
                 Object {
-                  "fontFamily": "NunitoSans-Regular",
-                  "fontSize": 17.5,
+                  "fontFamily": undefined,
+                  "fontSize": 15,
                   "textAlign": "center",
                 },
                 undefined,
                 Object {
                   "color": "white",
-                  "fontSize": 17.5,
+                  "fontSize": 15,
                 },
               ]
             }
@@ -1284,7 +1270,6 @@ exports[`DisclosureCard renders correctly with a full disclosure request and cli
       style={
         Object {
           "color": "rgba(74,74,74,1)",
-          "fontFamily": "NunitoSans-Regular",
           "fontSize": 20,
           "lineHeight": 27,
           "textAlign": "center",
@@ -1300,7 +1285,6 @@ exports[`DisclosureCard renders correctly with a full disclosure request and cli
       style={
         Object {
           "color": "rgba(74,74,74,1)",
-          "fontFamily": "NunitoSans-Light",
           "fontSize": 16,
           "lineHeight": 22,
           "textAlign": "center",
@@ -1349,7 +1333,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request and cli
             Object {
               "color": "rgba(155,155,155,1)",
               "flex": 0,
-              "fontFamily": "NunitoSans-Light",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginLeft": 10,
@@ -1370,7 +1354,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request and cli
             Object {
               "color": "rgba(130,130,130,1)",
               "flex": 1,
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginRight": 10,
@@ -1401,7 +1385,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request and cli
             Object {
               "color": "rgba(155,155,155,1)",
               "flex": 0,
-              "fontFamily": "NunitoSans-Light",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginLeft": 10,
@@ -1422,7 +1406,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request and cli
             Object {
               "color": "rgba(130,130,130,1)",
               "flex": 1,
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginRight": 10,
@@ -1453,7 +1437,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request and cli
             Object {
               "color": "rgba(155,155,155,1)",
               "flex": 0,
-              "fontFamily": "NunitoSans-Light",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginLeft": 10,
@@ -1474,7 +1458,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request and cli
             Object {
               "color": "rgba(130,130,130,1)",
               "flex": 1,
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginRight": 10,
@@ -1507,7 +1491,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request and cli
             Object {
               "color": "rgba(155,155,155,1)",
               "flex": 0,
-              "fontFamily": "NunitoSans-Light",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginLeft": 10,
@@ -1528,7 +1512,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request and cli
             Object {
               "color": "rgba(130,130,130,1)",
               "flex": 1,
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginRight": 10,
@@ -1571,7 +1555,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request and cli
         style={
           Object {
             "color": "rgba(138,155,161,1.0)",
-            "fontFamily": "NunitoSans-Regular",
+            "fontFamily": undefined,
             "fontSize": 13,
             "letterSpacing": 0.5,
             "lineHeight": 15,
@@ -1592,7 +1576,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request and cli
             Array [
               Object {
                 "color": "rgba(138,155,161,1.0)",
-                "fontFamily": "NunitoSans-Regular",
+                "fontFamily": undefined,
                 "fontSize": 13,
                 "letterSpacing": 0.5,
                 "lineHeight": 15,
@@ -1664,7 +1648,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request and cli
         style={
           Array [
             Object {
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": "Montserrat",
               "fontSize": 18,
               "textAlign": "center",
             },
@@ -1723,7 +1707,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request and cli
         style={
           Array [
             Object {
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": "Montserrat",
               "fontSize": 18,
               "textAlign": "center",
             },
@@ -1770,9 +1754,9 @@ exports[`DisclosureCard renders correctly with a full disclosure request and ver
             },
             Object {
               "backgroundColor": "white",
-              "borderRadius": 3,
-              "height": 70,
-              "width": 70,
+              "borderRadius": 30,
+              "height": 60,
+              "width": 60,
             },
           ]
         }
@@ -1787,18 +1771,18 @@ exports[`DisclosureCard renders correctly with a full disclosure request and ver
           style={
             Array [
               Object {
-                "borderRadius": 3,
-                "height": 70,
-                "width": 70,
+                "borderRadius": 30,
+                "height": 60,
+                "width": 60,
               },
               Object {
                 "position": "absolute",
               },
               Array [
                 Object {
-                  "borderRadius": 3,
-                  "height": 70,
-                  "width": 70,
+                  "borderRadius": 30,
+                  "height": 60,
+                  "width": 60,
                 },
                 undefined,
               ],
@@ -1810,7 +1794,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request and ver
     <Image
       source={
         Object {
-          "testUri": "../../../images/ForwardArrow.png",
+          "testUri": "../../../assets/images/ForwardArrow.png",
         }
       }
       style={
@@ -1833,15 +1817,15 @@ exports[`DisclosureCard renders correctly with a full disclosure request and ver
                 "justifyContent": "center",
               },
               Object {
-                "borderRadius": 3,
-                "height": 70,
-                "width": 70,
+                "borderRadius": 30,
+                "height": 60,
+                "width": 60,
               },
               Object {
                 "backgroundColor": "rgba(91,84,199,1)",
               },
               Object {
-                "padding": 17.5,
+                "padding": 15,
               },
             ]
           }
@@ -1853,14 +1837,14 @@ exports[`DisclosureCard renders correctly with a full disclosure request and ver
             style={
               Array [
                 Object {
-                  "fontFamily": "NunitoSans-Regular",
-                  "fontSize": 17.5,
+                  "fontFamily": undefined,
+                  "fontSize": 15,
                   "textAlign": "center",
                 },
                 undefined,
                 Object {
                   "color": "white",
-                  "fontSize": 17.5,
+                  "fontSize": 15,
                 },
               ]
             }
@@ -1886,7 +1870,6 @@ exports[`DisclosureCard renders correctly with a full disclosure request and ver
       style={
         Object {
           "color": "rgba(74,74,74,1)",
-          "fontFamily": "NunitoSans-Regular",
           "fontSize": 20,
           "lineHeight": 27,
           "textAlign": "center",
@@ -1902,7 +1885,6 @@ exports[`DisclosureCard renders correctly with a full disclosure request and ver
       style={
         Object {
           "color": "rgba(74,74,74,1)",
-          "fontFamily": "NunitoSans-Light",
           "fontSize": 16,
           "lineHeight": 22,
           "textAlign": "center",
@@ -1951,7 +1933,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request and ver
             Object {
               "color": "rgba(155,155,155,1)",
               "flex": 0,
-              "fontFamily": "NunitoSans-Light",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginLeft": 10,
@@ -1972,7 +1954,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request and ver
             Object {
               "color": "rgba(130,130,130,1)",
               "flex": 1,
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginRight": 10,
@@ -2003,7 +1985,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request and ver
             Object {
               "color": "rgba(155,155,155,1)",
               "flex": 0,
-              "fontFamily": "NunitoSans-Light",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginLeft": 10,
@@ -2024,7 +2006,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request and ver
             Object {
               "color": "rgba(130,130,130,1)",
               "flex": 1,
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginRight": 10,
@@ -2055,7 +2037,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request and ver
             Object {
               "color": "rgba(155,155,155,1)",
               "flex": 0,
-              "fontFamily": "NunitoSans-Light",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginLeft": 10,
@@ -2076,7 +2058,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request and ver
             Object {
               "color": "rgba(130,130,130,1)",
               "flex": 1,
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginRight": 10,
@@ -2094,7 +2076,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request and ver
             style={
               Object {
                 "color": "rgba(16,18,32,0.3)",
-                "fontFamily": "NunitoSans-Regular",
+                "fontFamily": undefined,
                 "fontSize": 10,
                 "letterSpacing": 0.5,
                 "lineHeight": 17,
@@ -2129,7 +2111,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request and ver
             Object {
               "color": "rgba(155,155,155,1)",
               "flex": 0,
-              "fontFamily": "NunitoSans-Light",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginLeft": 10,
@@ -2150,7 +2132,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request and ver
             Object {
               "color": "rgba(130,130,130,1)",
               "flex": 1,
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginRight": 10,
@@ -2193,7 +2175,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request and ver
         style={
           Object {
             "color": "rgba(138,155,161,1.0)",
-            "fontFamily": "NunitoSans-Regular",
+            "fontFamily": undefined,
             "fontSize": 13,
             "letterSpacing": 0.5,
             "lineHeight": 15,
@@ -2214,7 +2196,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request and ver
             Array [
               Object {
                 "color": "rgba(138,155,161,1.0)",
-                "fontFamily": "NunitoSans-Regular",
+                "fontFamily": undefined,
                 "fontSize": 13,
                 "letterSpacing": 0.5,
                 "lineHeight": 15,
@@ -2286,7 +2268,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request and ver
         style={
           Array [
             Object {
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": "Montserrat",
               "fontSize": 18,
               "textAlign": "center",
             },
@@ -2345,7 +2327,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request and ver
         style={
           Array [
             Object {
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": "Montserrat",
               "fontSize": 18,
               "textAlign": "center",
             },
@@ -2392,9 +2374,9 @@ exports[`DisclosureCard renders correctly with a full disclosure request with pu
             },
             Object {
               "backgroundColor": "white",
-              "borderRadius": 3,
-              "height": 70,
-              "width": 70,
+              "borderRadius": 30,
+              "height": 60,
+              "width": 60,
             },
           ]
         }
@@ -2409,18 +2391,18 @@ exports[`DisclosureCard renders correctly with a full disclosure request with pu
           style={
             Array [
               Object {
-                "borderRadius": 3,
-                "height": 70,
-                "width": 70,
+                "borderRadius": 30,
+                "height": 60,
+                "width": 60,
               },
               Object {
                 "position": "absolute",
               },
               Array [
                 Object {
-                  "borderRadius": 3,
-                  "height": 70,
-                  "width": 70,
+                  "borderRadius": 30,
+                  "height": 60,
+                  "width": 60,
                 },
                 undefined,
               ],
@@ -2432,7 +2414,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request with pu
     <Image
       source={
         Object {
-          "testUri": "../../../images/ForwardArrow.png",
+          "testUri": "../../../assets/images/ForwardArrow.png",
         }
       }
       style={
@@ -2455,15 +2437,15 @@ exports[`DisclosureCard renders correctly with a full disclosure request with pu
                 "justifyContent": "center",
               },
               Object {
-                "borderRadius": 3,
-                "height": 70,
-                "width": 70,
+                "borderRadius": 30,
+                "height": 60,
+                "width": 60,
               },
               Object {
                 "backgroundColor": "rgba(91,84,199,1)",
               },
               Object {
-                "padding": 17.5,
+                "padding": 15,
               },
             ]
           }
@@ -2475,14 +2457,14 @@ exports[`DisclosureCard renders correctly with a full disclosure request with pu
             style={
               Array [
                 Object {
-                  "fontFamily": "NunitoSans-Regular",
-                  "fontSize": 17.5,
+                  "fontFamily": undefined,
+                  "fontSize": 15,
                   "textAlign": "center",
                 },
                 undefined,
                 Object {
                   "color": "white",
-                  "fontSize": 17.5,
+                  "fontSize": 15,
                 },
               ]
             }
@@ -2508,7 +2490,6 @@ exports[`DisclosureCard renders correctly with a full disclosure request with pu
       style={
         Object {
           "color": "rgba(74,74,74,1)",
-          "fontFamily": "NunitoSans-Regular",
           "fontSize": 20,
           "lineHeight": 27,
           "textAlign": "center",
@@ -2524,7 +2505,6 @@ exports[`DisclosureCard renders correctly with a full disclosure request with pu
       style={
         Object {
           "color": "rgba(74,74,74,1)",
-          "fontFamily": "NunitoSans-Light",
           "fontSize": 16,
           "lineHeight": 22,
           "textAlign": "center",
@@ -2573,7 +2553,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request with pu
             Object {
               "color": "rgba(155,155,155,1)",
               "flex": 0,
-              "fontFamily": "NunitoSans-Light",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginLeft": 10,
@@ -2594,7 +2574,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request with pu
             Object {
               "color": "rgba(130,130,130,1)",
               "flex": 1,
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginRight": 10,
@@ -2625,7 +2605,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request with pu
             Object {
               "color": "rgba(155,155,155,1)",
               "flex": 0,
-              "fontFamily": "NunitoSans-Light",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginLeft": 10,
@@ -2646,7 +2626,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request with pu
             Object {
               "color": "rgba(130,130,130,1)",
               "flex": 1,
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginRight": 10,
@@ -2677,7 +2657,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request with pu
             Object {
               "color": "rgba(155,155,155,1)",
               "flex": 0,
-              "fontFamily": "NunitoSans-Light",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginLeft": 10,
@@ -2698,7 +2678,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request with pu
             Object {
               "color": "rgba(130,130,130,1)",
               "flex": 1,
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginRight": 10,
@@ -2731,7 +2711,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request with pu
             Object {
               "color": "rgba(155,155,155,1)",
               "flex": 0,
-              "fontFamily": "NunitoSans-Light",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginLeft": 10,
@@ -2752,7 +2732,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request with pu
             Object {
               "color": "rgba(130,130,130,1)",
               "flex": 1,
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginRight": 10,
@@ -2785,7 +2765,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request with pu
             Object {
               "color": "rgba(155,155,155,1)",
               "flex": 0,
-              "fontFamily": "NunitoSans-Light",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginLeft": 10,
@@ -2806,7 +2786,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request with pu
             Object {
               "color": "rgba(130,130,130,1)",
               "flex": 1,
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginRight": 10,
@@ -2849,7 +2829,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request with pu
         style={
           Object {
             "color": "rgba(138,155,161,1.0)",
-            "fontFamily": "NunitoSans-Regular",
+            "fontFamily": undefined,
             "fontSize": 13,
             "letterSpacing": 0.5,
             "lineHeight": 15,
@@ -2870,7 +2850,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request with pu
             Array [
               Object {
                 "color": "rgba(138,155,161,1.0)",
-                "fontFamily": "NunitoSans-Regular",
+                "fontFamily": undefined,
                 "fontSize": 13,
                 "letterSpacing": 0.5,
                 "lineHeight": 15,
@@ -2942,7 +2922,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request with pu
         style={
           Array [
             Object {
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": "Montserrat",
               "fontSize": 18,
               "textAlign": "center",
             },
@@ -2999,7 +2979,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request with pu
         style={
           Array [
             Object {
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": "Montserrat",
               "fontSize": 18,
               "textAlign": "center",
             },
@@ -3048,9 +3028,9 @@ exports[`DisclosureCard renders correctly with a full disclosure request with pu
             },
             Object {
               "backgroundColor": "white",
-              "borderRadius": 3,
-              "height": 70,
-              "width": 70,
+              "borderRadius": 30,
+              "height": 60,
+              "width": 60,
             },
           ]
         }
@@ -3065,18 +3045,18 @@ exports[`DisclosureCard renders correctly with a full disclosure request with pu
           style={
             Array [
               Object {
-                "borderRadius": 3,
-                "height": 70,
-                "width": 70,
+                "borderRadius": 30,
+                "height": 60,
+                "width": 60,
               },
               Object {
                 "position": "absolute",
               },
               Array [
                 Object {
-                  "borderRadius": 3,
-                  "height": 70,
-                  "width": 70,
+                  "borderRadius": 30,
+                  "height": 60,
+                  "width": 60,
                 },
                 undefined,
               ],
@@ -3088,7 +3068,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request with pu
     <Image
       source={
         Object {
-          "testUri": "../../../images/ForwardArrow.png",
+          "testUri": "../../../assets/images/ForwardArrow.png",
         }
       }
       style={
@@ -3111,15 +3091,15 @@ exports[`DisclosureCard renders correctly with a full disclosure request with pu
                 "justifyContent": "center",
               },
               Object {
-                "borderRadius": 3,
-                "height": 70,
-                "width": 70,
+                "borderRadius": 30,
+                "height": 60,
+                "width": 60,
               },
               Object {
                 "backgroundColor": "rgba(91,84,199,1)",
               },
               Object {
-                "padding": 17.5,
+                "padding": 15,
               },
             ]
           }
@@ -3131,14 +3111,14 @@ exports[`DisclosureCard renders correctly with a full disclosure request with pu
             style={
               Array [
                 Object {
-                  "fontFamily": "NunitoSans-Regular",
-                  "fontSize": 17.5,
+                  "fontFamily": undefined,
+                  "fontSize": 15,
                   "textAlign": "center",
                 },
                 undefined,
                 Object {
                   "color": "white",
-                  "fontSize": 17.5,
+                  "fontSize": 15,
                 },
               ]
             }
@@ -3164,7 +3144,6 @@ exports[`DisclosureCard renders correctly with a full disclosure request with pu
       style={
         Object {
           "color": "rgba(74,74,74,1)",
-          "fontFamily": "NunitoSans-Regular",
           "fontSize": 20,
           "lineHeight": 27,
           "textAlign": "center",
@@ -3180,7 +3159,6 @@ exports[`DisclosureCard renders correctly with a full disclosure request with pu
       style={
         Object {
           "color": "rgba(74,74,74,1)",
-          "fontFamily": "NunitoSans-Light",
           "fontSize": 16,
           "lineHeight": 22,
           "textAlign": "center",
@@ -3229,7 +3207,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request with pu
             Object {
               "color": "rgba(155,155,155,1)",
               "flex": 0,
-              "fontFamily": "NunitoSans-Light",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginLeft": 10,
@@ -3250,7 +3228,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request with pu
             Object {
               "color": "rgba(130,130,130,1)",
               "flex": 1,
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginRight": 10,
@@ -3281,7 +3259,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request with pu
             Object {
               "color": "rgba(155,155,155,1)",
               "flex": 0,
-              "fontFamily": "NunitoSans-Light",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginLeft": 10,
@@ -3302,7 +3280,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request with pu
             Object {
               "color": "rgba(130,130,130,1)",
               "flex": 1,
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginRight": 10,
@@ -3333,7 +3311,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request with pu
             Object {
               "color": "rgba(155,155,155,1)",
               "flex": 0,
-              "fontFamily": "NunitoSans-Light",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginLeft": 10,
@@ -3354,7 +3332,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request with pu
             Object {
               "color": "rgba(130,130,130,1)",
               "flex": 1,
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginRight": 10,
@@ -3387,7 +3365,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request with pu
             Object {
               "color": "rgba(155,155,155,1)",
               "flex": 0,
-              "fontFamily": "NunitoSans-Light",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginLeft": 10,
@@ -3408,7 +3386,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request with pu
             Object {
               "color": "rgba(130,130,130,1)",
               "flex": 1,
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginRight": 10,
@@ -3441,7 +3419,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request with pu
             Object {
               "color": "rgba(155,155,155,1)",
               "flex": 0,
-              "fontFamily": "NunitoSans-Light",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginLeft": 10,
@@ -3462,7 +3440,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request with pu
             Object {
               "color": "rgba(130,130,130,1)",
               "flex": 1,
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginRight": 10,
@@ -3505,7 +3483,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request with pu
         style={
           Object {
             "color": "rgba(138,155,161,1.0)",
-            "fontFamily": "NunitoSans-Regular",
+            "fontFamily": undefined,
             "fontSize": 13,
             "letterSpacing": 0.5,
             "lineHeight": 15,
@@ -3526,7 +3504,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request with pu
             Array [
               Object {
                 "color": "rgba(138,155,161,1.0)",
-                "fontFamily": "NunitoSans-Regular",
+                "fontFamily": undefined,
                 "fontSize": 13,
                 "letterSpacing": 0.5,
                 "lineHeight": 15,
@@ -3598,7 +3576,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request with pu
         style={
           Array [
             Object {
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": "Montserrat",
               "fontSize": 18,
               "textAlign": "center",
             },
@@ -3657,7 +3635,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request with pu
         style={
           Array [
             Object {
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": "Montserrat",
               "fontSize": 18,
               "textAlign": "center",
             },
@@ -3704,9 +3682,9 @@ exports[`DisclosureCard renders correctly with a full disclosure request with pu
             },
             Object {
               "backgroundColor": "white",
-              "borderRadius": 3,
-              "height": 70,
-              "width": 70,
+              "borderRadius": 30,
+              "height": 60,
+              "width": 60,
             },
           ]
         }
@@ -3721,18 +3699,18 @@ exports[`DisclosureCard renders correctly with a full disclosure request with pu
           style={
             Array [
               Object {
-                "borderRadius": 3,
-                "height": 70,
-                "width": 70,
+                "borderRadius": 30,
+                "height": 60,
+                "width": 60,
               },
               Object {
                 "position": "absolute",
               },
               Array [
                 Object {
-                  "borderRadius": 3,
-                  "height": 70,
-                  "width": 70,
+                  "borderRadius": 30,
+                  "height": 60,
+                  "width": 60,
                 },
                 undefined,
               ],
@@ -3744,7 +3722,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request with pu
     <Image
       source={
         Object {
-          "testUri": "../../../images/ForwardArrow.png",
+          "testUri": "../../../assets/images/ForwardArrow.png",
         }
       }
       style={
@@ -3767,15 +3745,15 @@ exports[`DisclosureCard renders correctly with a full disclosure request with pu
                 "justifyContent": "center",
               },
               Object {
-                "borderRadius": 3,
-                "height": 70,
-                "width": 70,
+                "borderRadius": 30,
+                "height": 60,
+                "width": 60,
               },
               Object {
                 "backgroundColor": "rgba(91,84,199,1)",
               },
               Object {
-                "padding": 17.5,
+                "padding": 15,
               },
             ]
           }
@@ -3787,14 +3765,14 @@ exports[`DisclosureCard renders correctly with a full disclosure request with pu
             style={
               Array [
                 Object {
-                  "fontFamily": "NunitoSans-Regular",
-                  "fontSize": 17.5,
+                  "fontFamily": undefined,
+                  "fontSize": 15,
                   "textAlign": "center",
                 },
                 undefined,
                 Object {
                   "color": "white",
-                  "fontSize": 17.5,
+                  "fontSize": 15,
                 },
               ]
             }
@@ -3820,7 +3798,6 @@ exports[`DisclosureCard renders correctly with a full disclosure request with pu
       style={
         Object {
           "color": "rgba(74,74,74,1)",
-          "fontFamily": "NunitoSans-Regular",
           "fontSize": 20,
           "lineHeight": 27,
           "textAlign": "center",
@@ -3836,7 +3813,6 @@ exports[`DisclosureCard renders correctly with a full disclosure request with pu
       style={
         Object {
           "color": "rgba(74,74,74,1)",
-          "fontFamily": "NunitoSans-Light",
           "fontSize": 16,
           "lineHeight": 22,
           "textAlign": "center",
@@ -3885,7 +3861,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request with pu
             Object {
               "color": "rgba(155,155,155,1)",
               "flex": 0,
-              "fontFamily": "NunitoSans-Light",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginLeft": 10,
@@ -3906,7 +3882,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request with pu
             Object {
               "color": "rgba(130,130,130,1)",
               "flex": 1,
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginRight": 10,
@@ -3937,7 +3913,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request with pu
             Object {
               "color": "rgba(155,155,155,1)",
               "flex": 0,
-              "fontFamily": "NunitoSans-Light",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginLeft": 10,
@@ -3958,7 +3934,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request with pu
             Object {
               "color": "rgba(130,130,130,1)",
               "flex": 1,
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginRight": 10,
@@ -3989,7 +3965,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request with pu
             Object {
               "color": "rgba(155,155,155,1)",
               "flex": 0,
-              "fontFamily": "NunitoSans-Light",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginLeft": 10,
@@ -4010,7 +3986,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request with pu
             Object {
               "color": "rgba(130,130,130,1)",
               "flex": 1,
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginRight": 10,
@@ -4043,7 +4019,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request with pu
             Object {
               "color": "rgba(155,155,155,1)",
               "flex": 0,
-              "fontFamily": "NunitoSans-Light",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginLeft": 10,
@@ -4064,7 +4040,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request with pu
             Object {
               "color": "rgba(130,130,130,1)",
               "flex": 1,
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginRight": 10,
@@ -4097,7 +4073,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request with pu
             Object {
               "color": "rgba(155,155,155,1)",
               "flex": 0,
-              "fontFamily": "NunitoSans-Light",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginLeft": 10,
@@ -4118,7 +4094,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request with pu
             Object {
               "color": "rgba(130,130,130,1)",
               "flex": 1,
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginRight": 10,
@@ -4161,7 +4137,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request with pu
         style={
           Object {
             "color": "rgba(138,155,161,1.0)",
-            "fontFamily": "NunitoSans-Regular",
+            "fontFamily": undefined,
             "fontSize": 13,
             "letterSpacing": 0.5,
             "lineHeight": 15,
@@ -4182,7 +4158,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request with pu
             Array [
               Object {
                 "color": "rgba(138,155,161,1.0)",
-                "fontFamily": "NunitoSans-Regular",
+                "fontFamily": undefined,
                 "fontSize": 13,
                 "letterSpacing": 0.5,
                 "lineHeight": 15,
@@ -4254,7 +4230,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request with pu
         style={
           Array [
             Object {
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": "Montserrat",
               "fontSize": 18,
               "textAlign": "center",
             },
@@ -4313,7 +4289,7 @@ exports[`DisclosureCard renders correctly with a full disclosure request with pu
         style={
           Array [
             Object {
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": "Montserrat",
               "fontSize": 18,
               "textAlign": "center",
             },
@@ -4360,9 +4336,9 @@ exports[`DisclosureCard renders correctly with a segregated account request and 
             },
             Object {
               "backgroundColor": "white",
-              "borderRadius": 3,
-              "height": 70,
-              "width": 70,
+              "borderRadius": 30,
+              "height": 60,
+              "width": 60,
             },
           ]
         }
@@ -4377,18 +4353,18 @@ exports[`DisclosureCard renders correctly with a segregated account request and 
           style={
             Array [
               Object {
-                "borderRadius": 3,
-                "height": 70,
-                "width": 70,
+                "borderRadius": 30,
+                "height": 60,
+                "width": 60,
               },
               Object {
                 "position": "absolute",
               },
               Array [
                 Object {
-                  "borderRadius": 3,
-                  "height": 70,
-                  "width": 70,
+                  "borderRadius": 30,
+                  "height": 60,
+                  "width": 60,
                 },
                 undefined,
               ],
@@ -4400,7 +4376,7 @@ exports[`DisclosureCard renders correctly with a segregated account request and 
     <Image
       source={
         Object {
-          "testUri": "../../../images/ForwardArrow.png",
+          "testUri": "../../../assets/images/ForwardArrow.png",
         }
       }
       style={
@@ -4423,15 +4399,15 @@ exports[`DisclosureCard renders correctly with a segregated account request and 
                 "justifyContent": "center",
               },
               Object {
-                "borderRadius": 3,
-                "height": 70,
-                "width": 70,
+                "borderRadius": 30,
+                "height": 60,
+                "width": 60,
               },
               Object {
                 "backgroundColor": "rgba(91,84,199,1)",
               },
               Object {
-                "padding": 17.5,
+                "padding": 15,
               },
             ]
           }
@@ -4443,14 +4419,14 @@ exports[`DisclosureCard renders correctly with a segregated account request and 
             style={
               Array [
                 Object {
-                  "fontFamily": "NunitoSans-Regular",
-                  "fontSize": 17.5,
+                  "fontFamily": undefined,
+                  "fontSize": 15,
                   "textAlign": "center",
                 },
                 undefined,
                 Object {
                   "color": "white",
-                  "fontSize": 17.5,
+                  "fontSize": 15,
                 },
               ]
             }
@@ -4476,7 +4452,6 @@ exports[`DisclosureCard renders correctly with a segregated account request and 
       style={
         Object {
           "color": "rgba(74,74,74,1)",
-          "fontFamily": "NunitoSans-Regular",
           "fontSize": 20,
           "lineHeight": 27,
           "textAlign": "center",
@@ -4492,7 +4467,6 @@ exports[`DisclosureCard renders correctly with a segregated account request and 
       style={
         Object {
           "color": "rgba(74,74,74,1)",
-          "fontFamily": "NunitoSans-Light",
           "fontSize": 16,
           "lineHeight": 22,
           "textAlign": "center",
@@ -4541,7 +4515,7 @@ exports[`DisclosureCard renders correctly with a segregated account request and 
             Object {
               "color": "rgba(155,155,155,1)",
               "flex": 0,
-              "fontFamily": "NunitoSans-Light",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginLeft": 10,
@@ -4562,7 +4536,7 @@ exports[`DisclosureCard renders correctly with a segregated account request and 
             Object {
               "color": "rgba(130,130,130,1)",
               "flex": 1,
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginRight": 10,
@@ -4593,7 +4567,7 @@ exports[`DisclosureCard renders correctly with a segregated account request and 
             Object {
               "color": "rgba(155,155,155,1)",
               "flex": 0,
-              "fontFamily": "NunitoSans-Light",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginLeft": 10,
@@ -4614,7 +4588,7 @@ exports[`DisclosureCard renders correctly with a segregated account request and 
             Object {
               "color": "rgba(130,130,130,1)",
               "flex": 1,
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginRight": 10,
@@ -4645,7 +4619,7 @@ exports[`DisclosureCard renders correctly with a segregated account request and 
             Object {
               "color": "rgba(155,155,155,1)",
               "flex": 0,
-              "fontFamily": "NunitoSans-Light",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginLeft": 10,
@@ -4666,7 +4640,7 @@ exports[`DisclosureCard renders correctly with a segregated account request and 
             Object {
               "color": "rgba(130,130,130,1)",
               "flex": 1,
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginRight": 10,
@@ -4699,7 +4673,7 @@ exports[`DisclosureCard renders correctly with a segregated account request and 
             Object {
               "color": "rgba(155,155,155,1)",
               "flex": 0,
-              "fontFamily": "NunitoSans-Light",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginLeft": 10,
@@ -4720,7 +4694,7 @@ exports[`DisclosureCard renders correctly with a segregated account request and 
             Object {
               "color": "rgba(130,130,130,1)",
               "flex": 1,
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginRight": 10,
@@ -4763,7 +4737,7 @@ exports[`DisclosureCard renders correctly with a segregated account request and 
         style={
           Object {
             "color": "rgba(138,155,161,1.0)",
-            "fontFamily": "NunitoSans-Regular",
+            "fontFamily": undefined,
             "fontSize": 13,
             "letterSpacing": 0.5,
             "lineHeight": 15,
@@ -4784,7 +4758,7 @@ exports[`DisclosureCard renders correctly with a segregated account request and 
             Array [
               Object {
                 "color": "rgba(138,155,161,1.0)",
-                "fontFamily": "NunitoSans-Regular",
+                "fontFamily": undefined,
                 "fontSize": 13,
                 "letterSpacing": 0.5,
                 "lineHeight": 15,
@@ -4856,7 +4830,7 @@ exports[`DisclosureCard renders correctly with a segregated account request and 
         style={
           Array [
             Object {
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": "Montserrat",
               "fontSize": 18,
               "textAlign": "center",
             },
@@ -4915,7 +4889,7 @@ exports[`DisclosureCard renders correctly with a segregated account request and 
         style={
           Array [
             Object {
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": "Montserrat",
               "fontSize": 18,
               "textAlign": "center",
             },
@@ -4962,9 +4936,9 @@ exports[`DisclosureCard renders correctly with a simple request and client info 
             },
             Object {
               "backgroundColor": "white",
-              "borderRadius": 3,
-              "height": 70,
-              "width": 70,
+              "borderRadius": 30,
+              "height": 60,
+              "width": 60,
             },
           ]
         }
@@ -4979,18 +4953,18 @@ exports[`DisclosureCard renders correctly with a simple request and client info 
           style={
             Array [
               Object {
-                "borderRadius": 3,
-                "height": 70,
-                "width": 70,
+                "borderRadius": 30,
+                "height": 60,
+                "width": 60,
               },
               Object {
                 "position": "absolute",
               },
               Array [
                 Object {
-                  "borderRadius": 3,
-                  "height": 70,
-                  "width": 70,
+                  "borderRadius": 30,
+                  "height": 60,
+                  "width": 60,
                 },
                 undefined,
               ],
@@ -5002,7 +4976,7 @@ exports[`DisclosureCard renders correctly with a simple request and client info 
     <Image
       source={
         Object {
-          "testUri": "../../../images/ForwardArrow.png",
+          "testUri": "../../../assets/images/ForwardArrow.png",
         }
       }
       style={
@@ -5025,15 +4999,15 @@ exports[`DisclosureCard renders correctly with a simple request and client info 
                 "justifyContent": "center",
               },
               Object {
-                "borderRadius": 3,
-                "height": 70,
-                "width": 70,
+                "borderRadius": 30,
+                "height": 60,
+                "width": 60,
               },
               Object {
                 "backgroundColor": "rgba(91,84,199,1)",
               },
               Object {
-                "padding": 17.5,
+                "padding": 15,
               },
             ]
           }
@@ -5045,14 +5019,14 @@ exports[`DisclosureCard renders correctly with a simple request and client info 
             style={
               Array [
                 Object {
-                  "fontFamily": "NunitoSans-Regular",
-                  "fontSize": 17.5,
+                  "fontFamily": undefined,
+                  "fontSize": 15,
                   "textAlign": "center",
                 },
                 undefined,
                 Object {
                   "color": "white",
-                  "fontSize": 17.5,
+                  "fontSize": 15,
                 },
               ]
             }
@@ -5078,7 +5052,6 @@ exports[`DisclosureCard renders correctly with a simple request and client info 
       style={
         Object {
           "color": "rgba(74,74,74,1)",
-          "fontFamily": "NunitoSans-Regular",
           "fontSize": 20,
           "lineHeight": 27,
           "textAlign": "center",
@@ -5094,7 +5067,6 @@ exports[`DisclosureCard renders correctly with a simple request and client info 
       style={
         Object {
           "color": "rgba(74,74,74,1)",
-          "fontFamily": "NunitoSans-Light",
           "fontSize": 16,
           "lineHeight": 22,
           "textAlign": "center",
@@ -5143,7 +5115,7 @@ exports[`DisclosureCard renders correctly with a simple request and client info 
             Object {
               "color": "rgba(155,155,155,1)",
               "flex": 0,
-              "fontFamily": "NunitoSans-Light",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginLeft": 10,
@@ -5164,7 +5136,7 @@ exports[`DisclosureCard renders correctly with a simple request and client info 
             Object {
               "color": "rgba(130,130,130,1)",
               "flex": 1,
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginRight": 10,
@@ -5195,7 +5167,7 @@ exports[`DisclosureCard renders correctly with a simple request and client info 
             Object {
               "color": "rgba(155,155,155,1)",
               "flex": 0,
-              "fontFamily": "NunitoSans-Light",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginLeft": 10,
@@ -5216,7 +5188,7 @@ exports[`DisclosureCard renders correctly with a simple request and client info 
             Object {
               "color": "rgba(130,130,130,1)",
               "flex": 1,
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginRight": 10,
@@ -5247,7 +5219,7 @@ exports[`DisclosureCard renders correctly with a simple request and client info 
             Object {
               "color": "rgba(155,155,155,1)",
               "flex": 0,
-              "fontFamily": "NunitoSans-Light",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginLeft": 10,
@@ -5268,7 +5240,7 @@ exports[`DisclosureCard renders correctly with a simple request and client info 
             Object {
               "color": "rgba(130,130,130,1)",
               "flex": 1,
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginRight": 10,
@@ -5301,7 +5273,7 @@ exports[`DisclosureCard renders correctly with a simple request and client info 
             Object {
               "color": "rgba(155,155,155,1)",
               "flex": 0,
-              "fontFamily": "NunitoSans-Light",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginLeft": 10,
@@ -5322,7 +5294,7 @@ exports[`DisclosureCard renders correctly with a simple request and client info 
             Object {
               "color": "rgba(130,130,130,1)",
               "flex": 1,
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginRight": 10,
@@ -5365,7 +5337,7 @@ exports[`DisclosureCard renders correctly with a simple request and client info 
         style={
           Object {
             "color": "rgba(138,155,161,1.0)",
-            "fontFamily": "NunitoSans-Regular",
+            "fontFamily": undefined,
             "fontSize": 13,
             "letterSpacing": 0.5,
             "lineHeight": 15,
@@ -5386,7 +5358,7 @@ exports[`DisclosureCard renders correctly with a simple request and client info 
             Array [
               Object {
                 "color": "rgba(138,155,161,1.0)",
-                "fontFamily": "NunitoSans-Regular",
+                "fontFamily": undefined,
                 "fontSize": 13,
                 "letterSpacing": 0.5,
                 "lineHeight": 15,
@@ -5458,7 +5430,7 @@ exports[`DisclosureCard renders correctly with a simple request and client info 
         style={
           Array [
             Object {
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": "Montserrat",
               "fontSize": 18,
               "textAlign": "center",
             },
@@ -5517,7 +5489,7 @@ exports[`DisclosureCard renders correctly with a simple request and client info 
         style={
           Array [
             Object {
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": "Montserrat",
               "fontSize": 18,
               "textAlign": "center",
             },
@@ -5564,9 +5536,9 @@ exports[`DisclosureCard renders correctly with error 1`] = `
             },
             Object {
               "backgroundColor": "white",
-              "borderRadius": 3,
-              "height": 70,
-              "width": 70,
+              "borderRadius": 30,
+              "height": 60,
+              "width": 60,
             },
           ]
         }
@@ -5581,18 +5553,18 @@ exports[`DisclosureCard renders correctly with error 1`] = `
           style={
             Array [
               Object {
-                "borderRadius": 3,
-                "height": 70,
-                "width": 70,
+                "borderRadius": 30,
+                "height": 60,
+                "width": 60,
               },
               Object {
                 "position": "absolute",
               },
               Array [
                 Object {
-                  "borderRadius": 3,
-                  "height": 70,
-                  "width": 70,
+                  "borderRadius": 30,
+                  "height": 60,
+                  "width": 60,
                 },
                 undefined,
               ],
@@ -5604,7 +5576,7 @@ exports[`DisclosureCard renders correctly with error 1`] = `
     <Image
       source={
         Object {
-          "testUri": "../../../images/ForwardArrow.png",
+          "testUri": "../../../assets/images/ForwardArrow.png",
         }
       }
       style={
@@ -5627,15 +5599,15 @@ exports[`DisclosureCard renders correctly with error 1`] = `
                 "justifyContent": "center",
               },
               Object {
-                "borderRadius": 3,
-                "height": 70,
-                "width": 70,
+                "borderRadius": 30,
+                "height": 60,
+                "width": 60,
               },
               Object {
                 "backgroundColor": "rgba(91,84,199,1)",
               },
               Object {
-                "padding": 17.5,
+                "padding": 15,
               },
             ]
           }
@@ -5647,14 +5619,14 @@ exports[`DisclosureCard renders correctly with error 1`] = `
             style={
               Array [
                 Object {
-                  "fontFamily": "NunitoSans-Regular",
-                  "fontSize": 17.5,
+                  "fontFamily": undefined,
+                  "fontSize": 15,
                   "textAlign": "center",
                 },
                 undefined,
                 Object {
                   "color": "white",
-                  "fontSize": 17.5,
+                  "fontSize": 15,
                 },
               ]
             }
@@ -5680,7 +5652,6 @@ exports[`DisclosureCard renders correctly with error 1`] = `
       style={
         Object {
           "color": "rgba(74,74,74,1)",
-          "fontFamily": "NunitoSans-Regular",
           "fontSize": 20,
           "lineHeight": 27,
           "textAlign": "center",
@@ -5696,7 +5667,6 @@ exports[`DisclosureCard renders correctly with error 1`] = `
       style={
         Object {
           "color": "rgba(74,74,74,1)",
-          "fontFamily": "NunitoSans-Light",
           "fontSize": 16,
           "lineHeight": 22,
           "textAlign": "center",
@@ -5745,7 +5715,7 @@ exports[`DisclosureCard renders correctly with error 1`] = `
             Object {
               "color": "rgba(155,155,155,1)",
               "flex": 0,
-              "fontFamily": "NunitoSans-Light",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginLeft": 10,
@@ -5766,7 +5736,7 @@ exports[`DisclosureCard renders correctly with error 1`] = `
             Object {
               "color": "rgba(130,130,130,1)",
               "flex": 1,
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginRight": 10,
@@ -5797,7 +5767,7 @@ exports[`DisclosureCard renders correctly with error 1`] = `
             Object {
               "color": "rgba(155,155,155,1)",
               "flex": 0,
-              "fontFamily": "NunitoSans-Light",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginLeft": 10,
@@ -5818,7 +5788,7 @@ exports[`DisclosureCard renders correctly with error 1`] = `
             Object {
               "color": "rgba(130,130,130,1)",
               "flex": 1,
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginRight": 10,
@@ -5849,7 +5819,7 @@ exports[`DisclosureCard renders correctly with error 1`] = `
             Object {
               "color": "rgba(155,155,155,1)",
               "flex": 0,
-              "fontFamily": "NunitoSans-Light",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginLeft": 10,
@@ -5870,7 +5840,7 @@ exports[`DisclosureCard renders correctly with error 1`] = `
             Object {
               "color": "rgba(130,130,130,1)",
               "flex": 1,
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginRight": 10,
@@ -5903,7 +5873,7 @@ exports[`DisclosureCard renders correctly with error 1`] = `
             Object {
               "color": "rgba(155,155,155,1)",
               "flex": 0,
-              "fontFamily": "NunitoSans-Light",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginLeft": 10,
@@ -5924,7 +5894,7 @@ exports[`DisclosureCard renders correctly with error 1`] = `
             Object {
               "color": "rgba(130,130,130,1)",
               "flex": 1,
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginRight": 10,
@@ -5967,7 +5937,7 @@ exports[`DisclosureCard renders correctly with error 1`] = `
         style={
           Object {
             "color": "rgba(138,155,161,1.0)",
-            "fontFamily": "NunitoSans-Regular",
+            "fontFamily": undefined,
             "fontSize": 13,
             "letterSpacing": 0.5,
             "lineHeight": 15,
@@ -5988,7 +5958,7 @@ exports[`DisclosureCard renders correctly with error 1`] = `
             Array [
               Object {
                 "color": "rgba(138,155,161,1.0)",
-                "fontFamily": "NunitoSans-Regular",
+                "fontFamily": undefined,
                 "fontSize": 13,
                 "letterSpacing": 0.5,
                 "lineHeight": 15,
@@ -6012,7 +5982,6 @@ exports[`DisclosureCard renders correctly with error 1`] = `
       Array [
         Object {
           "color": "rgba(155,155,155,1)",
-          "fontFamily": "NunitoSans-Light",
           "fontSize": 14,
           "lineHeight": 19,
           "textAlign": "center",
@@ -6081,7 +6050,7 @@ exports[`DisclosureCard renders correctly with error 1`] = `
         style={
           Array [
             Object {
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": "Montserrat",
               "fontSize": 18,
               "textAlign": "center",
             },
@@ -6138,7 +6107,7 @@ exports[`DisclosureCard renders correctly with error 1`] = `
         style={
           Array [
             Object {
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": "Montserrat",
               "fontSize": 18,
               "textAlign": "center",
             },
@@ -6187,9 +6156,9 @@ exports[`DisclosureCard unpublished identity renders correctly after publishing 
             },
             Object {
               "backgroundColor": "white",
-              "borderRadius": 3,
-              "height": 70,
-              "width": 70,
+              "borderRadius": 30,
+              "height": 60,
+              "width": 60,
             },
           ]
         }
@@ -6204,18 +6173,18 @@ exports[`DisclosureCard unpublished identity renders correctly after publishing 
           style={
             Array [
               Object {
-                "borderRadius": 3,
-                "height": 70,
-                "width": 70,
+                "borderRadius": 30,
+                "height": 60,
+                "width": 60,
               },
               Object {
                 "position": "absolute",
               },
               Array [
                 Object {
-                  "borderRadius": 3,
-                  "height": 70,
-                  "width": 70,
+                  "borderRadius": 30,
+                  "height": 60,
+                  "width": 60,
                 },
                 undefined,
               ],
@@ -6227,7 +6196,7 @@ exports[`DisclosureCard unpublished identity renders correctly after publishing 
     <Image
       source={
         Object {
-          "testUri": "../../../images/ForwardArrow.png",
+          "testUri": "../../../assets/images/ForwardArrow.png",
         }
       }
       style={
@@ -6250,15 +6219,15 @@ exports[`DisclosureCard unpublished identity renders correctly after publishing 
                 "justifyContent": "center",
               },
               Object {
-                "borderRadius": 3,
-                "height": 70,
-                "width": 70,
+                "borderRadius": 30,
+                "height": 60,
+                "width": 60,
               },
               Object {
                 "backgroundColor": "rgba(91,84,199,1)",
               },
               Object {
-                "padding": 17.5,
+                "padding": 15,
               },
             ]
           }
@@ -6270,14 +6239,14 @@ exports[`DisclosureCard unpublished identity renders correctly after publishing 
             style={
               Array [
                 Object {
-                  "fontFamily": "NunitoSans-Regular",
-                  "fontSize": 17.5,
+                  "fontFamily": undefined,
+                  "fontSize": 15,
                   "textAlign": "center",
                 },
                 undefined,
                 Object {
                   "color": "white",
-                  "fontSize": 17.5,
+                  "fontSize": 15,
                 },
               ]
             }
@@ -6303,7 +6272,6 @@ exports[`DisclosureCard unpublished identity renders correctly after publishing 
       style={
         Object {
           "color": "rgba(74,74,74,1)",
-          "fontFamily": "NunitoSans-Regular",
           "fontSize": 20,
           "lineHeight": 27,
           "textAlign": "center",
@@ -6319,7 +6287,6 @@ exports[`DisclosureCard unpublished identity renders correctly after publishing 
       style={
         Object {
           "color": "rgba(74,74,74,1)",
-          "fontFamily": "NunitoSans-Light",
           "fontSize": 16,
           "lineHeight": 22,
           "textAlign": "center",
@@ -6368,7 +6335,7 @@ exports[`DisclosureCard unpublished identity renders correctly after publishing 
             Object {
               "color": "rgba(155,155,155,1)",
               "flex": 0,
-              "fontFamily": "NunitoSans-Light",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginLeft": 10,
@@ -6389,7 +6356,7 @@ exports[`DisclosureCard unpublished identity renders correctly after publishing 
             Object {
               "color": "rgba(130,130,130,1)",
               "flex": 1,
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginRight": 10,
@@ -6420,7 +6387,7 @@ exports[`DisclosureCard unpublished identity renders correctly after publishing 
             Object {
               "color": "rgba(155,155,155,1)",
               "flex": 0,
-              "fontFamily": "NunitoSans-Light",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginLeft": 10,
@@ -6441,7 +6408,7 @@ exports[`DisclosureCard unpublished identity renders correctly after publishing 
             Object {
               "color": "rgba(130,130,130,1)",
               "flex": 1,
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginRight": 10,
@@ -6472,7 +6439,7 @@ exports[`DisclosureCard unpublished identity renders correctly after publishing 
             Object {
               "color": "rgba(155,155,155,1)",
               "flex": 0,
-              "fontFamily": "NunitoSans-Light",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginLeft": 10,
@@ -6493,7 +6460,7 @@ exports[`DisclosureCard unpublished identity renders correctly after publishing 
             Object {
               "color": "rgba(130,130,130,1)",
               "flex": 1,
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginRight": 10,
@@ -6526,7 +6493,7 @@ exports[`DisclosureCard unpublished identity renders correctly after publishing 
             Object {
               "color": "rgba(155,155,155,1)",
               "flex": 0,
-              "fontFamily": "NunitoSans-Light",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginLeft": 10,
@@ -6547,7 +6514,7 @@ exports[`DisclosureCard unpublished identity renders correctly after publishing 
             Object {
               "color": "rgba(130,130,130,1)",
               "flex": 1,
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginRight": 10,
@@ -6590,7 +6557,7 @@ exports[`DisclosureCard unpublished identity renders correctly after publishing 
         style={
           Object {
             "color": "rgba(138,155,161,1.0)",
-            "fontFamily": "NunitoSans-Regular",
+            "fontFamily": undefined,
             "fontSize": 13,
             "letterSpacing": 0.5,
             "lineHeight": 15,
@@ -6611,7 +6578,7 @@ exports[`DisclosureCard unpublished identity renders correctly after publishing 
             Array [
               Object {
                 "color": "rgba(138,155,161,1.0)",
-                "fontFamily": "NunitoSans-Regular",
+                "fontFamily": undefined,
                 "fontSize": 13,
                 "letterSpacing": 0.5,
                 "lineHeight": 15,
@@ -6683,7 +6650,7 @@ exports[`DisclosureCard unpublished identity renders correctly after publishing 
         style={
           Array [
             Object {
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": "Montserrat",
               "fontSize": 18,
               "textAlign": "center",
             },
@@ -6742,7 +6709,7 @@ exports[`DisclosureCard unpublished identity renders correctly after publishing 
         style={
           Array [
             Object {
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": "Montserrat",
               "fontSize": 18,
               "textAlign": "center",
             },
@@ -6789,9 +6756,9 @@ exports[`DisclosureCard unpublished identity renders correctly with identity not
             },
             Object {
               "backgroundColor": "white",
-              "borderRadius": 3,
-              "height": 70,
-              "width": 70,
+              "borderRadius": 30,
+              "height": 60,
+              "width": 60,
             },
           ]
         }
@@ -6806,18 +6773,18 @@ exports[`DisclosureCard unpublished identity renders correctly with identity not
           style={
             Array [
               Object {
-                "borderRadius": 3,
-                "height": 70,
-                "width": 70,
+                "borderRadius": 30,
+                "height": 60,
+                "width": 60,
               },
               Object {
                 "position": "absolute",
               },
               Array [
                 Object {
-                  "borderRadius": 3,
-                  "height": 70,
-                  "width": 70,
+                  "borderRadius": 30,
+                  "height": 60,
+                  "width": 60,
                 },
                 undefined,
               ],
@@ -6829,7 +6796,7 @@ exports[`DisclosureCard unpublished identity renders correctly with identity not
     <Image
       source={
         Object {
-          "testUri": "../../../images/ForwardArrow.png",
+          "testUri": "../../../assets/images/ForwardArrow.png",
         }
       }
       style={
@@ -6852,15 +6819,15 @@ exports[`DisclosureCard unpublished identity renders correctly with identity not
                 "justifyContent": "center",
               },
               Object {
-                "borderRadius": 3,
-                "height": 70,
-                "width": 70,
+                "borderRadius": 30,
+                "height": 60,
+                "width": 60,
               },
               Object {
                 "backgroundColor": "rgba(91,84,199,1)",
               },
               Object {
-                "padding": 17.5,
+                "padding": 15,
               },
             ]
           }
@@ -6872,14 +6839,14 @@ exports[`DisclosureCard unpublished identity renders correctly with identity not
             style={
               Array [
                 Object {
-                  "fontFamily": "NunitoSans-Regular",
-                  "fontSize": 17.5,
+                  "fontFamily": undefined,
+                  "fontSize": 15,
                   "textAlign": "center",
                 },
                 undefined,
                 Object {
                   "color": "white",
-                  "fontSize": 17.5,
+                  "fontSize": 15,
                 },
               ]
             }
@@ -6905,7 +6872,6 @@ exports[`DisclosureCard unpublished identity renders correctly with identity not
       style={
         Object {
           "color": "rgba(74,74,74,1)",
-          "fontFamily": "NunitoSans-Regular",
           "fontSize": 20,
           "lineHeight": 27,
           "textAlign": "center",
@@ -6921,7 +6887,6 @@ exports[`DisclosureCard unpublished identity renders correctly with identity not
       style={
         Object {
           "color": "rgba(74,74,74,1)",
-          "fontFamily": "NunitoSans-Light",
           "fontSize": 16,
           "lineHeight": 22,
           "textAlign": "center",
@@ -6970,7 +6935,7 @@ exports[`DisclosureCard unpublished identity renders correctly with identity not
             Object {
               "color": "rgba(155,155,155,1)",
               "flex": 0,
-              "fontFamily": "NunitoSans-Light",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginLeft": 10,
@@ -6991,7 +6956,7 @@ exports[`DisclosureCard unpublished identity renders correctly with identity not
             Object {
               "color": "rgba(130,130,130,1)",
               "flex": 1,
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginRight": 10,
@@ -7022,7 +6987,7 @@ exports[`DisclosureCard unpublished identity renders correctly with identity not
             Object {
               "color": "rgba(155,155,155,1)",
               "flex": 0,
-              "fontFamily": "NunitoSans-Light",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginLeft": 10,
@@ -7043,7 +7008,7 @@ exports[`DisclosureCard unpublished identity renders correctly with identity not
             Object {
               "color": "rgba(130,130,130,1)",
               "flex": 1,
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginRight": 10,
@@ -7074,7 +7039,7 @@ exports[`DisclosureCard unpublished identity renders correctly with identity not
             Object {
               "color": "rgba(155,155,155,1)",
               "flex": 0,
-              "fontFamily": "NunitoSans-Light",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginLeft": 10,
@@ -7095,7 +7060,7 @@ exports[`DisclosureCard unpublished identity renders correctly with identity not
             Object {
               "color": "rgba(130,130,130,1)",
               "flex": 1,
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginRight": 10,
@@ -7128,7 +7093,7 @@ exports[`DisclosureCard unpublished identity renders correctly with identity not
             Object {
               "color": "rgba(155,155,155,1)",
               "flex": 0,
-              "fontFamily": "NunitoSans-Light",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginLeft": 10,
@@ -7149,7 +7114,7 @@ exports[`DisclosureCard unpublished identity renders correctly with identity not
             Object {
               "color": "rgba(130,130,130,1)",
               "flex": 1,
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginRight": 10,
@@ -7192,7 +7157,7 @@ exports[`DisclosureCard unpublished identity renders correctly with identity not
         style={
           Object {
             "color": "rgba(138,155,161,1.0)",
-            "fontFamily": "NunitoSans-Regular",
+            "fontFamily": undefined,
             "fontSize": 13,
             "letterSpacing": 0.5,
             "lineHeight": 15,
@@ -7213,7 +7178,7 @@ exports[`DisclosureCard unpublished identity renders correctly with identity not
             Array [
               Object {
                 "color": "rgba(138,155,161,1.0)",
-                "fontFamily": "NunitoSans-Regular",
+                "fontFamily": undefined,
                 "fontSize": 13,
                 "letterSpacing": 0.5,
                 "lineHeight": 15,
@@ -7285,7 +7250,7 @@ exports[`DisclosureCard unpublished identity renders correctly with identity not
         style={
           Array [
             Object {
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": "Montserrat",
               "fontSize": 18,
               "textAlign": "center",
             },
@@ -7344,7 +7309,7 @@ exports[`DisclosureCard unpublished identity renders correctly with identity not
         style={
           Array [
             Object {
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": "Montserrat",
               "fontSize": 18,
               "textAlign": "center",
             },
@@ -7391,9 +7356,9 @@ exports[`DisclosureCard with network with no existing account for network render
             },
             Object {
               "backgroundColor": "white",
-              "borderRadius": 3,
-              "height": 70,
-              "width": 70,
+              "borderRadius": 30,
+              "height": 60,
+              "width": 60,
             },
           ]
         }
@@ -7408,18 +7373,18 @@ exports[`DisclosureCard with network with no existing account for network render
           style={
             Array [
               Object {
-                "borderRadius": 3,
-                "height": 70,
-                "width": 70,
+                "borderRadius": 30,
+                "height": 60,
+                "width": 60,
               },
               Object {
                 "position": "absolute",
               },
               Array [
                 Object {
-                  "borderRadius": 3,
-                  "height": 70,
-                  "width": 70,
+                  "borderRadius": 30,
+                  "height": 60,
+                  "width": 60,
                 },
                 undefined,
               ],
@@ -7431,7 +7396,7 @@ exports[`DisclosureCard with network with no existing account for network render
     <Image
       source={
         Object {
-          "testUri": "../../../images/ForwardArrow.png",
+          "testUri": "../../../assets/images/ForwardArrow.png",
         }
       }
       style={
@@ -7454,15 +7419,15 @@ exports[`DisclosureCard with network with no existing account for network render
                 "justifyContent": "center",
               },
               Object {
-                "borderRadius": 3,
-                "height": 70,
-                "width": 70,
+                "borderRadius": 30,
+                "height": 60,
+                "width": 60,
               },
               Object {
                 "backgroundColor": "rgba(91,84,199,1)",
               },
               Object {
-                "padding": 17.5,
+                "padding": 15,
               },
             ]
           }
@@ -7474,14 +7439,14 @@ exports[`DisclosureCard with network with no existing account for network render
             style={
               Array [
                 Object {
-                  "fontFamily": "NunitoSans-Regular",
-                  "fontSize": 17.5,
+                  "fontFamily": undefined,
+                  "fontSize": 15,
                   "textAlign": "center",
                 },
                 undefined,
                 Object {
                   "color": "white",
-                  "fontSize": 17.5,
+                  "fontSize": 15,
                 },
               ]
             }
@@ -7507,7 +7472,6 @@ exports[`DisclosureCard with network with no existing account for network render
       style={
         Object {
           "color": "rgba(74,74,74,1)",
-          "fontFamily": "NunitoSans-Regular",
           "fontSize": 20,
           "lineHeight": 27,
           "textAlign": "center",
@@ -7523,7 +7487,6 @@ exports[`DisclosureCard with network with no existing account for network render
       style={
         Object {
           "color": "rgba(74,74,74,1)",
-          "fontFamily": "NunitoSans-Light",
           "fontSize": 16,
           "lineHeight": 22,
           "textAlign": "center",
@@ -7572,7 +7535,7 @@ exports[`DisclosureCard with network with no existing account for network render
             Object {
               "color": "rgba(155,155,155,1)",
               "flex": 0,
-              "fontFamily": "NunitoSans-Light",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginLeft": 10,
@@ -7593,7 +7556,7 @@ exports[`DisclosureCard with network with no existing account for network render
             Object {
               "color": "rgba(130,130,130,1)",
               "flex": 1,
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginRight": 10,
@@ -7624,7 +7587,7 @@ exports[`DisclosureCard with network with no existing account for network render
             Object {
               "color": "rgba(155,155,155,1)",
               "flex": 0,
-              "fontFamily": "NunitoSans-Light",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginLeft": 10,
@@ -7645,7 +7608,7 @@ exports[`DisclosureCard with network with no existing account for network render
             Object {
               "color": "rgba(130,130,130,1)",
               "flex": 1,
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginRight": 10,
@@ -7676,7 +7639,7 @@ exports[`DisclosureCard with network with no existing account for network render
             Object {
               "color": "rgba(155,155,155,1)",
               "flex": 0,
-              "fontFamily": "NunitoSans-Light",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginLeft": 10,
@@ -7697,7 +7660,7 @@ exports[`DisclosureCard with network with no existing account for network render
             Object {
               "color": "rgba(130,130,130,1)",
               "flex": 1,
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginRight": 10,
@@ -7730,7 +7693,7 @@ exports[`DisclosureCard with network with no existing account for network render
             Object {
               "color": "rgba(155,155,155,1)",
               "flex": 0,
-              "fontFamily": "NunitoSans-Light",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginLeft": 10,
@@ -7751,7 +7714,7 @@ exports[`DisclosureCard with network with no existing account for network render
             Object {
               "color": "rgba(130,130,130,1)",
               "flex": 1,
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginRight": 10,
@@ -7784,7 +7747,7 @@ exports[`DisclosureCard with network with no existing account for network render
             Object {
               "color": "rgba(155,155,155,1)",
               "flex": 0,
-              "fontFamily": "NunitoSans-Light",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginLeft": 10,
@@ -7805,7 +7768,7 @@ exports[`DisclosureCard with network with no existing account for network render
             Object {
               "color": "rgba(130,130,130,1)",
               "flex": 1,
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginRight": 10,
@@ -7836,7 +7799,7 @@ exports[`DisclosureCard with network with no existing account for network render
             Object {
               "color": "rgba(155,155,155,1)",
               "flex": 0,
-              "fontFamily": "NunitoSans-Light",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginLeft": 10,
@@ -7857,7 +7820,7 @@ exports[`DisclosureCard with network with no existing account for network render
             Object {
               "color": "rgba(130,130,130,1)",
               "flex": 1,
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginRight": 10,
@@ -7900,7 +7863,7 @@ exports[`DisclosureCard with network with no existing account for network render
         style={
           Object {
             "color": "rgba(138,155,161,1.0)",
-            "fontFamily": "NunitoSans-Regular",
+            "fontFamily": undefined,
             "fontSize": 13,
             "letterSpacing": 0.5,
             "lineHeight": 15,
@@ -7921,7 +7884,7 @@ exports[`DisclosureCard with network with no existing account for network render
             Array [
               Object {
                 "color": "rgba(138,155,161,1.0)",
-                "fontFamily": "NunitoSans-Regular",
+                "fontFamily": undefined,
                 "fontSize": 13,
                 "letterSpacing": 0.5,
                 "lineHeight": 15,
@@ -7993,7 +7956,7 @@ exports[`DisclosureCard with network with no existing account for network render
         style={
           Array [
             Object {
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": "Montserrat",
               "fontSize": 18,
               "textAlign": "center",
             },
@@ -8052,7 +8015,7 @@ exports[`DisclosureCard with network with no existing account for network render
         style={
           Array [
             Object {
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": "Montserrat",
               "fontSize": 18,
               "textAlign": "center",
             },
@@ -8099,9 +8062,9 @@ exports[`DisclosureCard with network with no existing segregated account for cli
             },
             Object {
               "backgroundColor": "white",
-              "borderRadius": 3,
-              "height": 70,
-              "width": 70,
+              "borderRadius": 30,
+              "height": 60,
+              "width": 60,
             },
           ]
         }
@@ -8116,18 +8079,18 @@ exports[`DisclosureCard with network with no existing segregated account for cli
           style={
             Array [
               Object {
-                "borderRadius": 3,
-                "height": 70,
-                "width": 70,
+                "borderRadius": 30,
+                "height": 60,
+                "width": 60,
               },
               Object {
                 "position": "absolute",
               },
               Array [
                 Object {
-                  "borderRadius": 3,
-                  "height": 70,
-                  "width": 70,
+                  "borderRadius": 30,
+                  "height": 60,
+                  "width": 60,
                 },
                 undefined,
               ],
@@ -8139,7 +8102,7 @@ exports[`DisclosureCard with network with no existing segregated account for cli
     <Image
       source={
         Object {
-          "testUri": "../../../images/ForwardArrow.png",
+          "testUri": "../../../assets/images/ForwardArrow.png",
         }
       }
       style={
@@ -8162,15 +8125,15 @@ exports[`DisclosureCard with network with no existing segregated account for cli
                 "justifyContent": "center",
               },
               Object {
-                "borderRadius": 3,
-                "height": 70,
-                "width": 70,
+                "borderRadius": 30,
+                "height": 60,
+                "width": 60,
               },
               Object {
                 "backgroundColor": "rgba(91,84,199,1)",
               },
               Object {
-                "padding": 17.5,
+                "padding": 15,
               },
             ]
           }
@@ -8182,14 +8145,14 @@ exports[`DisclosureCard with network with no existing segregated account for cli
             style={
               Array [
                 Object {
-                  "fontFamily": "NunitoSans-Regular",
-                  "fontSize": 17.5,
+                  "fontFamily": undefined,
+                  "fontSize": 15,
                   "textAlign": "center",
                 },
                 undefined,
                 Object {
                   "color": "white",
-                  "fontSize": 17.5,
+                  "fontSize": 15,
                 },
               ]
             }
@@ -8215,7 +8178,6 @@ exports[`DisclosureCard with network with no existing segregated account for cli
       style={
         Object {
           "color": "rgba(74,74,74,1)",
-          "fontFamily": "NunitoSans-Regular",
           "fontSize": 20,
           "lineHeight": 27,
           "textAlign": "center",
@@ -8231,7 +8193,6 @@ exports[`DisclosureCard with network with no existing segregated account for cli
       style={
         Object {
           "color": "rgba(74,74,74,1)",
-          "fontFamily": "NunitoSans-Light",
           "fontSize": 16,
           "lineHeight": 22,
           "textAlign": "center",
@@ -8280,7 +8241,7 @@ exports[`DisclosureCard with network with no existing segregated account for cli
             Object {
               "color": "rgba(155,155,155,1)",
               "flex": 0,
-              "fontFamily": "NunitoSans-Light",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginLeft": 10,
@@ -8301,7 +8262,7 @@ exports[`DisclosureCard with network with no existing segregated account for cli
             Object {
               "color": "rgba(130,130,130,1)",
               "flex": 1,
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginRight": 10,
@@ -8332,7 +8293,7 @@ exports[`DisclosureCard with network with no existing segregated account for cli
             Object {
               "color": "rgba(155,155,155,1)",
               "flex": 0,
-              "fontFamily": "NunitoSans-Light",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginLeft": 10,
@@ -8353,7 +8314,7 @@ exports[`DisclosureCard with network with no existing segregated account for cli
             Object {
               "color": "rgba(130,130,130,1)",
               "flex": 1,
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginRight": 10,
@@ -8384,7 +8345,7 @@ exports[`DisclosureCard with network with no existing segregated account for cli
             Object {
               "color": "rgba(155,155,155,1)",
               "flex": 0,
-              "fontFamily": "NunitoSans-Light",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginLeft": 10,
@@ -8405,7 +8366,7 @@ exports[`DisclosureCard with network with no existing segregated account for cli
             Object {
               "color": "rgba(130,130,130,1)",
               "flex": 1,
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginRight": 10,
@@ -8438,7 +8399,7 @@ exports[`DisclosureCard with network with no existing segregated account for cli
             Object {
               "color": "rgba(155,155,155,1)",
               "flex": 0,
-              "fontFamily": "NunitoSans-Light",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginLeft": 10,
@@ -8459,7 +8420,7 @@ exports[`DisclosureCard with network with no existing segregated account for cli
             Object {
               "color": "rgba(130,130,130,1)",
               "flex": 1,
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginRight": 10,
@@ -8492,7 +8453,7 @@ exports[`DisclosureCard with network with no existing segregated account for cli
             Object {
               "color": "rgba(155,155,155,1)",
               "flex": 0,
-              "fontFamily": "NunitoSans-Light",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginLeft": 10,
@@ -8513,7 +8474,7 @@ exports[`DisclosureCard with network with no existing segregated account for cli
             Object {
               "color": "rgba(130,130,130,1)",
               "flex": 1,
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginRight": 10,
@@ -8544,7 +8505,7 @@ exports[`DisclosureCard with network with no existing segregated account for cli
             Object {
               "color": "rgba(155,155,155,1)",
               "flex": 0,
-              "fontFamily": "NunitoSans-Light",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginLeft": 10,
@@ -8565,7 +8526,7 @@ exports[`DisclosureCard with network with no existing segregated account for cli
             Object {
               "color": "rgba(130,130,130,1)",
               "flex": 1,
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginRight": 10,
@@ -8608,7 +8569,7 @@ exports[`DisclosureCard with network with no existing segregated account for cli
         style={
           Object {
             "color": "rgba(138,155,161,1.0)",
-            "fontFamily": "NunitoSans-Regular",
+            "fontFamily": undefined,
             "fontSize": 13,
             "letterSpacing": 0.5,
             "lineHeight": 15,
@@ -8629,7 +8590,7 @@ exports[`DisclosureCard with network with no existing segregated account for cli
             Array [
               Object {
                 "color": "rgba(138,155,161,1.0)",
-                "fontFamily": "NunitoSans-Regular",
+                "fontFamily": undefined,
                 "fontSize": 13,
                 "letterSpacing": 0.5,
                 "lineHeight": 15,
@@ -8701,7 +8662,7 @@ exports[`DisclosureCard with network with no existing segregated account for cli
         style={
           Array [
             Object {
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": "Montserrat",
               "fontSize": 18,
               "textAlign": "center",
             },
@@ -8760,7 +8721,7 @@ exports[`DisclosureCard with network with no existing segregated account for cli
         style={
           Array [
             Object {
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": "Montserrat",
               "fontSize": 18,
               "textAlign": "center",
             },
@@ -8807,9 +8768,9 @@ exports[`DisclosureCard with network with pre-existing account renders correctly
             },
             Object {
               "backgroundColor": "white",
-              "borderRadius": 3,
-              "height": 70,
-              "width": 70,
+              "borderRadius": 30,
+              "height": 60,
+              "width": 60,
             },
           ]
         }
@@ -8824,18 +8785,18 @@ exports[`DisclosureCard with network with pre-existing account renders correctly
           style={
             Array [
               Object {
-                "borderRadius": 3,
-                "height": 70,
-                "width": 70,
+                "borderRadius": 30,
+                "height": 60,
+                "width": 60,
               },
               Object {
                 "position": "absolute",
               },
               Array [
                 Object {
-                  "borderRadius": 3,
-                  "height": 70,
-                  "width": 70,
+                  "borderRadius": 30,
+                  "height": 60,
+                  "width": 60,
                 },
                 undefined,
               ],
@@ -8847,7 +8808,7 @@ exports[`DisclosureCard with network with pre-existing account renders correctly
     <Image
       source={
         Object {
-          "testUri": "../../../images/ForwardArrow.png",
+          "testUri": "../../../assets/images/ForwardArrow.png",
         }
       }
       style={
@@ -8870,15 +8831,15 @@ exports[`DisclosureCard with network with pre-existing account renders correctly
                 "justifyContent": "center",
               },
               Object {
-                "borderRadius": 3,
-                "height": 70,
-                "width": 70,
+                "borderRadius": 30,
+                "height": 60,
+                "width": 60,
               },
               Object {
                 "backgroundColor": "rgba(91,84,199,1)",
               },
               Object {
-                "padding": 17.5,
+                "padding": 15,
               },
             ]
           }
@@ -8890,14 +8851,14 @@ exports[`DisclosureCard with network with pre-existing account renders correctly
             style={
               Array [
                 Object {
-                  "fontFamily": "NunitoSans-Regular",
-                  "fontSize": 17.5,
+                  "fontFamily": undefined,
+                  "fontSize": 15,
                   "textAlign": "center",
                 },
                 undefined,
                 Object {
                   "color": "white",
-                  "fontSize": 17.5,
+                  "fontSize": 15,
                 },
               ]
             }
@@ -8923,7 +8884,6 @@ exports[`DisclosureCard with network with pre-existing account renders correctly
       style={
         Object {
           "color": "rgba(74,74,74,1)",
-          "fontFamily": "NunitoSans-Regular",
           "fontSize": 20,
           "lineHeight": 27,
           "textAlign": "center",
@@ -8939,7 +8899,6 @@ exports[`DisclosureCard with network with pre-existing account renders correctly
       style={
         Object {
           "color": "rgba(74,74,74,1)",
-          "fontFamily": "NunitoSans-Light",
           "fontSize": 16,
           "lineHeight": 22,
           "textAlign": "center",
@@ -8988,7 +8947,7 @@ exports[`DisclosureCard with network with pre-existing account renders correctly
             Object {
               "color": "rgba(155,155,155,1)",
               "flex": 0,
-              "fontFamily": "NunitoSans-Light",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginLeft": 10,
@@ -9009,7 +8968,7 @@ exports[`DisclosureCard with network with pre-existing account renders correctly
             Object {
               "color": "rgba(130,130,130,1)",
               "flex": 1,
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginRight": 10,
@@ -9040,7 +8999,7 @@ exports[`DisclosureCard with network with pre-existing account renders correctly
             Object {
               "color": "rgba(155,155,155,1)",
               "flex": 0,
-              "fontFamily": "NunitoSans-Light",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginLeft": 10,
@@ -9061,7 +9020,7 @@ exports[`DisclosureCard with network with pre-existing account renders correctly
             Object {
               "color": "rgba(130,130,130,1)",
               "flex": 1,
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginRight": 10,
@@ -9092,7 +9051,7 @@ exports[`DisclosureCard with network with pre-existing account renders correctly
             Object {
               "color": "rgba(155,155,155,1)",
               "flex": 0,
-              "fontFamily": "NunitoSans-Light",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginLeft": 10,
@@ -9113,7 +9072,7 @@ exports[`DisclosureCard with network with pre-existing account renders correctly
             Object {
               "color": "rgba(130,130,130,1)",
               "flex": 1,
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginRight": 10,
@@ -9146,7 +9105,7 @@ exports[`DisclosureCard with network with pre-existing account renders correctly
             Object {
               "color": "rgba(155,155,155,1)",
               "flex": 0,
-              "fontFamily": "NunitoSans-Light",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginLeft": 10,
@@ -9167,7 +9126,7 @@ exports[`DisclosureCard with network with pre-existing account renders correctly
             Object {
               "color": "rgba(130,130,130,1)",
               "flex": 1,
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginRight": 10,
@@ -9200,7 +9159,7 @@ exports[`DisclosureCard with network with pre-existing account renders correctly
             Object {
               "color": "rgba(155,155,155,1)",
               "flex": 0,
-              "fontFamily": "NunitoSans-Light",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginLeft": 10,
@@ -9221,7 +9180,7 @@ exports[`DisclosureCard with network with pre-existing account renders correctly
             Object {
               "color": "rgba(130,130,130,1)",
               "flex": 1,
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginRight": 10,
@@ -9252,7 +9211,7 @@ exports[`DisclosureCard with network with pre-existing account renders correctly
             Object {
               "color": "rgba(155,155,155,1)",
               "flex": 0,
-              "fontFamily": "NunitoSans-Light",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginLeft": 10,
@@ -9273,7 +9232,7 @@ exports[`DisclosureCard with network with pre-existing account renders correctly
             Object {
               "color": "rgba(130,130,130,1)",
               "flex": 1,
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginRight": 10,
@@ -9316,7 +9275,7 @@ exports[`DisclosureCard with network with pre-existing account renders correctly
         style={
           Object {
             "color": "rgba(138,155,161,1.0)",
-            "fontFamily": "NunitoSans-Regular",
+            "fontFamily": undefined,
             "fontSize": 13,
             "letterSpacing": 0.5,
             "lineHeight": 15,
@@ -9337,7 +9296,7 @@ exports[`DisclosureCard with network with pre-existing account renders correctly
             Array [
               Object {
                 "color": "rgba(138,155,161,1.0)",
-                "fontFamily": "NunitoSans-Regular",
+                "fontFamily": undefined,
                 "fontSize": 13,
                 "letterSpacing": 0.5,
                 "lineHeight": 15,
@@ -9409,7 +9368,7 @@ exports[`DisclosureCard with network with pre-existing account renders correctly
         style={
           Array [
             Object {
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": "Montserrat",
               "fontSize": 18,
               "textAlign": "center",
             },
@@ -9468,7 +9427,7 @@ exports[`DisclosureCard with network with pre-existing account renders correctly
         style={
           Array [
             Object {
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": "Montserrat",
               "fontSize": 18,
               "textAlign": "center",
             },
