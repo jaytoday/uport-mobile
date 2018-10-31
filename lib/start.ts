@@ -32,8 +32,8 @@ registerScreens(store, Provider)
 
 // This method doesn't do much. I just want to ensure that this library is not optimized away
 export async function startMain() {
-  // startLegacyApp()
-  startAppModernUI()
+  // startAppModernUI()
+  startLegacyApp()
 }
 
 // Actual initialization is done by startupSaga during initialization of `store`.
@@ -95,6 +95,7 @@ export async function startAppModernUI(this: any) {
         drawerShadow: false,
       },
     },
+    animationType: 'none',
   })
 
   this.listener = screenVisibilityListener.register()
@@ -110,7 +111,7 @@ export async function startLegacyApp(this: any) {
       // override the navigator style for the screen, see "Styling the navigator" below (optional)
       // navigatorButtons: {} // override the nav buttons for the screen, see "Adding buttons to the navigator" below (optional)
       navigatorStyle: {
-        navBarTextFontFamily: 'Nunito Sans',
+        navBarTextFontFamily: 'Montserrat',
         navBarHidden: true,
       }, // override the navigator style for the screen, see "Styling the navigator" below (optional)
     },
@@ -138,9 +139,9 @@ export async function startOnboarding() {
       title: 'Uport', // title of the screen as appears in the nav bar (optional)
       navigatorStyle: {
         navBarHidden: true,
-        navBarTextFontFamily: 'Nunito Sans',
+        navBarTextFontFamily: 'Montserrat',
       }, // override the navigator style for the screen, see "Styling the navigator" below (optional)
     },
-    animationType: 'slide-down', // optional, add transition animation to root change: 'none', 'slide-down', 'fade'
+    animationType: 'fade', // optional, add transition animation to root change: 'none', 'slide-down', 'fade'
   })
 }
