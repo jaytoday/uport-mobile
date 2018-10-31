@@ -1,3 +1,3 @@
-import { startMain } from './lib/start'
+import { start } from './lib/start'
 
-startMain()
+start()

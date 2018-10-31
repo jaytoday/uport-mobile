@@ -28,16 +28,17 @@ import { handleURL } from './actions/requestActions'
 import { registerDeviceForNotifications } from 'uPortMobile/lib/actions/snsRegistrationActions'
 import { track, screen } from 'uPortMobile/lib/actions/metricActions'
 
-registerScreens(store, Provider)
-
-// This method doesn't do much. I just want to ensure that this library is not optimized away
-export async function startMain() {
-  // startAppModernUI()
-  startLegacyApp()
+export function start() {
+  registerScreens(store, Provider)
 }
 
 // Actual initialization is done by startupSaga during initialization of `store`.
 // When DB is ready it calls one of these.
+export function startMain() {
+  startAppModernUI()
+  // startLegacyApp()
+}
+
 export const screenVisibilityListener = new RNNScreenVisibilityListener({
   didAppear: async (event: any) => {
     store.dispatch(screen(event.screen, event))
@@ -98,7 +99,7 @@ export async function startAppModernUI(this: any) {
     animationType: 'none',
   })
 
-  this.listener = screenVisibilityListener.register()
+  screenVisibilityListener.register()
   requestQueue((url: string) => store.dispatch(handleURL(url)))
 }
 
