@@ -1,6 +1,6 @@
 version: 2
 jobs:
-  node:
+  node-dependencies:
     working_directory: ~/uport-mobile
     docker:
       - image: circleci/node:8
@@ -8,23 +8,32 @@ jobs:
       - checkout
       - restore_cache:
           keys:
-            - yarn-{{ arch }}-v2-{{ checksum "yarn.lock" }}
-            - yarn-{{ arch }}-v2
-      - restore_cache:
-          keys:
-            - node-{{ arch }}-v2-{{ checksum "package.json" }}
-            - node-{{ arch }}-v2
-
-      - run: yarn install
-
+            - yarn-{{ arch }}-v5-{{ checksum "yarn.lock" }}
+            - yarn-{{ arch }}-v5
+      - run:
+          name: install-dependencies
+          command: yarn
       - save_cache:
-          key: yarn-{{ arch }}-v2-{{ checksum "yarn.lock" }}
+          key: yarn-{{ arch }}-v5-{{ checksum "yarn.lock" }}
           paths:
             - ~/.cache/yarn
-      - save_cache:
-          key: node-{{ arch }}-v2-{{ checksum "package.json" }}
+      - persist_to_workspace:
+          root: ~/uport-mobile
           paths:
             - node_modules
+
+  node-test:
+    working_directory: ~/uport-mobile
+    docker:
+      - image: circleci/node:8
+    steps:
+      - checkout
+      - attach_workspace:
+          at: ~/uport-mobile
+      - restore_cache:
+          keys:
+            - yarn-{{ arch }}-v5-{{ checksum "yarn.lock" }}
+            - yarn-{{ arch }}-v5
       - run:
           name: jest tests
           command: |
@@ -32,11 +41,31 @@ jobs:
             yarn run test --ci --coverage --maxWorkers=3
           environment:
             JEST_JUNIT_OUTPUT: test-results/jest/junit.xml
+      - run:
+          name: code-coverage
+          command: yarn codecov
 
+      - store_test_results:
+          path: test-results
+      - store_artifacts:
+          path: test-results
+
+  package-android-bundle:
+    working_directory: ~/uport-mobile
+    docker:
+      - image: circleci/node:8
+    steps:
+      - checkout
+      - attach_workspace:
+          at: ~/uport-mobile
+      - restore_cache:
+          keys:
+            - yarn-{{ arch }}-v5-{{ checksum "yarn.lock" }}
+            - yarn-{{ arch }}-v5
       - run:
           name: package react native android bundle independently
-          command: yarn package-android --max-workers=3
-
+          command: yarn package-android --max-workers=4
+          no_output_timeout: 30m
       - persist_to_workspace:
           root: ~/uport-mobile
           paths:
@@ -44,20 +73,53 @@ jobs:
             - android/app/build/jsbundle/assets
             - android/app/build/jsbundle/res
 
-      - store_test_results:
-          path: test-results
-      - store_artifacts:
-          path: test-results
+  android-dependencies:
+    working_directory: ~/uport-mobile/android
+    docker:
+      - image: circleci/android:api-28-node8-alpha
+        environment:
+          YARN_VERSION: 1.2.1
+          ANDROID_HOME: /opt/android/sdk
+          TERM: dumb
+          LC_ALL: en_US.UTF-8
+          LANG: en_US.UTF-8
+    steps:
+      - checkout:
+          path: ~/uport-mobile
+      - attach_workspace:
+          at: ~/uport-mobile
 
+      - run: wget https://releases.hashicorp.com/vault/0.10.1/vault_0.10.1_linux_amd64.zip -O ~/vault.zip
+      - run: mkdir -p ./tools/vault/ && unzip ~/vault.zip -d ./tools/vault/
+
+      - restore_cache:
+          keys:
+            - android-{{ arch }}-v4-{{ checksum "build.gradle" }}
+            - android-{{ arch }}-v4
+      - run:
+          name: ensure daemon is fresh
+          command: ./gradlew --stop
+      - run:
+          name: get android dependencies
+          command: ./gradlew :app:dependencies androidDependencies
+      - save_cache:
+          key: android-{{ arch }}-v4-{{ checksum "build.gradle" }}
+          paths:
+            - .gradle
+            - ~/.gradle
+
+      - persist_to_workspace:
+          root: ~/uport-mobile
+          paths:
+            - android/tools/vault
 
   android:
     working_directory: ~/uport-mobile/android
     docker:
-      - image: circleci/android:api-27-node8-alpha
+      - image: circleci/android:api-28-node8-alpha
         environment:
           YARN_VERSION: 1.2.1
-          ANDROID_HOME:  /opt/android/sdk
-          GRADLE_OPTS: '-Dorg.gradle.jvmargs="-Xms256m -Xmx3072m -XX:+HeapDumpOnOutOfMemoryError" -Dorg.gradle.daemon=true -Dorg.gradle.parallel=true'
+          ANDROID_HOME: /opt/android/sdk
           TERM: dumb
           LC_ALL: en_US.UTF-8
           LANG: en_US.UTF-8
@@ -69,37 +131,20 @@ jobs:
 
       - restore_cache:
           keys:
-            - bundle-{{ arch }}-v7-{{ checksum "Gemfile.lock" }}
-            - bundle-{{ arch }}-v7
-      - run: bundle install
-      - run: wget https://releases.hashicorp.com/vault/0.10.1/vault_0.10.1_linux_amd64.zip -O ~/vault.zip
-      - run: unzip ~/vault.zip -d ~/vault/
-
-      - save_cache:
-          key: bundle-{{ arch }}-v7-{{ checksum "Gemfile.lock" }}
-          paths:
-            - vendor/bundle
-            - .bundle
-            - ~/.bundle
-      - restore_cache:
-          keys:
-            - android-{{ arch }}-v2-{{ checksum "build.gradle" }}
-            - android-{{ arch }}-v2
+            - android-{{ arch }}-v4-{{ checksum "build.gradle" }}
+            - android-{{ arch }}-v4
       - run:
-          name: get android dependencies
-          command: ./gradlew androidDependencies
-      - save_cache:
-          key: android-{{ arch }}-v2-{{ checksum "build.gradle" }}
-          paths:
-            - .gradle
-            - ~/.gradle
-
-      - run: PATH=$PATH:$HOME/vault && bash ../scripts/pull_google_services.sh
-      - run: ./gradlew :app:deliverArchives -x bundleReleaseJsAndAssets
-
+          name: ensure daemon is fresh
+          command: ./gradlew --stop
+      - run:
+          name: get google services json
+          command: PATH="$PATH:$(pwd)/tools/vault" && bash ../scripts/pull_google_services.sh
+      - run:
+          name: build the release APK
+          command: ./gradlew :app:deliverArchives -x bundleReleaseJsAndAssets --no-parallel --max-workers 1
       - run:
           name: tests
-          command: cd ~/uport-mobile/android && ./gradlew :app:lint :app:test -x bundleReleaseJsAndAssets
+          command: ./gradlew :app:lint :app:test -x bundleReleaseJsAndAssets --no-parallel --max-workers 1
 
       - persist_to_workspace:
           root: ~/uport-mobile
@@ -121,7 +166,7 @@ jobs:
       LC_ALL: en_US.UTF-8
       LANG: en_US.UTF-8
     macos:
-      xcode: "9.3.0"
+      xcode: '10.1.0'
     shell: /bin/bash --login -o pipefail
     steps:
       - checkout:
@@ -146,14 +191,13 @@ jobs:
       - run:
           name: xcrun
           command: |
-            cd ~/uport-mobile/ios && xcrun instruments -w "iPhone 8 (11.3) [" || true
+            cd ~/uport-mobile/ios && xcrun instruments -w "iPhone 8 (11.2) [" || true
             pod install --verbose
             npm install
             yarn
       - run:
           name: Fastlane
-          command:
-            cd ~/uport-mobile/ios && bundle exec fastlane buildTheApp
+          command: cd ~/uport-mobile/ios && bundle exec fastlane buildTheApp
       - persist_to_workspace:
           root: ~/uport-mobile
           paths:
@@ -170,7 +214,7 @@ jobs:
   deploy-android:
     working_directory: ~/uport-mobile/android
     docker:
-      - image: circleci/android:api-27-node8-alpha
+      - image: circleci/android:api-28-node8-alpha
     steps:
       - checkout:
           path: ~/uport-mobile
@@ -178,13 +222,18 @@ jobs:
           at: ~/uport-mobile
       - restore_cache:
           keys:
-            - bundle-{{ arch }}-v7-{{ checksum "Gemfile.lock" }}
-            - bundle-{{ arch }}-v7
+            - bundle-{{ arch }}-v8-{{ checksum "Gemfile.lock" }}
+            - bundle-{{ arch }}-v8
       - run: bundle install
-      - run: wget https://releases.hashicorp.com/vault/0.10.1/vault_0.10.1_linux_amd64.zip -O ~/vault.zip
-      - run: unzip ~/vault.zip -d ~/vault/
+      - save_cache:
+          key: bundle-{{ arch }}-v8-{{ checksum "Gemfile.lock" }}
+          paths:
+            - vendor/bundle
+            - .bundle
+            - ~/.bundle
 
-      - run: PATH=$PATH:$HOME/vault && bash ../scripts/pull_service_key.sh && fastlane android alpha; rm -f ../google-play-key-file.json
+      - run: PATH="$PATH:$(pwd)/tools/vault" && bash ../scripts/pull_service_key.sh && fastlane android internal; rm -f ../google-play-key-file.json
+
   deploy-ios:
     working_directory: ~/uport-mobile
     environment:
@@ -193,7 +242,7 @@ jobs:
       LC_ALL: en_US.UTF-8
       LANG: en_US.UTF-8
     macos:
-      xcode: "9.3.0"
+      xcode: '10.1.0'
     shell: /bin/bash --login -o pipefail
     steps:
       - checkout:
@@ -216,14 +265,33 @@ workflows:
           filters:
             tags:
               only: /.*/
-      - node:
+      - node-dependencies:
+          filters:
+            tags:
+              only: /.*/
+      - node-test:
+          requires:
+            - node-dependencies
+          filters:
+            tags:
+              only: /.*/
+      - package-android-bundle:
+          requires:
+            - node-dependencies
+          filters:
+            tags:
+              only: /.*/
+      - android-dependencies:
+          requires:
+            - vault
+            - node-dependencies
           filters:
             tags:
               only: /.*/
       - android:
           requires:
-            - vault
-            - node
+            - android-dependencies
+            - package-android-bundle
           filters:
             tags:
               only: /.*/

@@ -1,556 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`NetworkCard renders a connected Network Card index as expected 1`] = `
-ShallowWrapper {
-  "length": 1,
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <NetworkCard
-    address={undefined}
-    authorizeRequest={[Function]}
-    authorized={false}
-    cancelRequest={[Function]}
-    clearRequest={[Function]}
-    client={null}
-    currentIdentity={Object {}}
-    error={undefined}
-    navigator={FakeNavigator {}}
-    network={undefined}
-    request={
-      Object {
-        "callback_url": "https://testapp.uport.me",
-        "clientId": "0x1bc5cbf71b068642fc5e89c5e3d0bdb3e366bc01",
-        "id": 14819973609293640,
-        "postback": false,
-        "subIdentity": Object {
-          "address": "5vZ6nCrJqwhb9nizRBxuPSddrzCBY3mXbu78KMa",
-          "network": "0xdeadbeef",
-        },
-        "type": "net",
-      }
-    }
-    requestId={undefined}
-    uportVerified={false}
-  />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "class",
-    "props": Object {
-      "children": Array [
-        <DataFlowHeader
-          recipient={Object {}}
-          sender={null}
-          verified={false}
-        />,
-        <Component
-          style={
-            Object {
-              "marginBottom": 40,
-              "marginTop": 22,
-            }
-          }
-        >
-          <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
-            style={
-              Object {
-                "color": "rgba(74,74,74,1)",
-                "fontFamily": "NunitoSans-Regular",
-                "fontSize": 20,
-                "lineHeight": 27,
-                "textAlign": "center",
-              }
-            }
-          >
-            This unidentified dApp
-          </Text>
-          <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
-            style={
-              Object {
-                "color": "rgba(74,74,74,1)",
-                "fontFamily": "NunitoSans-Light",
-                "fontSize": 16,
-                "lineHeight": 22,
-                "textAlign": "center",
-              }
-            }
-          >
-            has created this account for you
-          </Text>
-        </Component>,
-        <RequestItemList>
-          <RequestItem
-            type="Network"
-            value={undefined}
-          />
-          <RequestItem
-            type="Address"
-            value={undefined}
-          />
-        </RequestItemList>,
-        null,
-        <AcceptCancelGroup
-          acceptText="Add Account"
-          cancelText="Cancel"
-          disabled={false}
-          onAccept={[Function]}
-          onCancel={[Function]}
-        />,
-      ],
-      "style": Object {
-        "alignItems": "stretch",
-        "flex": 1,
-      },
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {
-          "recipient": Object {},
-          "sender": null,
-          "verified": false,
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": Array [
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
-              style={
-                Object {
-                  "color": "rgba(74,74,74,1)",
-                  "fontFamily": "NunitoSans-Regular",
-                  "fontSize": 20,
-                  "lineHeight": 27,
-                  "textAlign": "center",
-                }
-              }
-            >
-              This unidentified dApp
-            </Text>,
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
-              style={
-                Object {
-                  "color": "rgba(74,74,74,1)",
-                  "fontFamily": "NunitoSans-Light",
-                  "fontSize": 16,
-                  "lineHeight": 22,
-                  "textAlign": "center",
-                }
-              }
-            >
-              has created this account for you
-            </Text>,
-          ],
-          "style": Object {
-            "marginBottom": 40,
-            "marginTop": 22,
-          },
-        },
-        "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "accessible": true,
-              "allowFontScaling": true,
-              "children": "This unidentified dApp",
-              "ellipsizeMode": "tail",
-              "style": Object {
-                "color": "rgba(74,74,74,1)",
-                "fontFamily": "NunitoSans-Regular",
-                "fontSize": 20,
-                "lineHeight": 27,
-                "textAlign": "center",
-              },
-            },
-            "ref": null,
-            "rendered": "This unidentified dApp",
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "accessible": true,
-              "allowFontScaling": true,
-              "children": "has created this account for you",
-              "ellipsizeMode": "tail",
-              "style": Object {
-                "color": "rgba(74,74,74,1)",
-                "fontFamily": "NunitoSans-Light",
-                "fontSize": 16,
-                "lineHeight": 22,
-                "textAlign": "center",
-              },
-            },
-            "ref": null,
-            "rendered": "has created this account for you",
-            "type": [Function],
-          },
-        ],
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {
-          "children": Array [
-            <RequestItem
-              type="Network"
-              value={undefined}
-            />,
-            <RequestItem
-              type="Address"
-              value={undefined}
-            />,
-          ],
-        },
-        "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": "network",
-            "nodeType": "function",
-            "props": Object {
-              "type": "Network",
-              "value": undefined,
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": "address",
-            "nodeType": "function",
-            "props": Object {
-              "type": "Address",
-              "value": undefined,
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-        ],
-        "type": [Function],
-      },
-      null,
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {
-          "acceptText": "Add Account",
-          "cancelText": "Cancel",
-          "disabled": false,
-          "onAccept": [Function],
-          "onCancel": [Function],
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-    ],
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "children": Array [
-          <DataFlowHeader
-            recipient={Object {}}
-            sender={null}
-            verified={false}
-          />,
-          <Component
-            style={
-              Object {
-                "marginBottom": 40,
-                "marginTop": 22,
-              }
-            }
-          >
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
-              style={
-                Object {
-                  "color": "rgba(74,74,74,1)",
-                  "fontFamily": "NunitoSans-Regular",
-                  "fontSize": 20,
-                  "lineHeight": 27,
-                  "textAlign": "center",
-                }
-              }
-            >
-              This unidentified dApp
-            </Text>
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
-              style={
-                Object {
-                  "color": "rgba(74,74,74,1)",
-                  "fontFamily": "NunitoSans-Light",
-                  "fontSize": 16,
-                  "lineHeight": 22,
-                  "textAlign": "center",
-                }
-              }
-            >
-              has created this account for you
-            </Text>
-          </Component>,
-          <RequestItemList>
-            <RequestItem
-              type="Network"
-              value={undefined}
-            />
-            <RequestItem
-              type="Address"
-              value={undefined}
-            />
-          </RequestItemList>,
-          null,
-          <AcceptCancelGroup
-            acceptText="Add Account"
-            cancelText="Cancel"
-            disabled={false}
-            onAccept={[Function]}
-            onCancel={[Function]}
-          />,
-        ],
-        "style": Object {
-          "alignItems": "stretch",
-          "flex": 1,
-        },
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "recipient": Object {},
-            "sender": null,
-            "verified": false,
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": Array [
-              <Text
-                accessible={true}
-                allowFontScaling={true}
-                ellipsizeMode="tail"
-                style={
-                  Object {
-                    "color": "rgba(74,74,74,1)",
-                    "fontFamily": "NunitoSans-Regular",
-                    "fontSize": 20,
-                    "lineHeight": 27,
-                    "textAlign": "center",
-                  }
-                }
-              >
-                This unidentified dApp
-              </Text>,
-              <Text
-                accessible={true}
-                allowFontScaling={true}
-                ellipsizeMode="tail"
-                style={
-                  Object {
-                    "color": "rgba(74,74,74,1)",
-                    "fontFamily": "NunitoSans-Light",
-                    "fontSize": 16,
-                    "lineHeight": 22,
-                    "textAlign": "center",
-                  }
-                }
-              >
-                has created this account for you
-              </Text>,
-            ],
-            "style": Object {
-              "marginBottom": 40,
-              "marginTop": 22,
-            },
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "accessible": true,
-                "allowFontScaling": true,
-                "children": "This unidentified dApp",
-                "ellipsizeMode": "tail",
-                "style": Object {
-                  "color": "rgba(74,74,74,1)",
-                  "fontFamily": "NunitoSans-Regular",
-                  "fontSize": 20,
-                  "lineHeight": 27,
-                  "textAlign": "center",
-                },
-              },
-              "ref": null,
-              "rendered": "This unidentified dApp",
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "accessible": true,
-                "allowFontScaling": true,
-                "children": "has created this account for you",
-                "ellipsizeMode": "tail",
-                "style": Object {
-                  "color": "rgba(74,74,74,1)",
-                  "fontFamily": "NunitoSans-Light",
-                  "fontSize": 16,
-                  "lineHeight": 22,
-                  "textAlign": "center",
-                },
-              },
-              "ref": null,
-              "rendered": "has created this account for you",
-              "type": [Function],
-            },
-          ],
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "children": Array [
-              <RequestItem
-                type="Network"
-                value={undefined}
-              />,
-              <RequestItem
-                type="Address"
-                value={undefined}
-              />,
-            ],
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": "network",
-              "nodeType": "function",
-              "props": Object {
-                "type": "Network",
-                "value": undefined,
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": "address",
-              "nodeType": "function",
-              "props": Object {
-                "type": "Address",
-                "value": undefined,
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-          ],
-          "type": [Function],
-        },
-        null,
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "acceptText": "Add Account",
-            "cancelText": "Cancel",
-            "disabled": false,
-            "onAccept": [Function],
-            "onCancel": [Function],
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-      ],
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-      },
-    },
-    "context": Object {
-      "store": Object {
-        "clearActions": [Function],
-        "dispatch": [Function],
-        "getActions": [Function],
-        "getState": [Function],
-        "replaceReducer": [Function],
-        "subscribe": [Function],
-      },
-    },
-  },
-}
-`;
+exports[`NetworkCard renders a connected Network Card index as expected 1`] = `ShallowWrapper {}`;
 
 exports[`NetworkCard renders authorized request correctly 1`] = `
 <View
@@ -580,34 +30,30 @@ exports[`NetworkCard renders authorized request correctly 1`] = `
               "justifyContent": "center",
             },
             Object {
-              "borderRadius": 3,
-              "height": 70,
-              "width": 70,
+              "borderRadius": 30,
+              "height": 60,
+              "width": 60,
             },
             Object {
-              "backgroundColor": "rgba(91,84,199,1)",
+              "backgroundColor": "rgba(216,216,216,1)",
             },
             Object {
-              "padding": 17.5,
+              "padding": 15,
             },
           ]
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
-                "fontFamily": "NunitoSans-Regular",
-                "fontSize": 17.5,
+                "fontFamily": undefined,
+                "fontSize": 15,
                 "textAlign": "center",
               },
               undefined,
               Object {
-                "color": "white",
-                "fontSize": 17.5,
+                "fontSize": 20,
               },
             ]
           }
@@ -619,7 +65,7 @@ exports[`NetworkCard renders authorized request correctly 1`] = `
     <Image
       source={
         Object {
-          "testUri": "../../../images/ForwardArrow.png",
+          "testUri": "../../../assets/images/ForwardArrow.png",
         }
       }
       style={
@@ -642,34 +88,30 @@ exports[`NetworkCard renders authorized request correctly 1`] = `
                 "justifyContent": "center",
               },
               Object {
-                "borderRadius": 3,
-                "height": 70,
-                "width": 70,
+                "borderRadius": 30,
+                "height": 60,
+                "width": 60,
               },
               Object {
-                "backgroundColor": "rgba(91,84,199,1)",
+                "backgroundColor": "rgba(216,216,216,1)",
               },
               Object {
-                "padding": 17.5,
+                "padding": 15,
               },
             ]
           }
         >
           <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
             style={
               Array [
                 Object {
-                  "fontFamily": "NunitoSans-Regular",
-                  "fontSize": 17.5,
+                  "fontFamily": undefined,
+                  "fontSize": 15,
                   "textAlign": "center",
                 },
                 undefined,
                 Object {
-                  "color": "white",
-                  "fontSize": 17.5,
+                  "fontSize": 20,
                 },
               ]
             }
@@ -689,13 +131,9 @@ exports[`NetworkCard renders authorized request correctly 1`] = `
     }
   >
     <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
       style={
         Object {
           "color": "rgba(74,74,74,1)",
-          "fontFamily": "NunitoSans-Regular",
           "fontSize": 20,
           "lineHeight": 27,
           "textAlign": "center",
@@ -705,13 +143,9 @@ exports[`NetworkCard renders authorized request correctly 1`] = `
       Brazil Ministry of Finance
     </Text>
     <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
       style={
         Object {
           "color": "rgba(74,74,74,1)",
-          "fontFamily": "NunitoSans-Light",
           "fontSize": 16,
           "lineHeight": 22,
           "textAlign": "center",
@@ -753,14 +187,11 @@ exports[`NetworkCard renders authorized request correctly 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Object {
               "color": "rgba(155,155,155,1)",
               "flex": 0,
-              "fontFamily": "NunitoSans-Light",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginLeft": 10,
@@ -774,14 +205,11 @@ exports[`NetworkCard renders authorized request correctly 1`] = `
           :
         </Text>
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Object {
               "color": "rgba(130,130,130,1)",
               "flex": 1,
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginRight": 10,
@@ -807,14 +235,11 @@ exports[`NetworkCard renders authorized request correctly 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Object {
               "color": "rgba(155,155,155,1)",
               "flex": 0,
-              "fontFamily": "NunitoSans-Light",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginLeft": 10,
@@ -828,14 +253,11 @@ exports[`NetworkCard renders authorized request correctly 1`] = `
           :
         </Text>
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Object {
               "color": "rgba(130,130,130,1)",
               "flex": 1,
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginRight": 10,
@@ -880,34 +302,30 @@ exports[`NetworkCard renders new request correctly 1`] = `
               "justifyContent": "center",
             },
             Object {
-              "borderRadius": 3,
-              "height": 70,
-              "width": 70,
+              "borderRadius": 30,
+              "height": 60,
+              "width": 60,
             },
             Object {
-              "backgroundColor": "rgba(91,84,199,1)",
+              "backgroundColor": "rgba(216,216,216,1)",
             },
             Object {
-              "padding": 17.5,
+              "padding": 15,
             },
           ]
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
-                "fontFamily": "NunitoSans-Regular",
-                "fontSize": 17.5,
+                "fontFamily": undefined,
+                "fontSize": 15,
                 "textAlign": "center",
               },
               undefined,
               Object {
-                "color": "white",
-                "fontSize": 17.5,
+                "fontSize": 20,
               },
             ]
           }
@@ -919,7 +337,7 @@ exports[`NetworkCard renders new request correctly 1`] = `
     <Image
       source={
         Object {
-          "testUri": "../../../images/ForwardArrow.png",
+          "testUri": "../../../assets/images/ForwardArrow.png",
         }
       }
       style={
@@ -942,34 +360,30 @@ exports[`NetworkCard renders new request correctly 1`] = `
                 "justifyContent": "center",
               },
               Object {
-                "borderRadius": 3,
-                "height": 70,
-                "width": 70,
+                "borderRadius": 30,
+                "height": 60,
+                "width": 60,
               },
               Object {
-                "backgroundColor": "rgba(91,84,199,1)",
+                "backgroundColor": "rgba(216,216,216,1)",
               },
               Object {
-                "padding": 17.5,
+                "padding": 15,
               },
             ]
           }
         >
           <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
             style={
               Array [
                 Object {
-                  "fontFamily": "NunitoSans-Regular",
-                  "fontSize": 17.5,
+                  "fontFamily": undefined,
+                  "fontSize": 15,
                   "textAlign": "center",
                 },
                 undefined,
                 Object {
-                  "color": "white",
-                  "fontSize": 17.5,
+                  "fontSize": 20,
                 },
               ]
             }
@@ -989,13 +403,9 @@ exports[`NetworkCard renders new request correctly 1`] = `
     }
   >
     <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
       style={
         Object {
           "color": "rgba(74,74,74,1)",
-          "fontFamily": "NunitoSans-Regular",
           "fontSize": 20,
           "lineHeight": 27,
           "textAlign": "center",
@@ -1005,13 +415,9 @@ exports[`NetworkCard renders new request correctly 1`] = `
       Brazil Ministry of Finance
     </Text>
     <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
       style={
         Object {
           "color": "rgba(74,74,74,1)",
-          "fontFamily": "NunitoSans-Light",
           "fontSize": 16,
           "lineHeight": 22,
           "textAlign": "center",
@@ -1053,14 +459,11 @@ exports[`NetworkCard renders new request correctly 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Object {
               "color": "rgba(155,155,155,1)",
               "flex": 0,
-              "fontFamily": "NunitoSans-Light",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginLeft": 10,
@@ -1074,14 +477,11 @@ exports[`NetworkCard renders new request correctly 1`] = `
           :
         </Text>
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Object {
               "color": "rgba(130,130,130,1)",
               "flex": 1,
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginRight": 10,
@@ -1107,14 +507,11 @@ exports[`NetworkCard renders new request correctly 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Object {
               "color": "rgba(155,155,155,1)",
               "flex": 0,
-              "fontFamily": "NunitoSans-Light",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginLeft": 10,
@@ -1128,14 +525,11 @@ exports[`NetworkCard renders new request correctly 1`] = `
           :
         </Text>
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Object {
               "color": "rgba(130,130,130,1)",
               "flex": 1,
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginRight": 10,
@@ -1158,15 +552,8 @@ exports[`NetworkCard renders new request correctly 1`] = `
     }
   >
     <View
-      accessibilityComponentType={undefined}
-      accessibilityLabel={undefined}
-      accessibilityTraits={undefined}
       accessible={true}
-      hasTVPreferredFocus={undefined}
-      hitSlop={undefined}
       isTVSelectable={true}
-      nativeID={undefined}
-      onLayout={undefined}
       onResponderGrant={[Function]}
       onResponderMove={[Function]}
       onResponderRelease={[Function]}
@@ -1187,6 +574,7 @@ exports[`NetworkCard renders new request correctly 1`] = `
             Object {
               "borderColor": "rgba(74,74,74,1)",
               "borderWidth": 1,
+              "padding": 15,
             },
             Object {
               "marginRight": 10,
@@ -1194,17 +582,12 @@ exports[`NetworkCard renders new request correctly 1`] = `
           ],
         ]
       }
-      testID={undefined}
-      tvParallaxProperties={undefined}
     >
       <Text
-        accessible={true}
-        allowFontScaling={true}
-        ellipsizeMode="tail"
         style={
           Array [
             Object {
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": "Montserrat",
               "fontSize": 18,
               "textAlign": "center",
             },
@@ -1219,15 +602,8 @@ exports[`NetworkCard renders new request correctly 1`] = `
       </Text>
     </View>
     <View
-      accessibilityComponentType={undefined}
-      accessibilityLabel={undefined}
-      accessibilityTraits={undefined}
       accessible={true}
-      hasTVPreferredFocus={undefined}
-      hitSlop={undefined}
       isTVSelectable={true}
-      nativeID={undefined}
-      onLayout={undefined}
       onResponderGrant={[Function]}
       onResponderMove={[Function]}
       onResponderRelease={[Function]}
@@ -1246,30 +622,32 @@ exports[`NetworkCard renders new request correctly 1`] = `
           },
           Array [
             Object {
-              "backgroundColor": "rgba(91,84,199,1)",
-              "marginLeft": 10,
+              "backgroundColor": "#5952ff",
+              "padding": 15,
             },
             undefined,
           ],
         ]
       }
-      testID={undefined}
-      tvParallaxProperties={undefined}
     >
       <Text
-        accessible={true}
-        allowFontScaling={true}
-        ellipsizeMode="tail"
         style={
           Array [
             Object {
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": "Montserrat",
               "fontSize": 18,
               "textAlign": "center",
             },
-            Object {
-              "color": "#FFFFFF",
-            },
+            Array [
+              Object {
+                "fontFamily": "Montserrat",
+                "fontSize": 18,
+                "textAlign": "center",
+              },
+              Object {
+                "color": "#FFFFFF",
+              },
+            ],
             Object {},
           ]
         }
@@ -1309,34 +687,30 @@ exports[`NetworkCard renders request with errors 1`] = `
               "justifyContent": "center",
             },
             Object {
-              "borderRadius": 3,
-              "height": 70,
-              "width": 70,
+              "borderRadius": 30,
+              "height": 60,
+              "width": 60,
             },
             Object {
-              "backgroundColor": "rgba(91,84,199,1)",
+              "backgroundColor": "rgba(216,216,216,1)",
             },
             Object {
-              "padding": 17.5,
+              "padding": 15,
             },
           ]
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
-                "fontFamily": "NunitoSans-Regular",
-                "fontSize": 17.5,
+                "fontFamily": undefined,
+                "fontSize": 15,
                 "textAlign": "center",
               },
               undefined,
               Object {
-                "color": "white",
-                "fontSize": 17.5,
+                "fontSize": 20,
               },
             ]
           }
@@ -1348,7 +722,7 @@ exports[`NetworkCard renders request with errors 1`] = `
     <Image
       source={
         Object {
-          "testUri": "../../../images/ForwardArrow.png",
+          "testUri": "../../../assets/images/ForwardArrow.png",
         }
       }
       style={
@@ -1371,34 +745,30 @@ exports[`NetworkCard renders request with errors 1`] = `
                 "justifyContent": "center",
               },
               Object {
-                "borderRadius": 3,
-                "height": 70,
-                "width": 70,
+                "borderRadius": 30,
+                "height": 60,
+                "width": 60,
               },
               Object {
-                "backgroundColor": "rgba(91,84,199,1)",
+                "backgroundColor": "rgba(216,216,216,1)",
               },
               Object {
-                "padding": 17.5,
+                "padding": 15,
               },
             ]
           }
         >
           <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
             style={
               Array [
                 Object {
-                  "fontFamily": "NunitoSans-Regular",
-                  "fontSize": 17.5,
+                  "fontFamily": undefined,
+                  "fontSize": 15,
                   "textAlign": "center",
                 },
                 undefined,
                 Object {
-                  "color": "white",
-                  "fontSize": 17.5,
+                  "fontSize": 20,
                 },
               ]
             }
@@ -1418,13 +788,9 @@ exports[`NetworkCard renders request with errors 1`] = `
     }
   >
     <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
       style={
         Object {
           "color": "rgba(74,74,74,1)",
-          "fontFamily": "NunitoSans-Regular",
           "fontSize": 20,
           "lineHeight": 27,
           "textAlign": "center",
@@ -1434,13 +800,9 @@ exports[`NetworkCard renders request with errors 1`] = `
       Brazil Ministry of Finance
     </Text>
     <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
       style={
         Object {
           "color": "rgba(74,74,74,1)",
-          "fontFamily": "NunitoSans-Light",
           "fontSize": 16,
           "lineHeight": 22,
           "textAlign": "center",
@@ -1482,14 +844,11 @@ exports[`NetworkCard renders request with errors 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Object {
               "color": "rgba(155,155,155,1)",
               "flex": 0,
-              "fontFamily": "NunitoSans-Light",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginLeft": 10,
@@ -1503,14 +862,11 @@ exports[`NetworkCard renders request with errors 1`] = `
           :
         </Text>
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Object {
               "color": "rgba(130,130,130,1)",
               "flex": 1,
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginRight": 10,
@@ -1536,14 +892,11 @@ exports[`NetworkCard renders request with errors 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Object {
               "color": "rgba(155,155,155,1)",
               "flex": 0,
-              "fontFamily": "NunitoSans-Light",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginLeft": 10,
@@ -1557,14 +910,11 @@ exports[`NetworkCard renders request with errors 1`] = `
           :
         </Text>
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Object {
               "color": "rgba(130,130,130,1)",
               "flex": 1,
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": undefined,
               "fontSize": 14,
               "lineHeight": 23,
               "marginRight": 10,
@@ -1578,14 +928,10 @@ exports[`NetworkCard renders request with errors 1`] = `
     </View>
   </RCTScrollView>
   <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
     style={
       Array [
         Object {
           "color": "rgba(155,155,155,1)",
-          "fontFamily": "NunitoSans-Light",
           "fontSize": 14,
           "lineHeight": 19,
           "textAlign": "center",
@@ -1608,15 +954,8 @@ exports[`NetworkCard renders request with errors 1`] = `
     }
   >
     <View
-      accessibilityComponentType={undefined}
-      accessibilityLabel={undefined}
-      accessibilityTraits={undefined}
       accessible={true}
-      hasTVPreferredFocus={undefined}
-      hitSlop={undefined}
       isTVSelectable={true}
-      nativeID={undefined}
-      onLayout={undefined}
       onResponderGrant={[Function]}
       onResponderMove={[Function]}
       onResponderRelease={[Function]}
@@ -1637,6 +976,7 @@ exports[`NetworkCard renders request with errors 1`] = `
             Object {
               "borderColor": "rgba(74,74,74,1)",
               "borderWidth": 1,
+              "padding": 15,
             },
             Object {
               "marginRight": 10,
@@ -1644,17 +984,12 @@ exports[`NetworkCard renders request with errors 1`] = `
           ],
         ]
       }
-      testID={undefined}
-      tvParallaxProperties={undefined}
     >
       <Text
-        accessible={true}
-        allowFontScaling={true}
-        ellipsizeMode="tail"
         style={
           Array [
             Object {
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": "Montserrat",
               "fontSize": 18,
               "textAlign": "center",
             },
@@ -1669,15 +1004,8 @@ exports[`NetworkCard renders request with errors 1`] = `
       </Text>
     </View>
     <View
-      accessibilityComponentType={undefined}
-      accessibilityLabel={undefined}
-      accessibilityTraits={undefined}
       accessible={true}
-      hasTVPreferredFocus={undefined}
-      hitSlop={undefined}
       isTVSelectable={true}
-      nativeID={undefined}
-      onLayout={undefined}
       onResponderGrant={[Function]}
       onResponderMove={[Function]}
       onResponderRelease={[Function]}
@@ -1698,26 +1026,29 @@ exports[`NetworkCard renders request with errors 1`] = `
             "backgroundColor": "rgba(0,0,0,0)",
             "borderColor": "rgba(185, 185, 185, 1)",
             "borderWidth": 1,
+            "padding": 15,
           },
         ]
       }
-      testID={undefined}
-      tvParallaxProperties={undefined}
     >
       <Text
-        accessible={true}
-        allowFontScaling={true}
-        ellipsizeMode="tail"
         style={
           Array [
             Object {
-              "fontFamily": "NunitoSans-Bold",
+              "fontFamily": "Montserrat",
               "fontSize": 18,
               "textAlign": "center",
             },
-            Object {
-              "color": "#FFFFFF",
-            },
+            Array [
+              Object {
+                "fontFamily": "Montserrat",
+                "fontSize": 18,
+                "textAlign": "center",
+              },
+              Object {
+                "color": "#FFFFFF",
+              },
+            ],
             Object {
               "color": "rgba(185, 185, 185, 1)",
             },

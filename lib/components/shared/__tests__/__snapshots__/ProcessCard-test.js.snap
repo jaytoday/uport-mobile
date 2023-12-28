@@ -6,7 +6,6 @@ exports[`disabled button error 1`] = `
     Object {
       "backgroundColor": "white",
       "flex": 1,
-      "paddingTop": 10,
     }
   }
 >
@@ -34,16 +33,11 @@ exports[`disabled button error 1`] = `
       Object {
         "backgroundColor": "white",
         "flex": 1,
-        "paddingTop": 10,
       }
     }
   >
     <View>
-      <Text
-        accessible={true}
-        allowFontScaling={true}
-        ellipsizeMode="tail"
-      >
+      <Text>
         Hello
       </Text>
       <View
@@ -57,14 +51,10 @@ exports[`disabled button error 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
                 "color": "rgba(155,155,155,1)",
-                "fontFamily": "NunitoSans-Light",
                 "fontSize": 14,
                 "lineHeight": 19,
                 "textAlign": "center",
@@ -81,19 +71,13 @@ exports[`disabled button error 1`] = `
     </View>
   </RCTScrollView>
   <View
-    enabled={true}
-    keyboardVerticalOffset={0}
     onLayout={[Function]}
-    style={undefined}
   >
     <View
       style={
-        Array [
-          undefined,
-          Object {
-            "bottom": 0,
-          },
-        ]
+        Object {
+          "bottom": 0,
+        }
       }
     >
       <View
@@ -115,15 +99,8 @@ exports[`disabled button error 1`] = `
           }
         >
           <View
-            accessibilityComponentType={undefined}
-            accessibilityLabel={undefined}
-            accessibilityTraits={undefined}
             accessible={true}
-            hasTVPreferredFocus={undefined}
-            hitSlop={undefined}
             isTVSelectable={true}
-            nativeID={undefined}
-            onLayout={undefined}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
@@ -148,35 +125,30 @@ exports[`disabled button error 1`] = `
                     "marginRight": 15,
                   },
                   Object {
-                    "borderColor": "rgba(92,80,202,1)",
+                    "borderColor": "#6A54D1",
                   },
                 ],
               ]
             }
-            testID={undefined}
-            tvParallaxProperties={undefined}
           >
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               style={
                 Array [
                   Object {
-                    "fontFamily": "NunitoSans-Bold",
+                    "fontFamily": "Montserrat",
                     "fontSize": 18,
                     "textAlign": "center",
                   },
                   Array [
                     Object {
                       "color": "rgba(54,184,123,1)",
-                      "fontFamily": "NunitoSans-Bold",
+                      "fontFamily": undefined,
                       "fontSize": 18,
                       "lineHeight": 25,
                       "padding": 3,
                     },
                     Object {
-                      "color": "rgba(92,80,202,1)",
+                      "color": "#6A54D1",
                     },
                   ],
                   Object {},
@@ -199,7 +171,6 @@ exports[`disabled button invalid state 1`] = `
     Object {
       "backgroundColor": "white",
       "flex": 1,
-      "paddingTop": 10,
     }
   }
 >
@@ -227,34 +198,23 @@ exports[`disabled button invalid state 1`] = `
       Object {
         "backgroundColor": "white",
         "flex": 1,
-        "paddingTop": 10,
       }
     }
   >
     <View>
-      <Text
-        accessible={true}
-        allowFontScaling={true}
-        ellipsizeMode="tail"
-      >
+      <Text>
         Hello
       </Text>
     </View>
   </RCTScrollView>
   <View
-    enabled={true}
-    keyboardVerticalOffset={0}
     onLayout={[Function]}
-    style={undefined}
   >
     <View
       style={
-        Array [
-          undefined,
-          Object {
-            "bottom": 0,
-          },
-        ]
+        Object {
+          "bottom": 0,
+        }
       }
     >
       <View
@@ -276,15 +236,8 @@ exports[`disabled button invalid state 1`] = `
           }
         >
           <View
-            accessibilityComponentType={undefined}
-            accessibilityLabel={undefined}
-            accessibilityTraits={undefined}
             accessible={true}
-            hasTVPreferredFocus={undefined}
-            hitSlop={undefined}
             isTVSelectable={true}
-            nativeID={undefined}
-            onLayout={undefined}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
@@ -305,27 +258,23 @@ exports[`disabled button invalid state 1`] = `
                   "backgroundColor": "rgba(0,0,0,0)",
                   "borderColor": "rgba(185, 185, 185, 1)",
                   "borderWidth": 1,
+                  "padding": 15,
                 },
               ]
             }
-            testID={undefined}
-            tvParallaxProperties={undefined}
           >
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               style={
                 Array [
                   Object {
-                    "fontFamily": "NunitoSans-Bold",
+                    "fontFamily": "Montserrat",
                     "fontSize": 18,
                     "textAlign": "center",
                   },
                   Array [
                     Object {
                       "color": "rgba(54,184,123,1)",
-                      "fontFamily": "NunitoSans-Bold",
+                      "fontFamily": undefined,
                       "fontSize": 18,
                       "lineHeight": 25,
                       "padding": 3,
@@ -356,7 +305,6 @@ exports[`disabled button offline 1`] = `
     Object {
       "backgroundColor": "white",
       "flex": 1,
-      "paddingTop": 10,
     }
   }
 >
@@ -384,16 +332,11 @@ exports[`disabled button offline 1`] = `
       Object {
         "backgroundColor": "white",
         "flex": 1,
-        "paddingTop": 10,
       }
     }
   >
     <View>
-      <Text
-        accessible={true}
-        allowFontScaling={true}
-        ellipsizeMode="tail"
-      >
+      <Text>
         Hello
       </Text>
       <View
@@ -407,14 +350,10 @@ exports[`disabled button offline 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
                 "color": "rgba(155,155,155,1)",
-                "fontFamily": "NunitoSans-Light",
                 "fontSize": 14,
                 "lineHeight": 19,
                 "textAlign": "center",
@@ -429,19 +368,13 @@ exports[`disabled button offline 1`] = `
     </View>
   </RCTScrollView>
   <View
-    enabled={true}
-    keyboardVerticalOffset={0}
     onLayout={[Function]}
-    style={undefined}
   >
     <View
       style={
-        Array [
-          undefined,
-          Object {
-            "bottom": 0,
-          },
-        ]
+        Object {
+          "bottom": 0,
+        }
       }
     >
       <View
@@ -463,15 +396,8 @@ exports[`disabled button offline 1`] = `
           }
         >
           <View
-            accessibilityComponentType={undefined}
-            accessibilityLabel={undefined}
-            accessibilityTraits={undefined}
             accessible={true}
-            hasTVPreferredFocus={undefined}
-            hitSlop={undefined}
             isTVSelectable={true}
-            nativeID={undefined}
-            onLayout={undefined}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
@@ -496,35 +422,30 @@ exports[`disabled button offline 1`] = `
                     "marginRight": 15,
                   },
                   Object {
-                    "borderColor": "rgba(92,80,202,1)",
+                    "borderColor": "#6A54D1",
                   },
                 ],
               ]
             }
-            testID={undefined}
-            tvParallaxProperties={undefined}
           >
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               style={
                 Array [
                   Object {
-                    "fontFamily": "NunitoSans-Bold",
+                    "fontFamily": "Montserrat",
                     "fontSize": 18,
                     "textAlign": "center",
                   },
                   Array [
                     Object {
                       "color": "rgba(54,184,123,1)",
-                      "fontFamily": "NunitoSans-Bold",
+                      "fontFamily": undefined,
                       "fontSize": 18,
                       "lineHeight": 25,
                       "padding": 3,
                     },
                     Object {
-                      "color": "rgba(92,80,202,1)",
+                      "color": "#6A54D1",
                     },
                   ],
                   Object {},
@@ -547,7 +468,6 @@ exports[`disabled button working 1`] = `
     Object {
       "backgroundColor": "white",
       "flex": 1,
-      "paddingTop": 10,
     }
   }
 >
@@ -575,16 +495,11 @@ exports[`disabled button working 1`] = `
       Object {
         "backgroundColor": "white",
         "flex": 1,
-        "paddingTop": 10,
       }
     }
   >
     <View>
-      <Text
-        accessible={true}
-        allowFontScaling={true}
-        ellipsizeMode="tail"
-      >
+      <Text>
         Hello
       </Text>
       <View
@@ -612,19 +527,13 @@ exports[`disabled button working 1`] = `
     </View>
   </RCTScrollView>
   <View
-    enabled={true}
-    keyboardVerticalOffset={0}
     onLayout={[Function]}
-    style={undefined}
   >
     <View
       style={
-        Array [
-          undefined,
-          Object {
-            "bottom": 0,
-          },
-        ]
+        Object {
+          "bottom": 0,
+        }
       }
     >
       <View
@@ -646,15 +555,8 @@ exports[`disabled button working 1`] = `
           }
         >
           <View
-            accessibilityComponentType={undefined}
-            accessibilityLabel={undefined}
-            accessibilityTraits={undefined}
             accessible={true}
-            hasTVPreferredFocus={undefined}
-            hitSlop={undefined}
             isTVSelectable={true}
-            nativeID={undefined}
-            onLayout={undefined}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
@@ -675,27 +577,23 @@ exports[`disabled button working 1`] = `
                   "backgroundColor": "rgba(0,0,0,0)",
                   "borderColor": "rgba(185, 185, 185, 1)",
                   "borderWidth": 1,
+                  "padding": 15,
                 },
               ]
             }
-            testID={undefined}
-            tvParallaxProperties={undefined}
           >
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               style={
                 Array [
                   Object {
-                    "fontFamily": "NunitoSans-Bold",
+                    "fontFamily": "Montserrat",
                     "fontSize": 18,
                     "textAlign": "center",
                   },
                   Array [
                     Object {
                       "color": "rgba(54,184,123,1)",
-                      "fontFamily": "NunitoSans-Bold",
+                      "fontFamily": undefined,
                       "fontSize": 18,
                       "lineHeight": 25,
                       "padding": 3,
@@ -726,7 +624,6 @@ exports[`disabled button working and message 1`] = `
     Object {
       "backgroundColor": "white",
       "flex": 1,
-      "paddingTop": 10,
     }
   }
 >
@@ -754,16 +651,11 @@ exports[`disabled button working and message 1`] = `
       Object {
         "backgroundColor": "white",
         "flex": 1,
-        "paddingTop": 10,
       }
     }
   >
     <View>
-      <Text
-        accessible={true}
-        allowFontScaling={true}
-        ellipsizeMode="tail"
-      >
+      <Text>
         Hello
       </Text>
       <View
@@ -788,14 +680,10 @@ exports[`disabled button working and message 1`] = `
           }
         />
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
                 "color": "rgba(155,155,155,1)",
-                "fontFamily": "NunitoSans-Light",
                 "fontSize": 14,
                 "lineHeight": 19,
                 "textAlign": "center",
@@ -810,19 +698,13 @@ exports[`disabled button working and message 1`] = `
     </View>
   </RCTScrollView>
   <View
-    enabled={true}
-    keyboardVerticalOffset={0}
     onLayout={[Function]}
-    style={undefined}
   >
     <View
       style={
-        Array [
-          undefined,
-          Object {
-            "bottom": 0,
-          },
-        ]
+        Object {
+          "bottom": 0,
+        }
       }
     >
       <View
@@ -844,15 +726,8 @@ exports[`disabled button working and message 1`] = `
           }
         >
           <View
-            accessibilityComponentType={undefined}
-            accessibilityLabel={undefined}
-            accessibilityTraits={undefined}
             accessible={true}
-            hasTVPreferredFocus={undefined}
-            hitSlop={undefined}
             isTVSelectable={true}
-            nativeID={undefined}
-            onLayout={undefined}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
@@ -873,27 +748,23 @@ exports[`disabled button working and message 1`] = `
                   "backgroundColor": "rgba(0,0,0,0)",
                   "borderColor": "rgba(185, 185, 185, 1)",
                   "borderWidth": 1,
+                  "padding": 15,
                 },
               ]
             }
-            testID={undefined}
-            tvParallaxProperties={undefined}
           >
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               style={
                 Array [
                   Object {
-                    "fontFamily": "NunitoSans-Bold",
+                    "fontFamily": "Montserrat",
                     "fontSize": 18,
                     "textAlign": "center",
                   },
                   Array [
                     Object {
                       "color": "rgba(54,184,123,1)",
-                      "fontFamily": "NunitoSans-Bold",
+                      "fontFamily": undefined,
                       "fontSize": 18,
                       "lineHeight": 25,
                       "padding": 3,
@@ -924,7 +795,6 @@ exports[`event handling calls onComplete if onProcess returns true 1`] = `
     Object {
       "backgroundColor": "white",
       "flex": 1,
-      "paddingTop": 10,
     }
   }
 >
@@ -952,34 +822,23 @@ exports[`event handling calls onComplete if onProcess returns true 1`] = `
       Object {
         "backgroundColor": "white",
         "flex": 1,
-        "paddingTop": 10,
       }
     }
   >
     <View>
-      <Text
-        accessible={true}
-        allowFontScaling={true}
-        ellipsizeMode="tail"
-      >
+      <Text>
         Hello
       </Text>
     </View>
   </RCTScrollView>
   <View
-    enabled={true}
-    keyboardVerticalOffset={0}
     onLayout={[Function]}
-    style={undefined}
   >
     <View
       style={
-        Array [
-          undefined,
-          Object {
-            "bottom": 0,
-          },
-        ]
+        Object {
+          "bottom": 0,
+        }
       }
     >
       <View
@@ -1001,15 +860,8 @@ exports[`event handling calls onComplete if onProcess returns true 1`] = `
           }
         >
           <View
-            accessibilityComponentType={undefined}
-            accessibilityLabel={undefined}
-            accessibilityTraits={undefined}
             accessible={true}
-            hasTVPreferredFocus={undefined}
-            hitSlop={undefined}
             isTVSelectable={true}
-            nativeID={undefined}
-            onLayout={undefined}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
@@ -1034,35 +886,30 @@ exports[`event handling calls onComplete if onProcess returns true 1`] = `
                     "marginRight": 15,
                   },
                   Object {
-                    "borderColor": "rgba(92,80,202,1)",
+                    "borderColor": "#6A54D1",
                   },
                 ],
               ]
             }
-            testID={undefined}
-            tvParallaxProperties={undefined}
           >
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               style={
                 Array [
                   Object {
-                    "fontFamily": "NunitoSans-Bold",
+                    "fontFamily": "Montserrat",
                     "fontSize": 18,
                     "textAlign": "center",
                   },
                   Array [
                     Object {
                       "color": "rgba(54,184,123,1)",
-                      "fontFamily": "NunitoSans-Bold",
+                      "fontFamily": undefined,
                       "fontSize": 18,
                       "lineHeight": 25,
                       "padding": 3,
                     },
                     Object {
-                      "color": "rgba(92,80,202,1)",
+                      "color": "#6A54D1",
                     },
                   ],
                   Object {},
@@ -1085,7 +932,6 @@ exports[`event handling calls onComplete if onProcess returns true 2`] = `
     Object {
       "backgroundColor": "white",
       "flex": 1,
-      "paddingTop": 10,
     }
   }
 >
@@ -1113,34 +959,23 @@ exports[`event handling calls onComplete if onProcess returns true 2`] = `
       Object {
         "backgroundColor": "white",
         "flex": 1,
-        "paddingTop": 10,
       }
     }
   >
     <View>
-      <Text
-        accessible={true}
-        allowFontScaling={true}
-        ellipsizeMode="tail"
-      >
+      <Text>
         Hello
       </Text>
     </View>
   </RCTScrollView>
   <View
-    enabled={true}
-    keyboardVerticalOffset={0}
     onLayout={[Function]}
-    style={undefined}
   >
     <View
       style={
-        Array [
-          undefined,
-          Object {
-            "bottom": 0,
-          },
-        ]
+        Object {
+          "bottom": 0,
+        }
       }
     >
       <View
@@ -1162,15 +997,8 @@ exports[`event handling calls onComplete if onProcess returns true 2`] = `
           }
         >
           <View
-            accessibilityComponentType={undefined}
-            accessibilityLabel={undefined}
-            accessibilityTraits={undefined}
             accessible={true}
-            hasTVPreferredFocus={undefined}
-            hitSlop={undefined}
             isTVSelectable={true}
-            nativeID={undefined}
-            onLayout={undefined}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
@@ -1195,35 +1023,30 @@ exports[`event handling calls onComplete if onProcess returns true 2`] = `
                     "marginRight": 15,
                   },
                   Object {
-                    "borderColor": "rgba(92,80,202,1)",
+                    "borderColor": "#6A54D1",
                   },
                 ],
               ]
             }
-            testID={undefined}
-            tvParallaxProperties={undefined}
           >
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               style={
                 Array [
                   Object {
-                    "fontFamily": "NunitoSans-Bold",
+                    "fontFamily": "Montserrat",
                     "fontSize": 18,
                     "textAlign": "center",
                   },
                   Array [
                     Object {
                       "color": "rgba(54,184,123,1)",
-                      "fontFamily": "NunitoSans-Bold",
+                      "fontFamily": undefined,
                       "fontSize": 18,
                       "lineHeight": 25,
                       "padding": 3,
                     },
                     Object {
-                      "color": "rgba(92,80,202,1)",
+                      "color": "#6A54D1",
                     },
                   ],
                   Object {},
@@ -1246,7 +1069,6 @@ exports[`event handling calls onContinue if no onProcess 1`] = `
     Object {
       "backgroundColor": "white",
       "flex": 1,
-      "paddingTop": 10,
     }
   }
 >
@@ -1274,34 +1096,23 @@ exports[`event handling calls onContinue if no onProcess 1`] = `
       Object {
         "backgroundColor": "white",
         "flex": 1,
-        "paddingTop": 10,
       }
     }
   >
     <View>
-      <Text
-        accessible={true}
-        allowFontScaling={true}
-        ellipsizeMode="tail"
-      >
+      <Text>
         Hello
       </Text>
     </View>
   </RCTScrollView>
   <View
-    enabled={true}
-    keyboardVerticalOffset={0}
     onLayout={[Function]}
-    style={undefined}
   >
     <View
       style={
-        Array [
-          undefined,
-          Object {
-            "bottom": 0,
-          },
-        ]
+        Object {
+          "bottom": 0,
+        }
       }
     >
       <View
@@ -1323,15 +1134,8 @@ exports[`event handling calls onContinue if no onProcess 1`] = `
           }
         >
           <View
-            accessibilityComponentType={undefined}
-            accessibilityLabel={undefined}
-            accessibilityTraits={undefined}
             accessible={true}
-            hasTVPreferredFocus={undefined}
-            hitSlop={undefined}
             isTVSelectable={true}
-            nativeID={undefined}
-            onLayout={undefined}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
@@ -1356,35 +1160,30 @@ exports[`event handling calls onContinue if no onProcess 1`] = `
                     "marginRight": 15,
                   },
                   Object {
-                    "borderColor": "rgba(92,80,202,1)",
+                    "borderColor": "#6A54D1",
                   },
                 ],
               ]
             }
-            testID={undefined}
-            tvParallaxProperties={undefined}
           >
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               style={
                 Array [
                   Object {
-                    "fontFamily": "NunitoSans-Bold",
+                    "fontFamily": "Montserrat",
                     "fontSize": 18,
                     "textAlign": "center",
                   },
                   Array [
                     Object {
                       "color": "rgba(54,184,123,1)",
-                      "fontFamily": "NunitoSans-Bold",
+                      "fontFamily": undefined,
                       "fontSize": 18,
                       "lineHeight": 25,
                       "padding": 3,
                     },
                     Object {
-                      "color": "rgba(92,80,202,1)",
+                      "color": "#6A54D1",
                     },
                   ],
                   Object {},
@@ -1407,7 +1206,6 @@ exports[`event handling calls onContinue if no onProcess 2`] = `
     Object {
       "backgroundColor": "white",
       "flex": 1,
-      "paddingTop": 10,
     }
   }
 >
@@ -1435,34 +1233,23 @@ exports[`event handling calls onContinue if no onProcess 2`] = `
       Object {
         "backgroundColor": "white",
         "flex": 1,
-        "paddingTop": 10,
       }
     }
   >
     <View>
-      <Text
-        accessible={true}
-        allowFontScaling={true}
-        ellipsizeMode="tail"
-      >
+      <Text>
         Hello
       </Text>
     </View>
   </RCTScrollView>
   <View
-    enabled={true}
-    keyboardVerticalOffset={0}
     onLayout={[Function]}
-    style={undefined}
   >
     <View
       style={
-        Array [
-          undefined,
-          Object {
-            "bottom": 0,
-          },
-        ]
+        Object {
+          "bottom": 0,
+        }
       }
     >
       <View
@@ -1484,15 +1271,8 @@ exports[`event handling calls onContinue if no onProcess 2`] = `
           }
         >
           <View
-            accessibilityComponentType={undefined}
-            accessibilityLabel={undefined}
-            accessibilityTraits={undefined}
             accessible={true}
-            hasTVPreferredFocus={undefined}
-            hitSlop={undefined}
             isTVSelectable={true}
-            nativeID={undefined}
-            onLayout={undefined}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
@@ -1517,35 +1297,30 @@ exports[`event handling calls onContinue if no onProcess 2`] = `
                     "marginRight": 15,
                   },
                   Object {
-                    "borderColor": "rgba(92,80,202,1)",
+                    "borderColor": "#6A54D1",
                   },
                 ],
               ]
             }
-            testID={undefined}
-            tvParallaxProperties={undefined}
           >
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               style={
                 Array [
                   Object {
-                    "fontFamily": "NunitoSans-Bold",
+                    "fontFamily": "Montserrat",
                     "fontSize": 18,
                     "textAlign": "center",
                   },
                   Array [
                     Object {
                       "color": "rgba(54,184,123,1)",
-                      "fontFamily": "NunitoSans-Bold",
+                      "fontFamily": undefined,
                       "fontSize": 18,
                       "lineHeight": 25,
                       "padding": 3,
                     },
                     Object {
-                      "color": "rgba(92,80,202,1)",
+                      "color": "#6A54D1",
                     },
                   ],
                   Object {},
@@ -1568,7 +1343,6 @@ exports[`event handling calls only onProcess 1`] = `
     Object {
       "backgroundColor": "white",
       "flex": 1,
-      "paddingTop": 10,
     }
   }
 >
@@ -1596,34 +1370,23 @@ exports[`event handling calls only onProcess 1`] = `
       Object {
         "backgroundColor": "white",
         "flex": 1,
-        "paddingTop": 10,
       }
     }
   >
     <View>
-      <Text
-        accessible={true}
-        allowFontScaling={true}
-        ellipsizeMode="tail"
-      >
+      <Text>
         Hello
       </Text>
     </View>
   </RCTScrollView>
   <View
-    enabled={true}
-    keyboardVerticalOffset={0}
     onLayout={[Function]}
-    style={undefined}
   >
     <View
       style={
-        Array [
-          undefined,
-          Object {
-            "bottom": 0,
-          },
-        ]
+        Object {
+          "bottom": 0,
+        }
       }
     >
       <View
@@ -1645,15 +1408,8 @@ exports[`event handling calls only onProcess 1`] = `
           }
         >
           <View
-            accessibilityComponentType={undefined}
-            accessibilityLabel={undefined}
-            accessibilityTraits={undefined}
             accessible={true}
-            hasTVPreferredFocus={undefined}
-            hitSlop={undefined}
             isTVSelectable={true}
-            nativeID={undefined}
-            onLayout={undefined}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
@@ -1678,35 +1434,30 @@ exports[`event handling calls only onProcess 1`] = `
                     "marginRight": 15,
                   },
                   Object {
-                    "borderColor": "rgba(92,80,202,1)",
+                    "borderColor": "#6A54D1",
                   },
                 ],
               ]
             }
-            testID={undefined}
-            tvParallaxProperties={undefined}
           >
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               style={
                 Array [
                   Object {
-                    "fontFamily": "NunitoSans-Bold",
+                    "fontFamily": "Montserrat",
                     "fontSize": 18,
                     "textAlign": "center",
                   },
                   Array [
                     Object {
                       "color": "rgba(54,184,123,1)",
-                      "fontFamily": "NunitoSans-Bold",
+                      "fontFamily": undefined,
                       "fontSize": 18,
                       "lineHeight": 25,
                       "padding": 3,
                     },
                     Object {
-                      "color": "rgba(92,80,202,1)",
+                      "color": "#6A54D1",
                     },
                   ],
                   Object {},
@@ -1729,7 +1480,6 @@ exports[`event handling calls only onProcess 2`] = `
     Object {
       "backgroundColor": "white",
       "flex": 1,
-      "paddingTop": 10,
     }
   }
 >
@@ -1757,34 +1507,23 @@ exports[`event handling calls only onProcess 2`] = `
       Object {
         "backgroundColor": "white",
         "flex": 1,
-        "paddingTop": 10,
       }
     }
   >
     <View>
-      <Text
-        accessible={true}
-        allowFontScaling={true}
-        ellipsizeMode="tail"
-      >
+      <Text>
         Hello
       </Text>
     </View>
   </RCTScrollView>
   <View
-    enabled={true}
-    keyboardVerticalOffset={0}
     onLayout={[Function]}
-    style={undefined}
   >
     <View
       style={
-        Array [
-          undefined,
-          Object {
-            "bottom": 0,
-          },
-        ]
+        Object {
+          "bottom": 0,
+        }
       }
     >
       <View
@@ -1806,15 +1545,8 @@ exports[`event handling calls only onProcess 2`] = `
           }
         >
           <View
-            accessibilityComponentType={undefined}
-            accessibilityLabel={undefined}
-            accessibilityTraits={undefined}
             accessible={true}
-            hasTVPreferredFocus={undefined}
-            hitSlop={undefined}
             isTVSelectable={true}
-            nativeID={undefined}
-            onLayout={undefined}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
@@ -1839,35 +1571,30 @@ exports[`event handling calls only onProcess 2`] = `
                     "marginRight": 15,
                   },
                   Object {
-                    "borderColor": "rgba(92,80,202,1)",
+                    "borderColor": "#6A54D1",
                   },
                 ],
               ]
             }
-            testID={undefined}
-            tvParallaxProperties={undefined}
           >
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               style={
                 Array [
                   Object {
-                    "fontFamily": "NunitoSans-Bold",
+                    "fontFamily": "Montserrat",
                     "fontSize": 18,
                     "textAlign": "center",
                   },
                   Array [
                     Object {
                       "color": "rgba(54,184,123,1)",
-                      "fontFamily": "NunitoSans-Bold",
+                      "fontFamily": undefined,
                       "fontSize": 18,
                       "lineHeight": 25,
                       "padding": 3,
                     },
                     Object {
-                      "color": "rgba(92,80,202,1)",
+                      "color": "#6A54D1",
                     },
                   ],
                   Object {},
@@ -1890,7 +1617,6 @@ exports[`renders continue button 1`] = `
     Object {
       "backgroundColor": "white",
       "flex": 1,
-      "paddingTop": 10,
     }
   }
 >
@@ -1918,34 +1644,23 @@ exports[`renders continue button 1`] = `
       Object {
         "backgroundColor": "white",
         "flex": 1,
-        "paddingTop": 10,
       }
     }
   >
     <View>
-      <Text
-        accessible={true}
-        allowFontScaling={true}
-        ellipsizeMode="tail"
-      >
+      <Text>
         Hello
       </Text>
     </View>
   </RCTScrollView>
   <View
-    enabled={true}
-    keyboardVerticalOffset={0}
     onLayout={[Function]}
-    style={undefined}
   >
     <View
       style={
-        Array [
-          undefined,
-          Object {
-            "bottom": 0,
-          },
-        ]
+        Object {
+          "bottom": 0,
+        }
       }
     >
       <View
@@ -1967,15 +1682,8 @@ exports[`renders continue button 1`] = `
           }
         >
           <View
-            accessibilityComponentType={undefined}
-            accessibilityLabel={undefined}
-            accessibilityTraits={undefined}
             accessible={true}
-            hasTVPreferredFocus={undefined}
-            hitSlop={undefined}
             isTVSelectable={true}
-            nativeID={undefined}
-            onLayout={undefined}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
@@ -2000,35 +1708,30 @@ exports[`renders continue button 1`] = `
                     "marginRight": 15,
                   },
                   Object {
-                    "borderColor": "rgba(92,80,202,1)",
+                    "borderColor": "#6A54D1",
                   },
                 ],
               ]
             }
-            testID={undefined}
-            tvParallaxProperties={undefined}
           >
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               style={
                 Array [
                   Object {
-                    "fontFamily": "NunitoSans-Bold",
+                    "fontFamily": "Montserrat",
                     "fontSize": 18,
                     "textAlign": "center",
                   },
                   Array [
                     Object {
                       "color": "rgba(54,184,123,1)",
-                      "fontFamily": "NunitoSans-Bold",
+                      "fontFamily": undefined,
                       "fontSize": 18,
                       "lineHeight": 25,
                       "padding": 3,
                     },
                     Object {
-                      "color": "rgba(92,80,202,1)",
+                      "color": "#6A54D1",
                     },
                   ],
                   Object {},
@@ -2051,7 +1754,6 @@ exports[`renders skip button if skippable 1`] = `
     Object {
       "backgroundColor": "white",
       "flex": 1,
-      "paddingTop": 10,
     }
   }
 >
@@ -2079,34 +1781,23 @@ exports[`renders skip button if skippable 1`] = `
       Object {
         "backgroundColor": "white",
         "flex": 1,
-        "paddingTop": 10,
       }
     }
   >
     <View>
-      <Text
-        accessible={true}
-        allowFontScaling={true}
-        ellipsizeMode="tail"
-      >
+      <Text>
         Hello
       </Text>
     </View>
   </RCTScrollView>
   <View
-    enabled={true}
-    keyboardVerticalOffset={0}
     onLayout={[Function]}
-    style={undefined}
   >
     <View
       style={
-        Array [
-          undefined,
-          Object {
-            "bottom": 0,
-          },
-        ]
+        Object {
+          "bottom": 0,
+        }
       }
     >
       <View
@@ -2128,15 +1819,8 @@ exports[`renders skip button if skippable 1`] = `
           }
         >
           <View
-            accessibilityComponentType={undefined}
-            accessibilityLabel={undefined}
-            accessibilityTraits={undefined}
             accessible={true}
-            hasTVPreferredFocus={undefined}
-            hitSlop={undefined}
             isTVSelectable={true}
-            nativeID={undefined}
-            onLayout={undefined}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
@@ -2161,35 +1845,30 @@ exports[`renders skip button if skippable 1`] = `
                     "marginRight": 15,
                   },
                   Object {
-                    "borderColor": "rgba(92,80,202,1)",
+                    "borderColor": "#6A54D1",
                   },
                 ],
               ]
             }
-            testID={undefined}
-            tvParallaxProperties={undefined}
           >
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               style={
                 Array [
                   Object {
-                    "fontFamily": "NunitoSans-Bold",
+                    "fontFamily": "Montserrat",
                     "fontSize": 18,
                     "textAlign": "center",
                   },
                   Array [
                     Object {
                       "color": "rgba(54,184,123,1)",
-                      "fontFamily": "NunitoSans-Bold",
+                      "fontFamily": undefined,
                       "fontSize": 18,
                       "lineHeight": 25,
                       "padding": 3,
                     },
                     Object {
-                      "color": "rgba(92,80,202,1)",
+                      "color": "#6A54D1",
                     },
                   ],
                   Object {},
@@ -2211,15 +1890,8 @@ exports[`renders skip button if skippable 1`] = `
           }
         >
           <View
-            accessibilityComponentType={undefined}
-            accessibilityLabel={undefined}
-            accessibilityTraits={undefined}
             accessible={true}
-            hasTVPreferredFocus={undefined}
-            hitSlop={undefined}
             isTVSelectable={true}
-            nativeID={undefined}
-            onLayout={undefined}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
@@ -2242,23 +1914,18 @@ exports[`renders skip button if skippable 1`] = `
                 },
               ]
             }
-            testID={undefined}
-            tvParallaxProperties={undefined}
           >
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               style={
                 Array [
                   Object {
-                    "fontFamily": "NunitoSans-Bold",
+                    "fontFamily": "Montserrat",
                     "fontSize": 18,
                     "textAlign": "center",
                   },
                   Object {
-                    "color": "rgba(92,80,202,1)",
-                    "fontFamily": "NunitoSans-Regular",
+                    "color": "#6A54D1",
+                    "fontFamily": undefined,
                     "fontSize": 18,
                     "lineHeight": 25,
                   },

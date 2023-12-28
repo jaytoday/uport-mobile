@@ -25,13 +25,10 @@ exports[`InteractionStats renders nothing if no counter party 1`] = `
     }
   >
     <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
       style={
         Object {
           "color": "rgba(138,155,161,1.0)",
-          "fontFamily": "NunitoSans-Regular",
+          "fontFamily": undefined,
           "fontSize": 13,
           "letterSpacing": 0.5,
           "lineHeight": 15,
@@ -74,13 +71,10 @@ exports[`InteractionStats renders short address if no name is present 1`] = `
     }
   >
     <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
       style={
         Object {
           "color": "rgba(138,155,161,1.0)",
-          "fontFamily": "NunitoSans-Regular",
+          "fontFamily": undefined,
           "fontSize": 13,
           "letterSpacing": 0.5,
           "lineHeight": 15,
@@ -123,13 +117,10 @@ exports[`InteractionStats renders with "2 times" if exactly 2 as stats 1`] = `
     }
   >
     <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
       style={
         Object {
           "color": "rgba(138,155,161,1.0)",
-          "fontFamily": "NunitoSans-Regular",
+          "fontFamily": undefined,
           "fontSize": 13,
           "letterSpacing": 0.5,
           "lineHeight": 15,
@@ -143,14 +134,11 @@ exports[`InteractionStats renders with "2 times" if exactly 2 as stats 1`] = `
        with 
       Coinbase
       <Text
-        accessible={true}
-        allowFontScaling={true}
-        ellipsizeMode="tail"
         style={
           Array [
             Object {
               "color": "rgba(138,155,161,1.0)",
-              "fontFamily": "NunitoSans-Regular",
+              "fontFamily": undefined,
               "fontSize": 13,
               "letterSpacing": 0.5,
               "lineHeight": 15,
@@ -193,13 +181,10 @@ exports[`InteractionStats renders with "once" if exactly 1 as stats 1`] = `
     }
   >
     <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
       style={
         Object {
           "color": "rgba(138,155,161,1.0)",
-          "fontFamily": "NunitoSans-Regular",
+          "fontFamily": undefined,
           "fontSize": 13,
           "letterSpacing": 0.5,
           "lineHeight": 15,
@@ -213,14 +198,11 @@ exports[`InteractionStats renders with "once" if exactly 1 as stats 1`] = `
        with 
       Coinbase
       <Text
-        accessible={true}
-        allowFontScaling={true}
-        ellipsizeMode="tail"
         style={
           Array [
             Object {
               "color": "rgba(138,155,161,1.0)",
-              "fontFamily": "NunitoSans-Regular",
+              "fontFamily": undefined,
               "fontSize": 13,
               "letterSpacing": 0.5,
               "lineHeight": 15,
@@ -263,13 +245,10 @@ exports[`InteractionStats renders you have never if 0 stats 1`] = `
     }
   >
     <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
       style={
         Object {
           "color": "rgba(138,155,161,1.0)",
-          "fontFamily": "NunitoSans-Regular",
+          "fontFamily": undefined,
           "fontSize": 13,
           "letterSpacing": 0.5,
           "lineHeight": 15,
@@ -312,13 +291,10 @@ exports[`InteractionStats renders you have never if no stats 1`] = `
     }
   >
     <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
       style={
         Object {
           "color": "rgba(138,155,161,1.0)",
-          "fontFamily": "NunitoSans-Regular",
+          "fontFamily": undefined,
           "fontSize": 13,
           "letterSpacing": 0.5,
           "lineHeight": 15,

@@ -321,81 +321,6 @@ Object {
 }
 `;
 
-exports[`adds ones with different parameters 1`] = `
-Object {
-  "byAddress": Object {
-    "0x9df0e9759b17f34e9123adbe6d3f25d54b72ad6a": Object {
-      "address": "0x9df0e9759b17f34e9123adbe6d3f25d54b72ad6a",
-      "controllerAddress": "0xff708db3af14fbd9b125ac88d3f7c1c03e6bc36f",
-      "deviceAddress": "0x8dd7ef5c99be7a454b4a9869683a3a394fde9777",
-      "network": "ropsten",
-      "own": Object {
-        "connections": Object {
-          "knows": Array [
-            "0x1bc5cbf71b068642fc5e89c5e3d0bdb3e366bc01",
-          ],
-        },
-        "name": "Alice",
-        "phone": "555-555-5555",
-      },
-      "pendingAttestations": Object {
-        "0x8dd7ef5c99be7a454b4a9869683a3a394fde9777": Object {
-          "email": Object {},
-          "name": Object {
-            "applicant_id": 1234,
-          },
-        },
-      },
-      "publicKey": "0xf09ef47d5359e36d8fb004be6bf96591836fcdf8421fe599f7e33fd97fc8d0746bbd509d00c90a8c5860bb097e4911b133d405238d67f524d892f6c13dd9b7dc",
-      "recoveryAddress": "0x1bc5cbf71b068642fc5e89c5e3d0bdb3e366bc01",
-    },
-  },
-  "currentIdentity": "0x9df0e9759b17f34e9123adbe6d3f25d54b72ad6a",
-}
-`;
-
-exports[`adds ones with different parameters 2`] = `
-Object {
-  "byAddress": Object {
-    "0x9df0e9759b17f34e9123adbe6d3f25d54b72ad6a": Object {
-      "address": "0x9df0e9759b17f34e9123adbe6d3f25d54b72ad6a",
-      "controllerAddress": "0xff708db3af14fbd9b125ac88d3f7c1c03e6bc36f",
-      "deviceAddress": "0x8dd7ef5c99be7a454b4a9869683a3a394fde9777",
-      "network": "ropsten",
-      "own": Object {
-        "connections": Object {
-          "knows": Array [
-            "0x1bc5cbf71b068642fc5e89c5e3d0bdb3e366bc01",
-          ],
-        },
-        "name": "Alice",
-        "phone": "555-555-5555",
-      },
-      "pendingAttestations": Object {
-        "0x8dd7ef5c99be7a454b4a9869683a3a394fde9777": Object {
-          "name": Object {},
-        },
-        "0x8dd7ef5c99be7a454b4a9869683a3a394fde9778": Object {
-          "name": Object {},
-        },
-      },
-      "publicKey": "0xf09ef47d5359e36d8fb004be6bf96591836fcdf8421fe599f7e33fd97fc8d0746bbd509d00c90a8c5860bb097e4911b133d405238d67f524d892f6c13dd9b7dc",
-      "recoveryAddress": "0x1bc5cbf71b068642fc5e89c5e3d0bdb3e366bc01",
-    },
-    "34ukSmiK1oA1C5Du8aWpkjFGALoH7nsHeDX": Object {
-      "address": "34ukSmiK1oA1C5Du8aWpkjFGALoH7nsHeDX",
-      "network": "kovan",
-      "own": Object {
-        "connections": Object {},
-        "name": "Alice Kovan",
-        "phone": "555-555-5555",
-      },
-    },
-  },
-  "currentIdentity": "34ukSmiK1oA1C5Du8aWpkjFGALoH7nsHeDX",
-}
-`;
-
 exports[`increases nonce 1`] = `
 Object {
   "byAddress": Object {
@@ -845,132 +770,6 @@ Object {
       "recoveryAddress": "0x1bc5cbf71b068642fc5e89c5e3d0bdb3e366bc01",
     },
   },
-}
-`;
-
-exports[`removes pending attestations 1`] = `
-Object {
-  "byAddress": Object {
-    "0x9df0e9759b17f34e9123adbe6d3f25d54b72ad6a": Object {
-      "address": "0x9df0e9759b17f34e9123adbe6d3f25d54b72ad6a",
-      "controllerAddress": "0xff708db3af14fbd9b125ac88d3f7c1c03e6bc36f",
-      "deviceAddress": "0x8dd7ef5c99be7a454b4a9869683a3a394fde9777",
-      "network": "ropsten",
-      "own": Object {
-        "connections": Object {
-          "knows": Array [
-            "0x1bc5cbf71b068642fc5e89c5e3d0bdb3e366bc01",
-          ],
-        },
-        "name": "Alice",
-        "phone": "555-555-5555",
-      },
-      "pendingAttestations": Object {},
-      "publicKey": "0xf09ef47d5359e36d8fb004be6bf96591836fcdf8421fe599f7e33fd97fc8d0746bbd509d00c90a8c5860bb097e4911b133d405238d67f524d892f6c13dd9b7dc",
-      "recoveryAddress": "0x1bc5cbf71b068642fc5e89c5e3d0bdb3e366bc01",
-    },
-  },
-  "currentIdentity": "0x9df0e9759b17f34e9123adbe6d3f25d54b72ad6a",
-}
-`;
-
-exports[`removes pending attestations 2`] = `
-Object {
-  "byAddress": Object {
-    "0x9df0e9759b17f34e9123adbe6d3f25d54b72ad6a": Object {
-      "address": "0x9df0e9759b17f34e9123adbe6d3f25d54b72ad6a",
-      "controllerAddress": "0xff708db3af14fbd9b125ac88d3f7c1c03e6bc36f",
-      "deviceAddress": "0x8dd7ef5c99be7a454b4a9869683a3a394fde9777",
-      "network": "ropsten",
-      "own": Object {
-        "connections": Object {
-          "knows": Array [
-            "0x1bc5cbf71b068642fc5e89c5e3d0bdb3e366bc01",
-          ],
-        },
-        "name": "Alice",
-        "phone": "555-555-5555",
-      },
-      "pendingAttestations": Object {},
-      "publicKey": "0xf09ef47d5359e36d8fb004be6bf96591836fcdf8421fe599f7e33fd97fc8d0746bbd509d00c90a8c5860bb097e4911b133d405238d67f524d892f6c13dd9b7dc",
-      "recoveryAddress": "0x1bc5cbf71b068642fc5e89c5e3d0bdb3e366bc01",
-    },
-    "34ukSmiK1oA1C5Du8aWpkjFGALoH7nsHeDX": Object {
-      "address": "34ukSmiK1oA1C5Du8aWpkjFGALoH7nsHeDX",
-      "network": "kovan",
-      "own": Object {
-        "connections": Object {},
-        "name": "Alice Kovan",
-        "phone": "555-555-5555",
-      },
-    },
-  },
-  "currentIdentity": "34ukSmiK1oA1C5Du8aWpkjFGALoH7nsHeDX",
-}
-`;
-
-exports[`removes pending attestations 3`] = `
-Object {
-  "byAddress": Object {
-    "0x9df0e9759b17f34e9123adbe6d3f25d54b72ad6a": Object {
-      "address": "0x9df0e9759b17f34e9123adbe6d3f25d54b72ad6a",
-      "controllerAddress": "0xff708db3af14fbd9b125ac88d3f7c1c03e6bc36f",
-      "deviceAddress": "0x8dd7ef5c99be7a454b4a9869683a3a394fde9777",
-      "network": "ropsten",
-      "own": Object {
-        "connections": Object {
-          "knows": Array [
-            "0x1bc5cbf71b068642fc5e89c5e3d0bdb3e366bc01",
-          ],
-        },
-        "name": "Alice",
-        "phone": "555-555-5555",
-      },
-      "pendingAttestations": Object {
-        "0x8dd7ef5c99be7a454b4a9869683a3a394fde9777": null,
-      },
-      "publicKey": "0xf09ef47d5359e36d8fb004be6bf96591836fcdf8421fe599f7e33fd97fc8d0746bbd509d00c90a8c5860bb097e4911b133d405238d67f524d892f6c13dd9b7dc",
-      "recoveryAddress": "0x1bc5cbf71b068642fc5e89c5e3d0bdb3e366bc01",
-    },
-  },
-  "currentIdentity": "0x9df0e9759b17f34e9123adbe6d3f25d54b72ad6a",
-}
-`;
-
-exports[`removes pending attestations 4`] = `
-Object {
-  "byAddress": Object {
-    "0x9df0e9759b17f34e9123adbe6d3f25d54b72ad6a": Object {
-      "address": "0x9df0e9759b17f34e9123adbe6d3f25d54b72ad6a",
-      "controllerAddress": "0xff708db3af14fbd9b125ac88d3f7c1c03e6bc36f",
-      "deviceAddress": "0x8dd7ef5c99be7a454b4a9869683a3a394fde9777",
-      "network": "ropsten",
-      "own": Object {
-        "connections": Object {
-          "knows": Array [
-            "0x1bc5cbf71b068642fc5e89c5e3d0bdb3e366bc01",
-          ],
-        },
-        "name": "Alice",
-        "phone": "555-555-5555",
-      },
-      "pendingAttestations": Object {
-        "0x8dd7ef5c99be7a454b4a9869683a3a394fde9777": null,
-      },
-      "publicKey": "0xf09ef47d5359e36d8fb004be6bf96591836fcdf8421fe599f7e33fd97fc8d0746bbd509d00c90a8c5860bb097e4911b133d405238d67f524d892f6c13dd9b7dc",
-      "recoveryAddress": "0x1bc5cbf71b068642fc5e89c5e3d0bdb3e366bc01",
-    },
-    "34ukSmiK1oA1C5Du8aWpkjFGALoH7nsHeDX": Object {
-      "address": "34ukSmiK1oA1C5Du8aWpkjFGALoH7nsHeDX",
-      "network": "kovan",
-      "own": Object {
-        "connections": Object {},
-        "name": "Alice Kovan",
-        "phone": "555-555-5555",
-      },
-    },
-  },
-  "currentIdentity": "34ukSmiK1oA1C5Du8aWpkjFGALoH7nsHeDX",
 }
 `;
 
@@ -1491,107 +1290,6 @@ Object {
     },
   },
   "currentIdentity": "0x9df0e9759b17f34e9123adbe6d3f25d54b72ad6a",
-}
-`;
-
-exports[`stores a pending attestation to the attestations ledger 1`] = `
-Object {
-  "byAddress": Object {
-    "0x9df0e9759b17f34e9123adbe6d3f25d54b72ad6a": Object {
-      "address": "0x9df0e9759b17f34e9123adbe6d3f25d54b72ad6a",
-      "controllerAddress": "0xff708db3af14fbd9b125ac88d3f7c1c03e6bc36f",
-      "deviceAddress": "0x8dd7ef5c99be7a454b4a9869683a3a394fde9777",
-      "network": "ropsten",
-      "own": Object {
-        "connections": Object {
-          "knows": Array [
-            "0x1bc5cbf71b068642fc5e89c5e3d0bdb3e366bc01",
-          ],
-        },
-        "name": "Alice",
-        "phone": "555-555-5555",
-      },
-      "pendingAttestations": Object {
-        "0x8dd7ef5c99be7a454b4a9869683a3a394fde9777": Object {
-          "name": Object {},
-        },
-      },
-      "publicKey": "0xf09ef47d5359e36d8fb004be6bf96591836fcdf8421fe599f7e33fd97fc8d0746bbd509d00c90a8c5860bb097e4911b133d405238d67f524d892f6c13dd9b7dc",
-      "recoveryAddress": "0x1bc5cbf71b068642fc5e89c5e3d0bdb3e366bc01",
-    },
-  },
-  "currentIdentity": "0x9df0e9759b17f34e9123adbe6d3f25d54b72ad6a",
-}
-`;
-
-exports[`stores a pending attestation to the attestations ledger 2`] = `
-Object {
-  "byAddress": Object {
-    "0x9df0e9759b17f34e9123adbe6d3f25d54b72ad6a": Object {
-      "address": "0x9df0e9759b17f34e9123adbe6d3f25d54b72ad6a",
-      "controllerAddress": "0xff708db3af14fbd9b125ac88d3f7c1c03e6bc36f",
-      "deviceAddress": "0x8dd7ef5c99be7a454b4a9869683a3a394fde9777",
-      "network": "ropsten",
-      "own": Object {
-        "connections": Object {
-          "knows": Array [
-            "0x1bc5cbf71b068642fc5e89c5e3d0bdb3e366bc01",
-          ],
-        },
-        "name": "Alice",
-        "phone": "555-555-5555",
-      },
-      "pendingAttestations": Object {
-        "0x8dd7ef5c99be7a454b4a9869683a3a394fde9777": Object {
-          "name": Object {
-            "applicant_id": 1234,
-          },
-        },
-      },
-      "publicKey": "0xf09ef47d5359e36d8fb004be6bf96591836fcdf8421fe599f7e33fd97fc8d0746bbd509d00c90a8c5860bb097e4911b133d405238d67f524d892f6c13dd9b7dc",
-      "recoveryAddress": "0x1bc5cbf71b068642fc5e89c5e3d0bdb3e366bc01",
-    },
-  },
-  "currentIdentity": "0x9df0e9759b17f34e9123adbe6d3f25d54b72ad6a",
-}
-`;
-
-exports[`stores a pending attestation to the attestations ledger 3`] = `
-Object {
-  "byAddress": Object {
-    "0x9df0e9759b17f34e9123adbe6d3f25d54b72ad6a": Object {
-      "address": "0x9df0e9759b17f34e9123adbe6d3f25d54b72ad6a",
-      "controllerAddress": "0xff708db3af14fbd9b125ac88d3f7c1c03e6bc36f",
-      "deviceAddress": "0x8dd7ef5c99be7a454b4a9869683a3a394fde9777",
-      "network": "ropsten",
-      "own": Object {
-        "connections": Object {
-          "knows": Array [
-            "0x1bc5cbf71b068642fc5e89c5e3d0bdb3e366bc01",
-          ],
-        },
-        "name": "Alice",
-        "phone": "555-555-5555",
-      },
-      "pendingAttestations": Object {
-        "0x8dd7ef5c99be7a454b4a9869683a3a394fde9777": Object {
-          "name": Object {},
-        },
-      },
-      "publicKey": "0xf09ef47d5359e36d8fb004be6bf96591836fcdf8421fe599f7e33fd97fc8d0746bbd509d00c90a8c5860bb097e4911b133d405238d67f524d892f6c13dd9b7dc",
-      "recoveryAddress": "0x1bc5cbf71b068642fc5e89c5e3d0bdb3e366bc01",
-    },
-    "34ukSmiK1oA1C5Du8aWpkjFGALoH7nsHeDX": Object {
-      "address": "34ukSmiK1oA1C5Du8aWpkjFGALoH7nsHeDX",
-      "network": "kovan",
-      "own": Object {
-        "connections": Object {},
-        "name": "Alice Kovan",
-        "phone": "555-555-5555",
-      },
-    },
-  },
-  "currentIdentity": "34ukSmiK1oA1C5Du8aWpkjFGALoH7nsHeDX",
 }
 `;
 
@@ -2478,13 +2176,22 @@ Object {
 }
 `;
 
-exports[`updates existing ones if options change 1`] = `
+exports[`updates identity data 1`] = `
+Object {
+  "byAddress": Object {
+    "0x9df0e9759b17f34e9123adbe6d3f25d54b72ad6a": null,
+  },
+}
+`;
+
+exports[`updates identity data 2`] = `
 Object {
   "byAddress": Object {
     "0x9df0e9759b17f34e9123adbe6d3f25d54b72ad6a": Object {
       "address": "0x9df0e9759b17f34e9123adbe6d3f25d54b72ad6a",
       "controllerAddress": "0xff708db3af14fbd9b125ac88d3f7c1c03e6bc36f",
       "deviceAddress": "0x8dd7ef5c99be7a454b4a9869683a3a394fde9777",
+      "hello": true,
       "network": "ropsten",
       "own": Object {
         "connections": Object {
@@ -2494,14 +2201,6 @@ Object {
         },
         "name": "Alice",
         "phone": "555-555-5555",
-      },
-      "pendingAttestations": Object {
-        "0x8dd7ef5c99be7a454b4a9869683a3a394fde9777": Object {
-          "name": Object {
-            "applicant_id": 1234,
-            "failed": "You are on OFAC list",
-          },
-        },
       },
       "publicKey": "0xf09ef47d5359e36d8fb004be6bf96591836fcdf8421fe599f7e33fd97fc8d0746bbd509d00c90a8c5860bb097e4911b133d405238d67f524d892f6c13dd9b7dc",
       "recoveryAddress": "0x1bc5cbf71b068642fc5e89c5e3d0bdb3e366bc01",
@@ -2511,7 +2210,7 @@ Object {
 }
 `;
 
-exports[`updates existing ones if options change 2`] = `
+exports[`updates identity data 3`] = `
 Object {
   "byAddress": Object {
     "0x9df0e9759b17f34e9123adbe6d3f25d54b72ad6a": Object {
@@ -2528,18 +2227,12 @@ Object {
         "name": "Alice",
         "phone": "555-555-5555",
       },
-      "pendingAttestations": Object {
-        "0x8dd7ef5c99be7a454b4a9869683a3a394fde9777": Object {
-          "name": Object {
-            "failed": "You are on OFAC list",
-          },
-        },
-      },
       "publicKey": "0xf09ef47d5359e36d8fb004be6bf96591836fcdf8421fe599f7e33fd97fc8d0746bbd509d00c90a8c5860bb097e4911b133d405238d67f524d892f6c13dd9b7dc",
       "recoveryAddress": "0x1bc5cbf71b068642fc5e89c5e3d0bdb3e366bc01",
     },
     "34ukSmiK1oA1C5Du8aWpkjFGALoH7nsHeDX": Object {
       "address": "34ukSmiK1oA1C5Du8aWpkjFGALoH7nsHeDX",
+      "hello": true,
       "network": "kovan",
       "own": Object {
         "connections": Object {},

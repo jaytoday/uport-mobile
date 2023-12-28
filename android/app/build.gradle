@@ -140,7 +140,7 @@ def enableProguardInReleaseBuilds = false
 // this is not bullet proof since there may exist some tasks that call for release but are not explicitly run
 boolean releaseRequested = false
 gradle.startParameter.taskNames.each {
-    if (it.toLowerCase() ==~ /.*(release|deliver|build).*/) {
+    if (it.toLowerCase() ==~ /.*(release|deliver|build|signingreport).*/) {
         releaseRequested = true
     }
 }
@@ -168,10 +168,13 @@ android {
         minSdkVersion min_sdk_version
         targetSdkVersion target_sdk_version
         versionCode = getBuildVersionCode()
-        versionName = "1.5.${versionCode} Alpha"
+        versionName = "1.6.${versionCode}"
 
         multiDexEnabled true
         multiDexKeepFile file('multidex-config.txt')
+
+        missingDimensionStrategy 'react-native-camera', 'general'
+        missingDimensionStrategy "RNN.reactNativeVersion", "reactNative57_5"
 
     }
 
@@ -181,7 +184,7 @@ android {
             reset()
             enable enableSeparateBuildPerCPUArchitecture
             universalApk false  // If true, also generate a universal APK
-            include "armeabi-v7a", "x86"
+            include "armeabi-v7a", "x86", "arm64-v8a", "x86_64"
         }
     }
 
@@ -223,7 +226,7 @@ android {
             variant.outputs.each { output ->
                 // For each separate APK per architecture, set a unique version code as described here:
                 // http://tools.android.com/tech-docs/new-build-system/user-guide/apk-splits
-                def versionCodes = ["armeabi-v7a": 1, "x86": 2]
+                def versionCodes = ["armeabi-v7a":1, "x86":2, "arm64-v8a": 3, "x86_64": 4]
                 def abi = output.getFilter(OutputFile.ABI)
                 if (abi != null) {  // null for the universal-debug, universal-release variants
                     output.versionCodeOverride =
@@ -239,33 +242,44 @@ android {
         disable 'GradleCompatible'
         disable 'RestrictedApi'
     }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
 }
 
 configurations.all {
+
     resolutionStrategy {
         force(
                 //added these to force a single version of google play services
-
+                "org.webkit:android-jsc:r236355",
                 //react-native-fcm
                 "com.google.firebase:firebase-core:$play_services_version",
                 "com.google.firebase:firebase-messaging:$play_services_version",
                 "com.google.android.gms:play-services-gcm:$play_services_version",
-
+                "com.android.support:support-v4:$support_lib_version",
+                "com.android.support:appcompat-v7:$support_lib_version",
         )
     }
 }
 
 dependencies {
+    
+   
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation project(':react-native-community-netinfo')
+    implementation project(':@react-native-community_async-storage')
+    implementation project(':react-native-share')
     implementation(project(':react-native-firebase')) {
         transitive = false
     }
-    implementation project(':react-native-svg')
     implementation project(':react-native-navigation')
     implementation project(':react-native-device-info')
-    implementation project(':react-native-fetch-blob')
+    implementation project(':rn-fetch-blob')
     implementation project(':react-native-vector-icons')
     implementation project(':react-native-passcode-android')
-    implementation project(':react-native-fcm')
     implementation project(':react-native-randombytes')
     implementation project(':react-native-image-picker')
     implementation(project(':react-native-camera')) {
@@ -274,13 +288,16 @@ dependencies {
     }
     implementation project(':react-native-intent-launcher')
 
-    implementation project(':react-native-signer-wrapper')
-
+    implementation project(':react-native-uport-signer')
     implementation "com.facebook.react:react-native:$react_native_version"
 
     implementation(
             //required by react-native-firebase
             "com.google.firebase:firebase-config:$play_services_version",
+    )
+    implementation(
+            //required by react-native-firebase
+            "com.google.firebase:firebase-messaging:$play_services_version",
     )
 
     // From node_modules
@@ -302,6 +319,8 @@ dependencies {
     implementation "com.amazonaws:aws-android-sdk-cognito:$aws_lib_version"
     implementation "com.amazonaws:aws-android-sdk-cognitoidentityprovider:$aws_lib_version"
     implementation "com.amazonaws:aws-android-sdk-sns:$aws_lib_version"
+
+    
 
 }
 

@@ -1,3 +1,0 @@
-{
-  "presets": ["react-native", "ethr-did-resolver/babel-preset.js"]
-}

@@ -21,23 +21,23 @@
 buildscript {
 
     ext {
-        kotlin_version = "1.2.61"
-        build_tools_version = "27.0.3"
-        gradle_tools_version = "3.1.4"
+        kotlin_version = "1.3.0"
+        build_tools_version = "28.0.3"
+        gradle_tools_version = "3.3.1"
         google_tools_version = "3.1.2"
 
         //check for updates at https://docs.fabric.io/android/changelog.html#fabric-gradle-plugin
         fabric_tools_version = "1.25.4"
 
         min_sdk_version = 21
-        compile_sdk_version = 27
+        compile_sdk_version = 28
 
         target_sdk_version = compile_sdk_version
 
         constraint_layout_version = "1.1.2"
-        support_lib_version = "27.1.1"
+        support_lib_version = "28.0.0"
         play_services_version = "12.0.1"
-        aws_lib_version = "2.6.7"
+        aws_lib_version = "2.9.1"
         okhttp_version = "3.10.0"
         crashlytics_version = "2.9.4"
 
@@ -76,10 +76,27 @@ allprojects {
             url "$rootDir/../node_modules/react-native/android"
         }
         maven { url 'https://jitpack.io' }
+        maven { url "https://maven.google.com" }
+        maven {
+           // Local Maven repo containing AARs with JSC library built for Android
+           url "$rootDir/../node_modules/jsc-android/dist"
+        }
     }
 }
 
 subprojects { subproject ->
+
+    def name = subproject.name
+    if (name.contains('react-native')) {
+        buildscript {
+            repositories {
+                google()
+                jcenter()
+                maven { url "https://dl.bintray.com/android/android-tools/"  }
+            }
+        }
+    }
+
     afterEvaluate {
         if ((subproject.plugins.hasPlugin('android') || subproject.plugins.hasPlugin('android-library'))) {
             android {

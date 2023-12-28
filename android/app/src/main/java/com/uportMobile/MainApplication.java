@@ -21,17 +21,14 @@ import com.RNFetchBlob.RNFetchBlobPackage;
 import com.authentication.AuthenticationScreenPackage;
 import com.bitgo.randombytes.RandomBytesPackage;
 import com.crashlytics.android.Crashlytics;
-import com.evollu.react.fcm.FIRMessagingPackage;
 import com.facebook.common.logging.FLog;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.shell.MainReactPackage;
-import com.horcrux.svg.SvgPackage;
 import com.imagepicker.ImagePickerPackage;
 import com.learnium.RNDeviceInfo.RNDeviceInfo;
 import com.oblador.vectoricons.VectorIconsPackage;
 import com.poberwong.launcher.IntentLauncherPackage;
-import com.reactnativenavigation.NavigationApplication;
-import com.uport.sdk.react.signer.NativeSignerPackage;
+import com.reactlibrary.RNUportSignerPackage;
 
 import org.reactnative.camera.RNCameraPackage;
 
@@ -42,8 +39,32 @@ import io.fabric.sdk.android.Fabric;
 import io.invertase.firebase.RNFirebasePackage;
 import io.invertase.firebase.analytics.RNFirebaseAnalyticsPackage;
 import io.invertase.firebase.config.RNFirebaseRemoteConfigPackage;
+import io.invertase.firebase.notifications.RNFirebaseNotificationsPackage;
+import io.invertase.firebase.messaging.RNFirebaseMessagingPackage;
 
-public class MainApplication extends NavigationApplication {
+import cl.json.RNSharePackage;
+import cl.json.ShareApplication;
+
+import com.facebook.react.ReactNativeHost;
+import com.reactnativenavigation.NavigationApplication;
+import com.reactnativenavigation.react.NavigationReactNativeHost;
+import com.reactnativenavigation.react.ReactGateway;
+
+import com.reactnativecommunity.asyncstorage.AsyncStoragePackage;
+import com.reactnativecommunity.netinfo.NetInfoPackage;
+
+public class MainApplication extends NavigationApplication implements ShareApplication {
+
+    @Override
+    protected ReactGateway createReactGateway() {
+        ReactNativeHost host = new NavigationReactNativeHost(this, isDebug(), createAdditionalReactPackages()) {
+            @Override
+            protected String getJSMainModuleName() {
+                return "index";
+            }
+        };
+        return new ReactGateway(this, isDebug(), host);
+    }
 
     @Override
     public void onCreate() {
@@ -63,30 +84,23 @@ public class MainApplication extends NavigationApplication {
         return getPackages();
     }
 
-
     public boolean getUseDeveloperSupport() {
         return BuildConfig.DEBUG;
     }
 
+    @Override
+    public String getFileProviderAuthority() {
+        return "com.uportMobile.provider";
+    }
+
     protected List<ReactPackage> getPackages() {
-        return Arrays.<ReactPackage>asList(
-                new MainReactPackage(),
-                new RNFirebasePackage(),
-                new RNFirebaseRemoteConfigPackage(),
-                new SvgPackage(),
-                new FIRMessagingPackage(),
-                new RNDeviceInfo(),
-                new RNFetchBlobPackage(),
-                new VectorIconsPackage(),
-                new RNCameraPackage(),
-                new RandomBytesPackage(),
-                new ImagePickerPackage(),
-                new AuthenticationScreenPackage(),
-                new MySNSPackage(),
-                new IntentLauncherPackage(),
-                new NativeSignerPackage(),
-                new RNFirebaseAnalyticsPackage()
-        );
+        return Arrays.<ReactPackage>asList(new RNSharePackage(), new RNFirebasePackage(),
+                new RNFirebaseRemoteConfigPackage(), new RNFirebaseNotificationsPackage(),
+                new RNFirebaseMessagingPackage(), new RNDeviceInfo(), new RNFetchBlobPackage(),
+                new VectorIconsPackage(), new RNCameraPackage(), new RandomBytesPackage(), new ImagePickerPackage(),
+                new AuthenticationScreenPackage(), new MySNSPackage(), new IntentLauncherPackage(),
+                new RNUportSignerPackage(), new RNFirebaseAnalyticsPackage(), new AsyncStoragePackage(),
+                new NetInfoPackage());
     }
 
 }
